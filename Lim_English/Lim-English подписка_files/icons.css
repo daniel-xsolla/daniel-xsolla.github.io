@@ -1,0 +1,229 @@
+[class*=tm-icon-lessons-] {
+    display: inline-block;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url('../images/lessons-sprite.png') no-repeat;
+    background-size: 500px;
+}
+
+.tm-icon-lessons-gift {
+    background-position: 0 0;
+}
+.tm-icon-lessons-mask {
+    background-position: -100px 0;
+}
+.tm-icon-lessons-heart {
+    background-position: -200px 0;
+}
+.tm-icon-lessons-cog {
+    background-position: -300px 0;
+}
+.tm-icon-lessons-hat {
+    background-position: -400px 0;
+}
+.tm-icon-lessons-light {
+    background-position: 0 -100px;
+}
+.tm-icon-lessons-movie {
+    background-position: -100px -100px;
+}
+.tm-icon-lessons-book {
+    background-position: -200px -100px;
+}
+.tm-icon-lessons-rocket {
+    background-position: -300px -100px;
+}
+.tm-icon-lessons-earth {
+    background-position: -400px -100px;
+}
+
+.tm-icon-sign-out {
+    display: inline-block;
+    width:19px;
+    height: 25px;
+    vertical-align: middle;
+    background: url('../images/icon-sign-out.png') 50% 50% no-repeat;
+}
+[class*=icon-scenarios-] {
+    display: block;
+    height: 31px;
+}
+[class*=icon-scenarios-]:after {
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    content: '';
+    background: url('../images/icons-lesson.png') no-repeat;
+}
+
+.icon-scenarios-i:after{
+    background-position: -218px -94px;
+    width:27px;
+    height: 26px;
+}
+.icon-scenarios-i:hover:after,.active .icon-scenarios-i:after {
+    background-position: -218px -120px;
+}
+
+.button-grammabank {
+    display: inline-block;
+}
+
+.icon-scenarios-pause {
+    display: inline-block;
+    width:32px;
+}
+
+.icon-scenarios-font:after,.icon-scenarios-font.font-3:hover:after {
+    background-position: -153px -94px;
+    width:65px;
+    height: 23px;
+}
+.icon-scenarios-font:hover:after,.icon-scenarios-font.font-2:after {
+    background-position: -153px -117px;
+}
+.icon-scenarios-font.font-2:hover:after,.icon-scenarios-font.font-3:after {
+    background-position: -153px -140px;
+}
+
+.icon-scenarios-dictionary:hover:after,.active .icon-scenarios-dictionary:after {
+    background-position: 0 -125px;
+}
+
+.icon-scenarios-play:after {
+    background-position: -94px -47px;
+    width:47px;
+    height: 47px;
+}
+.disabled .icon-scenarios-play:after {
+    background-position: -94px 0;
+    border-color: #cbcbcb;
+}
+
+.icon-scenarios-pause:after {
+    background-position: -164px 0;
+    width:19px;
+    height: 47px;
+}
+
+.icon-scenarios-previous:after {
+    background-position: 0 -47px;
+    width:47px;
+    height: 47px;
+}
+.disabled .icon-scenarios-previous:after {
+    background-position: 0 0;
+    border-color: #cbcbcb;
+}
+
+
+.icon-scenarios-forward:after {
+    background-position: -47px -47px;
+    width:47px;
+    height: 47px;
+}
+.disabled .icon-scenarios-forward:after {
+    background-position: -47px 0;
+    border-color: #cbcbcb;
+}
+
+.lessons li.not-started i,
+i.cl-not-started {
+    width:14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+    background: url('../images/icons-sprite.png') -157px -128px;
+}
+
+.lessons li.not-yet i,
+i.cl-not-yet {
+    width:13px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url('../images/icons-sprite.png') -131px -128px;
+}
+
+.lessons li.passed i,
+i.cl-passed {
+    width:13px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url('../images/icons-sprite.png') -131px -114px;
+}
+
+.lessons li.three-quarter-passed i,
+i.cl-three-quarter-passed {
+    width:13px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url('../images/icons-sprite.png') -144px -128px;
+}
+
+.lessons li.two-quarter-passed i,
+i.cl-two-quarter-passed {
+    width:14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 4px;
+    background: url('../images/icons-sprite.png') -157px -114px;
+}
+
+
+.lessons li.one-quarter-passed i,
+i.cl-one-quarter-passed {
+    width:13px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background: url('../images/icons-sprite.png') -144px -114px;
+}
+
+.icon-autonext:after {
+    content: '';
+    display: inline-block;
+    width:36px;
+    height:16px;
+    cursor: pointer;
+    background: url('../images/icons/listening_autonext.svg') no-repeat;
+}
+.icon-autonext-off:after {
+    content: '';
+    display: inline-block;
+    width:27px;
+    cursor: pointer;
+    height:16px;
+    background: url('../images/icons/listening_autonext_off.svg') no-repeat;
+}
+.icon-dropdown-logout {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background: url('../images/dropdown-logout.png') 50% 50% no-repeat;
+}
+.icon-dropdown-settings {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background: url('../images/dropdown-settings.png') 50% 50% no-repeat;
+}
+.icon-dropdown-profile {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    background: url('../images/dropdown-profile.png') 50% 50% no-repeat;
+}

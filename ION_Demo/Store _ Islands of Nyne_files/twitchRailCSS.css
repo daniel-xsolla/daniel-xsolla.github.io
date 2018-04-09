@@ -1,0 +1,236 @@
+#twitch-module {max-width:980px;padding: 5px 0;margin:16px auto;background:#000;position:relative;overflow:hidden;}
+    #twitch-module.light-theme {background:#fff}
+#twitch-module > *  { box-sizing: border-box!important;-moz-box-sizing: border-box!important;box-sizing: border-box!important;}
+#twitch-module:before {content:"";height:5px;width:100%;position:absolute;top:0px;left:0;background:#FFF;}
+    #twitch-module.light-theme:before {background:#000}
+#twitch-module:after {content:"";height:5px;width:100%;position:absolute;bottom:0px;left:0;background:#FFF;}
+    #twitch-module.light-theme:after {background:#000}
+
+#twitch-module .twitch-module-header {display:flex;color:#FFF!important;min-height:54px;margin:0 0 0 60px;padding:0 0 0;line-height: 1;}
+    #twitch-module.light-theme .twitch-module-header, #twitch-module.light-theme .twitch-module-header span, #twitch-module.light-theme .offline-slide {color:#000!important}
+#twitch-module .twitch-module-header span {display:inline-block;padding: 0 0 3px;width:100%;font-family:"Arial Black", "arial";text-transform:uppercase;font-size:13px;line-height:1;}
+#twitch-module .twitch-module-header a.find-out-more {position:absolute;right:9px;top:14px;display:inline-block;max-width:130px;background:#7f1618;height:36px;line-height:36px;padding:0 26px;font-family:"Arial Black", "arial";color:#FFF!important;text-decoration:none;}
+#twitch-module .twitch-module-header a.find-out-more:hover {text-decoration:underline}
+#twitch-module .twitch-module-header .twitch-module-header-left {margin:9px 0;width:100%;}
+#twitch-module .twitch-module-header.cta-active .twitch-module-header-left {margin-right: 150px;}
+#twitch-module .twitch-module-header .twitch-module-header-left a {color:#7f1618!important}
+#twitch-module .twitch-module-header .twitch-module-header-left .twitch-logo {width:40px;height:auto;position:absolute;left:10px;top:12px;}
+
+#twitch-module #stream-container {display:block;width:100%;}
+#twitch-module #stream-container ul {margin:0;padding:0;}
+#twitch-module .offline-slide {display:none;text-align:center;text-transform:uppercase;color:#fff;font-size:13px;padding-bottom:11px;width:100%;}
+#twitch-module .offline-slide.show {display:block;}
+#twitch-module .stream {width:245px;height:100%;display:block;margin:0;padding:0;position: relative;}
+#twitch-module .stream:nth-child(even) .twitch-info {background:rgba(0,0,0,.85);}
+#twitch-module .stream .twitch-image {height:auto;}
+#twitch-module .stream .twitch-image img {width:100%;height:auto;box-shadow:none;border:none;}
+#twitch-module .stream .twitch-info {color:#FFF!important;background:rgba(40,40,40,.85);position: absolute;bottom:0;width:100%;}
+#twitch-module .stream .twitch-info a {text-decoration:none;display: flex;flex-wrap: wrap;padding:4px 8px;}
+#twitch-module .stream .twitch-title {text-align: center;width:100%;font-family:"Arial Black", arial;color:#FFF!important;font-size:13px;text-transform:uppercase;overflow:hidden;}
+#twitch-module .stream:nth-child(even) .twitch-title {}
+#twitch-module .stream .twitch-meta {font-family:arial;font-size:11px;color:#6d6e71!important;height:0;overflow:hidden;width:100%;text-align:center;}
+#twitch-module .stream:hover .twitch-meta {height:auto;}
+#twitch-module .stream .twitch-name {font-weight:700;color:#f1f2f2!important;}
+#twitch-module .stream .twitch-game {text-transform:uppercase;font-weight:700;color:#f1f2f2!important;}
+#twitch-module .stream .twitch-viewers {font-weight:700;color:#f1f2f2!important;}
+
+#twitch-module .slick-arrow {position: absolute; z-index:101;top: 50%;width: 55px; height: 55px; margin: -27px 0 0; padding: 0; display: block; cursor: pointer; opacity: 0; -webkit-transition: all .3s ease;background-color:#262626;border:none;}
+
+#twitch-module .slick-arrow img {display:inline-block;width: 55px; height: 55px;font-size:0;}
+#twitch-module .flex-direction-nav li a { text-indent: -9999px;background-size: 50% 50%;background-position: 50% 50%;background-repeat: no-repeat;}
+#twitch-module .slick-arrow.slick-next {right: 0;}
+#twitch-module .slick-arrow.slick-prev {left: 0;}
+#twitch-module #stream-container:hover .slick-next {opacity: 0.8; right: 5px;}
+#twitch-module #stream-container:hover .slick-prev {opacity: 0.8; left: 5px;}
+#twitch-module #stream-container:hover .slick-next, #twitch-module #stream-container:hover .slick-prev {opacity: 1;}
+#twitch-module #stream-container .flex-nav-next:hover, #stream-container .flex-nav-prev:hover {background-color:#7f1618!important;}
+
+@media screen and (max-width: 650px) {
+#twitch-module .widget-title {display:none;}
+}
+
+@media screen and (max-width: 560px) {
+#twitch-module .twitch-module-header-title {display: none;}
+#twitch-module .twitch-module-header-subtitle {display: none;}
+}
+
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+#twitch-module .loader-wrapper {display:none;height: 100px;align-items:center;}
+#twitch-module.loading .loader-wrapper {display:flex}
+#twitch-module .loader,
+#twitch-module .loader:before,
+#twitch-module .loader:after {
+  background: #ffffff;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+#twitch-module .loader {
+  color: #ffffff;
+  text-indent: -9999em;
+  margin: 0 auto;
+  position: relative;
+  font-size: 8px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+#twitch-module .loader:before,
+#twitch-module .loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+#twitch-module .loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+#twitch-module .loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}

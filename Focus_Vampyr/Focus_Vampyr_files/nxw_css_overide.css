@@ -1,0 +1,35 @@
+ 
+.item-retrieval  .info-help{text-align: left;}
+.item-retrieval  .info-help li{margin: 15px auto;}
+.client-profile .cart-validation label[for="Customer_Main_Accept_Sales_Conditions_Display"],
+.client-profile .cart-validation label[for="Customer_Main_Accept_Sales_Conditions"],
+.client-profile .cart-validation label[for="Customer_Main_Accept_Email"]
+{width:auto;}
+.cart-validation label[for="Customer_Main_Accept_Sales_Conditions_Display"],
+.cart-validation label[for="Customer_Main_Accept_Email_Display"]
+{ font-size: 12px; padding: 0 0 0 20px;}
+
+.payment-infos .cc-boleto { background: url(./img/boleto-32px.png) no-repeat right 0px;}
+.payment-method .radio label[for*="cc-clickandbuy"] { width: 164px; background: url(./img/clickandbuy-32px.png) no-repeat center #FFF;}
+.payment-method .radio label[for*="cc-boleto"] { width: 82px; background: url(./img/boleto-32px.png) no-repeat center #FFF;}
+.exdl_dvd_bu .item-description{height: 140px;}
+.item-retrieval .dlmanager .btn:first-letter {text-transform: uppercase;}
+.order-confirm .item-description { min-height:140px;}
+.cart-list .row.col-labels span.head_price_title{text-align: right;padding-right:40px;}
+.falseBox:hover{-moz-opacity: 1; -khtml-opacity:1; opacity: 1; -ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=100); filter:alpha(opacity=100);}
+@media ( min-width: 500px) {
+
+}
+.cart-price-resume .badge-total { margin-top: 10px; margin-right:50px;}
+
+
+.item-description .getkey, .item-description .getsave{position: absolute;right: 10px;bottom: 10px;}
+
+.cart-validation #Customer_Main_Accept_Sales_Conditions_Error {top: 24px;left: -9px;}
+.client-profile #errors-invalid-email-exists, .client-profile .cctype-credit_card-formvalidation-error{margin:0px 10px;clear: both;}
+
+.img_screen_shot{width:100%;}
+.item-deal .item-visual img {cursor:pointer;}
+@media (max-width:500px){
+    .exdl_dvd_bu .item-description{min-height:auto;height:auto;}
+}

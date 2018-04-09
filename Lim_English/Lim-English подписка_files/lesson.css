@@ -1,0 +1,283 @@
+.lesson-phrases .phrase-field input {
+  border: none;
+  outline: none;
+  padding-bottom: 0;
+  width: 50px;
+  float: left;
+  border-bottom: 1px solid #20928a;
+  display: none;
+}
+.lesson-phrases .phrase-field input::selection {
+  color: #ffffff;
+  background: #20928a;
+}
+.lesson-phrases .phrase-field input.mistake {
+  color: #ff0000;
+}
+.lesson-phrases .phrase-field input:focus, .lesson-phrases .phrase-field input.active {
+  display: block;
+}
+.lesson-phrases .phrase-field .phrase-letters {
+  display: block;
+  float: left;
+  line-height: 31px;
+  white-space: pre;
+  border-bottom: 1px solid #20928a;
+}
+.lesson-phrases .phrase-field .phrase-letters:empty {
+  display: none;
+}
+.lesson-phrases .phrase-field .phrase-letters.passed {
+  color: #20928a;
+  padding-right: 10px;
+}
+.lesson-phrases .phrase-field .phrase-letters.passed:last-of-type {
+  padding-right: 0;
+}
+.lesson-phrases .phrase-field .phrase-letters.mistake {
+  color: #ff0000;
+}
+.lesson-phrases .phrase-field .phrase-letters.braces-container, .lesson-phrases .phrase-field .phrase-letters span.braces-container {
+  padding-right: 10px;
+  color: #c5c5c5;
+}
+.lesson-phrases .phrase-field .phrase-letters.braces-container:last-of-type, .lesson-phrases .phrase-field .phrase-letters span.braces-container:last-of-type {
+  padding-right: 0;
+}
+
+.lesson-translation .mix-words {
+  text-align: center;
+}
+.lesson-translation .mix-words span {
+  display: inline-block;
+  padding: 0 15px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  font-size: 16px;
+  line-height: 30px;
+  background: #ffffff;
+  border: 1px solid #c5c5c5;
+  border-radius: 2px;
+  cursor: pointer;
+  min-width: 100px;
+}
+.lesson-translation .mix-words span.mistake {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+.lesson-translation .mix-words span.removed {
+  color: #c5c5c5;
+  border-color: #c5c5c5;
+}
+.lesson-translation .mix-words span.active {
+  background: #91bbb9;
+}
+
+.interpretation-check {
+  text-align: center;
+  clear: both;
+  margin: 10px 0;
+  min-height: 46px;
+}
+.interpretation-check .contain {
+  display: block;
+  position: relative;
+}
+.interpretation-check .button-check {
+  border: 3px solid #20928a;
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.interpretation-check .button-check:hover {
+  background: #20928a;
+  color: #ffffff;
+}
+.interpretation-check .result {
+  height: 46px;
+  background: #ffffff;
+  padding: 0 25px;
+  line-height: 44px;
+  text-align: left;
+  border-radius: 3px;
+}
+.interpretation-check .result a {
+  border: 1px solid #20928a;
+  display: inline-block;
+  padding: 0 40px;
+  margin: 5px 0 5px 10px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: 35px;
+}
+.interpretation-check .result a:hover {
+  background: #20928a;
+  color: #ffffff;
+}
+.interpretation-check .result a.button-reject {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+.interpretation-check .result a.button-reject:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+
+.lesson-view .lesson-buttons {
+  padding: 30px 0;
+}
+
+.lesson-panel table {
+  width: 100%;
+}
+
+.lesson-finish-title {
+  text-align: center;
+}
+
+h3.lesson-finish-title {
+  margin-top: 0;
+}
+
+.lim-finish-container {
+  min-height: 350px;
+  margin-bottom: 20px;
+}
+
+.lima-finish-icon, .lima-finish-description {
+  text-align: center;
+}
+
+.lima-finish-description {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.finish-bordered {
+  border-left: 1px solid #dddddd;
+}
+
+.finish-progress-item {
+  margin-bottom: 20px;
+}
+
+.finish-progress-title {
+  border-bottom: 1px solid #dddddd;
+  color: #247c72;
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.finish-progress-title > i, .finish-progress-title span {
+  display: block;
+  float: left;
+}
+.finish-progress-title > span {
+  padding-top: 8px;
+  margin-left: 5px;
+}
+.finish-progress-title i {
+  margin-bottom: -9px;
+}
+.finish-progress-title:before, .finish-progress-title:after {
+  content: " ";
+  display: table;
+}
+.finish-progress-title:after {
+  clear: both;
+}
+
+.finish-progress-value {
+  text-align: right;
+  font-size: 16px;
+  color: #777777;
+  float: right;
+  padding-top: 8px;
+}
+
+.finish-achievement-container {
+  color: #777777;
+  margin-top: 5px;
+}
+.finish-achievement-container > div {
+  float: left;
+  height: 70px;
+}
+
+.finish-achievement-description {
+  width: 50%;
+}
+
+.finish-achievement-icon {
+  width: 50%;
+  text-align: right;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -moz-box-direction: reverse;
+  box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+  -moz-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+  -ms-flex-direction: row-reverse;
+}
+.finish-achievement-icon i {
+  display: inline-block;
+  margin-left: 15px;
+}
+.finish-achievement-icon span {
+  display: inline-block;
+  height: 55px;
+  max-width: 170px;
+}
+
+a.repeat-lesson {
+  //color: #dddddd;
+}
+.lesson-view
+{
+  position: relative;
+}
+.lesson-view .hint-lamp
+{
+  float: left;
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+.lesson-view .hint-text label
+{
+  font-weight: normal;
+  color: #20928a;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.lesson-view .hint-text input[type="checkbox"]
+{
+  cursor: pointer;
+  float: left;
+  margin-right: 5px;
+}
+.lesson-view .h1-up
+{
+  font-family: RobotoRegular;
+  text-transform: none;
+  font-size: 25px;
+  font-weight: 500;
+}
+#modal-grammar .lesson-grammar-description table
+{
+  margin: auto;
+  margin-bottom: 15px;
+}

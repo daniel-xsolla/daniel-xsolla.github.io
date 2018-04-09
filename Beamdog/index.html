@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BeamDog Demo</title>
+	<style>
+		body {
+			background-color: #000;
+			background-image: url(background.png);
+			background-position: 50% 0px;
+			background-size: 1920px;
+			background-repeat: no-repeat;
+		}
+		.container {
+			position: absolute;
+			//background-color: black;
+			left:0px;
+			top: 936px;
+			right: 0px;
+			bottom: 0px;
+			z-index: 1;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			width: 100%;
+			height: 100%;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: start;
+			-webkit-align-items: flex-start;
+			-ms-flex-align: start;
+			align-items: flex-start;
+		}
+		#xsolla_btn {
+			position: absolute;
+			top: -275px;
+			width: 215px;
+			height: 60px;
+			margin-left: -110px;
+			padding-left: 0px;
+			opacity: 0;
+			cursor: pointer;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div id="xsolla_btn"></div>
+	</div>
+
+	<script>
+	   var options = {
+	   		access_token: 'tf9c7loKhasvMssssAgubFX9P2rQNnJD',
+	        host: 'sandbox-secure.xsolla.com',
+	        target_element: "#xsolla_btn",
+	        sandbox:true,
+	        lightbox:{
+	            height: '660px'
+	        }
+	    };
+
+
+	    var s = document.createElement('script');
+	    s.type = "text/javascript";
+	    s.async = true;
+	    s.src = "//static.xsolla.com/embed/paystation/1.0.7/widget.min.js";
+	    s.addEventListener('load', function (e) {
+	        document.getElementById('xsolla_btn').addEventListener('click',function(e){
+	            XPayStationWidget.init(options);
+	            XPayStationWidget.open();
+	        });
+	    }, false); 
+	    var head = document.getElementsByTagName('head')[0];
+	    head.appendChild(s);
+    </script> 
+</body>
+</html>

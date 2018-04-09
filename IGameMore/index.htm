@@ -1,0 +1,461 @@
+
+<!-- saved from url=(0028)http://www.igamemore.com/pay -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width"> 
+	<link rel="stylesheet" type="text/css" href="./igamemore_files/layout.css"> 
+	<link rel="stylesheet" type="text/css" href="./igamemore_files/topbar.css"> 
+	<link rel="stylesheet" type="text/css" media="all" href="./igamemore_files/base.css"> 
+	<link rel="stylesheet" type="text/css" href="./igamemore_files/indexV5.css"> 
+	<link rel="stylesheet" type="text/css" href="./igamemore_files/pop.css"> 
+	<link rel="stylesheet" type="text/css" href="./igamemore_files/pop_singUp.css"> 
+
+	<script async="" src="./igamemore_files/gtm.js"></script><script async="" src="./igamemore_files/analytics.js"></script>
+	<script type="text/javascript" src="./igamemore_files/jquery-1.6.1.min.js"></script> 
+	<script type="text/javascript" src="./igamemore_files/jquery.cookie.js"></script> <script type="text/javascript" src="./igamemore_files/xg.js"></script> 
+	<script type="text/javascript" src="./igamemore_files/lang.js"></script> 
+	<script type="text/javascript" src="./igamemore_files/userReg.js"></script> 
+	<script type="text/javascript" src="./igamemore_files/effectJq.js"></script> 
+	<link rel="shortcut icon" href="http://www.igamemore.com/themes/main/Public/favicon.ico"> 
+	<link rel="stylesheet" href="./igamemore_files/window-gm.css"> 
+	<title>Pay</title> <meta name="keywords" content="game"> 
+	<meta name="description" content="game"> 
+
+	<script>
+			var queryLoader2Image = [];
+			var nowPage = 'common';
+			var ie = 0;
+	</script> 
+
+	<style>	
+			.commonNav a.enlist{position: absolute; left:974px; top:8px; line-height: 70px; overflow: hidden;text-indent: 10000px; width:217px; height: 70px; background: url("/themes/main/Public/btn2.png") 0px -142px no-repeat;}
+			.commonNav a.enlist:hover{ background: url("/themes/main/Public/btnHover2.png") 0px -142px no-repeat;} 
+			.ib1 a.enlist{width:326px; height: 90px; line-height: 90px; overflow: hidden; text-indent: 3000px; margin: 60px auto 0px auto;background: url("/themes/main/Public/btn2.png") no-repeat; }
+			.ib1 a.enlist:hover{background: url("/themes/main/Public/btnHover2.png")  no-repeat;}
+			.commonNav a.enlistLogin{position: absolute; left:974px; top:8px; line-height: 70px; overflow: hidden;text-indent: 10000px; width:217px; height: 70px; background: url("/themes/main/Public/btn3.png") 0px -142px no-repeat;}
+			.commonNav a.enlistLogin:hover{ background: url("/themes/main/Public/btnHover3.png") 0px -142px no-repeat;} 
+			.ib1 a.enlistLogin{width:326px; height: 90px; line-height: 90px; overflow: hidden; text-indent: 3000px; margin: 60px auto 0px auto;background: url("/themes/main/Public/btn3.png") no-repeat;  }
+			.ib1 a.enlistLogin:hover{background: url("/themes/main/Public/btnHover3.png")  no-repeat;}
+
+		</style>
+		<style>		.ib1 a.enlist,.ib1 a.enlistLogin,.commonNav a.enlist,.commonNav a.enlistLogin{display:none;}
+		</style> 
+
+		<script type="text/javascript">
+				$(document).ready(function(){ 
+				$("#game_id").change(function(){ 
+					$("#game_id option").each(function(i,o){ 
+						if($(this).attr("selected")) 
+						{ 
+							$(".Amount").hide(); 
+							$(".Amount").eq(i).show(); 
+						} 
+					}); 
+				}); 
+				$("#game_id").change(); 
+			}); 
+		</script> 
+	</head> 
+
+	<body> 
+		<header>
+			<style>
+				#backdrop {
+					position:fixed;
+			        background: url("http://www.igamemore.com/themes/main/Public/img/newsBG.jpg") #000000 no-repeat center top; background-size: 115% auto;
+			        height:100%;
+			        width:100%;
+			        z-index: -1;
+				}
+				.footer{width:100%;height:143px; background:#000000 url("http://www.igamemore.com/themes/main/Public/img/footerBG.png")  center top no-repeat;}
+				.footer .footerTop{width:535px; height:71px; margin:0px auto;}
+				.footer .footerTop a,.footer .footerTop span{display: inline-block;font-size: 14pt;height: 71px; line-height: 75px; color:#fff; text-transform: uppercase; margin-left: 10px;}
+				.footer .footerTop a:hover{color:#32c5f4;  }
+				.footer .footerTop a.ubisoftLogo{width:178px; background: url("http://www.igamemore.com/themes/main/Public/img/footerLogo.png")  0px 10px no-repeat; }
+				.footer .footerBottom {text-align: center;border-top: 1px dashed #82bdcf; padding:12px 0px 10px 0px;text-align: center; color:#f2fcff; line-height: 20px;}
+				.footer .footerBottom p{margin-bottom:5px;}
+				#suckit {
+					z-index: 10;
+
+					position:absolute;
+					left:15%;
+					top:18%;
+					height:30px;
+					width:120px;
+				}
+				iframe {
+					position:relative; 
+					left:10%;
+					width:90%; 
+					height:800px;
+				}
+			</style>
+		</header>
+	<!--<div id="background"></div>--> 
+		<div id="newsBackground">
+		</div> <!--<div class="header"> <div class="headerMain">--> 
+		<header class="topBar"> 
+			<div class="topBar_main clearfix"> 
+				<div class="headerMain"> 
+					<span class="space">|</span> <a style="margin-top: 5px;" id="iLogo" href="http://www.igamemore.com/" target="_blank" title="igamemore">asdfigamemore32</a> 
+					<span class="space">|</span> <a class="faceBook" href="https://www.facebook.com/swordsofdivinity" target="_blank" title="Facebook">facebook</a> <a class="twitter" href="https://twitter.com/SwordsDivinity" target="_blank" title="Twitter">twitter</a> <a class="YouTube" href="https://www.youtube.com/channel/UCZgJs6M4YSsItk8xu6kJ6_g" target="_blank" title="YouTube">YouTube</a> <a class="twitch" href="https://plus.google.com/u/0/104585591676303316605" target="_blank" title="Google">Google</a> 
+					<span class="space">|</span> 
+				</div> 
+				<a href="http://www.igamemore.com/"><img id="suckit" src="./igamemore_files/suckit.png"/></a>
+			</div> 
+		</header>
+
+	<div class="indexBlock"> 
+	</div> 
+
+	<style>        		.commonNav .commonNavMain{width:674px;left:256px;}
+        		.commonNav .commonNavMain[language="de"]{width:675px;left:256px;}
+        	</style>  <!-- /header --> <!--user content start--> <!--user content start--> 
+        	<div class="UserContentBar"> 
+        	<div class="UserMainGroup"> 
+        	<style type="text/css">        			.txt_benefit span{color:#fe6c00;font-size:12px;}
+    		</style> 
+
+        		<div class="PageMain"> 
+        			<div id="backdrop">
+        			</div>
+    				<div class="PageHead payment_head"> 
+    					<div class="PageHead_main"> 
+    					</div> 
+    				</div> 
+    				<div class="PageContent f-cb"> 
+    				<div class="sideBar fl"> 
+    			<!--<div class="subMenu"> <ul class="payment_list"> <li method_id="5"><a href="javascript:;" class="current"><img src="/themes/main/Public/images/payment_method/method_1449821794_486.jpg">Cards</a></li> <li method_id="6"><a href="javascript:;" ><img src="/themes/main/Public/images/payment_method/method_1449821805_3460.jpg">E-Wallet</a></li> <li method_id="8"><a href="javascript:;" ><img src="/themes/main/Public/images/payment_method/method_1449821824_9156.jpg">SMS Billing</a></li> <li method_id="7"><a href="javascript:;" ><img src="/themes/main/Public/images/payment_method/method_1449821814_9676.jpg">Scratch Cards</a></li> <li method_id="9"><a href="javascript:;" ><img src="/themes/main/Public/images/payment_method/method_1449825704_846.png">Local</a></li> <li class="history"><a href="/chargeV3/history">Payment History</a></li> </ul> </div>-->
+    				</div> 
+    				<div class="fl"> 
+    					<form class="form_pay" method="post" target="_blank" action="http://www.igamemore.com/Pay/Index/beginPay.html"> 
+    						<div class="dd f-cb"> 
+    							<em class="number_pay"></em> 
+    								<div class="title_side">
+    									<em class="header_Dante">User Name  <a>fakesolla@gmail.com</a></em> 
+    								</div> 
+    								<div class="right_side"> 
+    									<select id="game_id" class="select_gameS" name="game_id" required=""> 
+	    									<option value="">Select game</option> 
+	    									<option value="2">Swords of Divinity</option>
+	    									<option value="6">Nidia</option>
+	    									<option value="11">Oraco</option> 
+    									</select> 
+    									<select id="server_id" class="select_gameS" name="server_id" required="">
+	    									<option value="">Select Server</option>
+	    									<option value="31">S31-Atoll&nbsp;of&nbsp;Chaos</option>
+	    									<option value="30">S30-Ebbing Tide</option>
+	    									<option value="29">S29-Star of Celestia</option>
+	    									<option value="28">S28-Nobel Mountains</option>
+	    									<option value="27">S27-Valley of Isur</option>
+	    									<option value="26">S26-Hillcrest</option>
+	    									<option value="25">S25-Island of Barba</option>
+	    									<option value="24">S24-Londorwin</option>
+	    									<option value="23">S23-Whisperlight</option>
+	    									<option value="22">S22-Orcmoor Marsh</option>
+	    									<option value="21">S21-Weeping Oasis</option>
+	    									<option value="20">S20-Sapphire Order</option>
+	    									<option value="19">S19-Mithril Peaks</option>
+	    									<option value="18">S18-City of Songs</option>
+	    									<option value="17">S17-Spire Summit</option>
+	    									<option value="16">S16-Khazaram</option>
+	    									<option value="15">S15-Seventh Heaven</option>
+	    									<option value="14">S14-Grimy Pier</option>
+	    									<option value="13">S13-Emerald Sea</option>
+	    									<option value="12">S12-Silver Beach</option>
+	    									<option value="11">S11-Angel Den</option>
+	    									<option value="10">S10-Twilight Tower</option>
+	    									<option value="9">S9-Crystal Cove</option>
+	    									<option value="8">S8-Summer Fields</option>
+	    									<option value="7">S7-Golden Ridge</option>
+	    									<option value="6">S6-Sunless Jungle</option>
+	    									<option value="5">S5-Mermaid Bay</option>
+	    									<option value="4">S4-Sorrows Crypt</option>
+	    									<option value="3">S3-Netherworld</option>
+	    									<option value="2">S2-Misty Mountains</option>
+	    									<option value="1">S1-Silvermoon</option>
+    									</select> 
+    									<input type="hidden" class="default_server" value="7"> 
+    									<div id="role_game" class="role_game" style="display: block;"> <a><span>Beaty·Thad</span></a> 
+    										<div class="searching" style="display: none;"><img alt="loading" src="./igamemore_files/loading.gif" width="40" align="middle">
+    										</div> 
+    									</div>
+    								</div> 
+    								<div class="wrong_tip role_wrong_tip" style="position: absolute; top: 74px; display: none;">
+    									<span class="tip_sj"></span>you have no role in this sever!
+    								</div> 
+    							</div>
+
+<!--
+    							<div id="pay"> 
+    								<div class="dd f-cb"> 
+    									<em class="number_pay"></em> 
+    									<div class="title_side"> 
+    										<em class="header_Dante fl">SELECT PACKAGE</em> 
+    									</div> 
+    									<div class="right_side"> 
+    										<ul class="amount_list item_list Amount" style="display: none;"> <li class="" itemid="31" npaydesc="0 Gold" npayvalue="4.99" npayamount="200" npayname="Gold"> <span class="money"><i></i></span> <p class="treasure">Game Selected</p> </li> </ul>
+											<ul class="amount_list item_list Amount" id="game2" style="display: block;"> <li class="selected" itemid="31" npaydesc="0 Gold" npayvalue="4.99" npayamount="200" npayname="Gold"> <span class="money">$4.99<i></i></span> <span class="gold_name">200 Gold</span> <p class="treasure"><img src="./igamemore_files/gold1.png"></p> </li> <li class="" itemid="32" npaydesc="20 Gold" npayvalue="9.99" npayamount="400" npayname="Gold"> <span class="money">$9.99<i></i></span> <span class="bonus">+5%</span> <span class="bonus2">Bonus</span> <span class="gold_name">400 Gold</span> <p class="treasure"><img src="./igamemore_files/gold2.png"></p> </li> <li class="" itemid="33" npaydesc="100 Gold" npayvalue="29.99" npayamount="1200" npayname="Gold"> <span class="money">$29.99<i></i></span> <span class="bonus">+8%</span> <span class="bonus2">Bonus</span> <span class="gold_name">1200 Gold</span> <p class="treasure"><img src="./igamemore_files/gold3.png"></p> </li> <li class="" itemid="34" npaydesc="290 Gold" npayvalue="59.99" npayamount="2400" npayname="Gold"> <span class="money">$59.99<i></i></span> <span class="bonus">+12%</span> <span class="bonus2">Bonus</span> <span class="gold_name">2400 Gold</span> <p class="treasure"><img src="./igamemore_files/gold4.png"></p> </li> <li class="" itemid="35" npaydesc="800 Gold" npayvalue="99.99" npayamount="4000" npayname="Gold"> <span class="money">$99.99<i></i></span> <span class="bonus">+20%</span> <span class="bonus2">Bonus</span> <span class="gold_name">4000 Gold</span> <p class="treasure"><img src="./igamemore_files/gold5.png"></p> </li> <li class="" itemid="36" npaydesc="2000 Gold" npayvalue="199.99" npayamount="8000" npayname="Gold"> <span class="money">$199.99<i></i></span> <span class="bonus">+25%</span> <span class="bonus2">Bonus</span> <span class="gold_name">8000 Gold</span> <p class="treasure"><img src="./igamemore_files/gold6.png"></p> </li> </ul>
+    										<ul class="amount_list item_list Amount" id="game6" style="display: none;"> <li class="" itemid="37" npaydesc="0 Gold" npayvalue="4.99" npayamount="200" npayname="Gold"> <span class="money">$4.99<i></i></span> <span class="gold_name">200 Gold</span> <p class="treasure"><img src="./igamemore_files/gold1.png"></p> </li> <li class="" itemid="38" npaydesc="0 Gold" npayvalue="9.99" npayamount="400" npayname="Gold"> <span class="money">$9.99<i></i></span> <span class="gold_name">400 Gold</span> <p class="treasure"><img src="./igamemore_files/gold2.png"></p> </li> <li class="" itemid="39" npaydesc="59 Gold" npayvalue="29.99" npayamount="1200" npayname="Gold"> <span class="money">$29.99<i></i></span> <span class="bonus">+5%</span> <span class="bonus2">Bonus</span> <span class="gold_name">1200 Gold</span> <p class="treasure"><img src="./igamemore_files/gold3.png"></p> </li> <li class="" itemid="40" npaydesc="239 Gold" npayvalue="59.99" npayamount="2400" npayname="Gold"> <span class="money">$59.99<i></i></span> <span class="bonus">+10%</span> <span class="bonus2">Bonus</span> <span class="gold_name">2400 Gold</span> <p class="treasure"><img src="./igamemore_files/gold4.png"></p> </li> <li class="" itemid="41" npaydesc="599 Gold" npayvalue="99.99" npayamount="4000" npayname="Gold"> <span class="money">$99.99<i></i></span> <span class="bonus">+15%</span> <span class="bonus2">Bonus</span> <span class="gold_name">4000 Gold</span> <p class="treasure"><img src="./igamemore_files/gold5.png"></p> </li> <li class="" itemid="42" npaydesc="1599 Gold" npayvalue="199.99" npayamount="8000" npayname="Gold"> <span class="money">$199.99<i></i></span> <span class="bonus">+20%</span> <span class="bonus2">Bonus</span> <span class="gold_name">8000 Gold</span> <p class="treasure"><img src="./igamemore_files/gold6.png"></p> </li> <li class="" itemid="43" npaydesc="0 Gold" npayvalue="2.99" npayamount="150" npayname="Gold" style=""> <span class="money">$2.99<i></i></span> <span class="bonus">1 Time</span> <span class="bonus2">offer</span> <span class="gold_name">150 Gold</span> <p class="treasure"><img src="./igamemore_files/gold0.png"></p> </li> </ul>
+    										<ul class="amount_list item_list Amount" id="game11" style="display: none;"> <li class="" itemid="44" npaydesc="30 Diamonds" npayvalue="4.99" npayamount="250" npayname="Diamonds"> <span class="money">$4.99<i></i></span> <span class="bonus">+12%</span> <span class="bonus2">Bonus</span> <span class="gold_name">250 Diamonds</span> <p class="treasure"><img src="./igamemore_files/diamonds1.png"></p> <p></p> </li> <li class="" itemid="45" npaydesc="70 Diamonds" npayvalue="9.99" npayamount="500" npayname="Diamonds"> <span class="money">$9.99<i></i></span> <span class="bonus">+14%</span> <span class="bonus2">Bonus</span> <span class="gold_name">500 Diamonds</span> <p class="treasure"><img src="./igamemore_files/diamonds2.png"></p> </li> <li class="" itemid="46" npaydesc="255 Diamonds" npayvalue="29.99" npayamount="1500" npayname="Diamonds"> <span class="money">$29.99<i></i></span> <span class="bonus">+17%</span> <span class="bonus2">Bonus</span> <span class="gold_name">1500 Diamonds</span> <p class="treasure"><img src="./igamemore_files/diamonds3.png"></p> </li> <li class="" itemid="47" npaydesc="570 Diamonds" npayvalue="59.99" npayamount="3000" npayname="Diamonds"> <span class="money">$59.99<i></i></span> <span class="bonus">+19%</span> <span class="bonus2">Bonus</span> <span class="gold_name">3000 Diamonds</span> <p class="treasure"><img src="./igamemore_files/diamonds4.png"></p> </li> <li class="" itemid="48" npaydesc="1000 Diamonds" npayvalue="99.99" npayamount="5000" npayname="Diamonds"> <span class="money">$99.99<i></i></span> <span class="bonus">+20%</span> <span class="bonus2">Bonus</span> <span class="gold_name">5000 Diamonds</span> <p class="treasure"><img src="./igamemore_files/diamonds5.png"></p> </li> <li class="" itemid="49" npaydesc="2400 Diamonds" npayvalue="199.99" npayamount="10000" npayname="Diamonds"> <span class="money">$199.99<i></i></span> <span class="bonus">+24%</span> <span class="bonus2">Bonus</span> <span class="gold_name">10000 Diamonds</span> <p class="treasure"><img src="./igamemore_files/diamonds6.png"></p> </li> <li class="" itemid="43" npaydesc="15 Diamonds" npayvalue="2.99" npayamount="150" npayname="Diamonds" style=""> <span class="money">$2.99<i></i></span> <span class="bonus">+10%</span> <span class="bonus2">Bonus</span> <span class="gold_name">150 Diamonds</span> <p class="treasure"><img src="./igamemore_files/diamonds0.png"></p> </li> </ul> 
+    									</div> 
+    								</div> 
+    							</div> 
+
+    							<div id="manner"> 
+    								<div class="dd f-cb"> <em class="number_pay"></em> 
+    									<div class="title_side"> <em class="header_Dante fl">SELECT PAYMENT METHOD</em> 
+    										<div class="wrong_tip fl" style="display: none; margin:0px 0 0 20px;"> <span class="tip_sj"></span>											Please select a package	</div>
+    										</div>
+    										<div class="right_side">
+	    										<div class="tip_method" style="display: none;">
+	    										</div> 
+    											<ul class="amount_list payMethod channel_list"> <li class="" submit_url="/Pay/Index/beginPay.html" channel_id="7197" tax_desc="" npaytax="0.000" ps_code="Credit Card" country_code="US" mannerid="7197"> <a><img src="./igamemore_files/creditcard.jpg" alt="Credit Card"></a> </li> <li class="" submit_url="/Pay/Index/beginPay.html" channel_id="5032" tax_desc="" npaytax="0.000" ps_code="PayPal" country_code="US" mannerid="5032"> <a><img src="./igamemore_files/paypal.jpg" alt="PayPal"></a> </li> <li class="" submit_url="/Pay/Index/mol_pay.html" channel_id="5013" tax_desc="" npaytax="0.000" ps_code="mol" country_code="US" mannerid="5013"> <a><img src="./igamemore_files/mol.jpg" alt="mol"></a> </li> <li class="" submit_url="/Pay/Index/beginPay.html" channel_id="5009" tax_desc="" npaytax="0.000" ps_code="Skrill" country_code="US" mannerid="5009"> <a><img src="./igamemore_files/skrill.jpg" alt="Skrill"></a> </li> <li class="" submit_url="/Pay/Index/beginPay.html" channel_id="5011" tax_desc="" npaytax="0.000" ps_code="PaySafeCard" country_code="US" mannerid="5011"> <a><img src="./igamemore_files/paysafecard.jpg" alt="PaySafeCard"></a> </li> <li class="" submit_url="/Pay/Index/beginPay.html" channel_id="5010" tax_desc="" npaytax="0.000" ps_code="Rixty" country_code="US" mannerid="5010"> <a><img src="./igamemore_files/rixty.jpg" alt="Rixty"></a> </li> <li class="" submit_url="/Pay/Index/beginPay.html" channel_id="5068" tax_desc="" npaytax="0.000" ps_code="MOLPay" country_code="US" mannerid="5068"> <a><img src="./igamemore_files/molpay.jpg" alt="MOLPay"></a> </li> <li class="" submit_url="/Pay/Index/xsolla.html" channel_id="5012" payment_method="1262" tax_desc="" npaytax="0.000" ps_code="Xsolla" country_code="US" mannerid="5012"> <a><img src="./igamemore_files/unipin.jpg" alt="Xsolla"></a> </li> <li class="" submit_url="/Pay/Index/xsolla.html" channel_id="5012" payment_method="2989" tax_desc="" npaytax="0.000" ps_code="Xsolla" country_code="US" mannerid="5012"> <a><img src="./igamemore_files/doku-wallet.jpg" alt="Xsolla"></a> </li> <li class="" submit_url="/Pay/Index/xsolla.html" channel_id="5012" payment_method="1738" tax_desc="" npaytax="0.000" ps_code="Xsolla" country_code="US" mannerid="5012"> <a><img src="./igamemore_files/mobile.jpg" alt="Xsolla"></a> </li> <li class="" submit_url="/Pay/Index/xsolla.html" channel_id="5012" payment_method="1380" tax_desc="" npaytax="0.000" ps_code="Xsolla" country_code="US" mannerid="5012"> <a><img src="./igamemore_files/creditcard_xsolla.jpg" alt="Credit Card"></a> </li> <li class="" submit_url="/Pay/Index/xsolla.html" channel_id="5012" tax_desc="" npaytax="0.000" ps_code="Xsolla" country_code="US" mannerid="5012"> <a><img src="./igamemore_files/xsolla.jpg" alt="Xsolla"></a> </li> </ul>
+
+    										</div> 
+    								</div>  
+    							</div> 
+-->
+<!--
+    							<div class="dd f-cb" style=" border: none;"> <em class="number_pay"></em> <p class="title_side"><em class="header_Dante">SUMMARY</em></p> 
+    								<div class="right_side"> 
+						    			<table width="100%" border="1" cellspacing="0" cellpadding="0" bordercolor="#c5c5c5" class="table_summary"> 
+							    			<tbody>
+								    			<tr> 
+								    				<th width="217" align="center" valign="middle" scope="col">Package</th> <th width="341" align="center" valign="middle" scope="col">Bonus</th> <th width="139" align="center" valign="middle" scope="col">Price</th> </tr> <tr> <td align="center" valign="middle" id="item_diamonds">200 Gold</td> <td align="center" valign="middle" id="item_gold">0 Gold</td> <td align="center" valign="middle" id="item_price"><em class="pay_price"><i>$ </i><span>4.99</span></em></td> 
+								    			</tr> 
+							    			</tbody>
+						    			</table> 
+						    			<p class="tip_summary">											Note : Please note that the above price does not include any local taxes and/or currency exchange rates.  The final price will be automatically adjusted according to your local tax laws and/or currency exchange rates.
+										</p> 
+										<a href="http://www.igamemore.com/guide/index/detail/id/298.html" target="_blank" style="font-size: 20px;color: #ff0000;">Having trouble recharging your account?</a>
+									</div> 
+								</div> 
+-->
+<!--
+								<div class="btn_recharge_bottom"> 
+									<a href="javascript:;" id="payBtn">Recharge</a> 
+									<input type="submit" value="Next" class="input_btn input_btn2 btn_next" id="submitForm" style="display: none;"> 
+									<input id="channelRatio" type="hidden" name="ratio"> 
+									<input id="money" type="hidden" value="4.99" name="money"> 
+									<input id="item_id" type="hidden" value="31" name="item_id"> 
+									<input id="account" type="hidden" value="fakesolla@gmail.com" name="account"> 
+									<input id="channel_id" type="hidden" value="7197" name="channel_id"> 
+									<input id="payment_method" type="hidden" value="0" name="payment_method"> 
+									<input id="manner_id" type="hidden" value="7197" name="manner_id"> 
+									<input id="ps_code" type="hidden" value="Credit Card" name="ps_code"> 
+									<input id="country_code" type="hidden" value="US" name="country_code"> 
+									<input id="pay_platform" type="hidden" value="0" name="pay_platform"> 
+									<input id="order" type="hidden" value="H_201705250525288050d" name="order"> 
+								</div>
+								JwLYpk7JujOZgYkhqh5cNgohyoSKjL1S
+								TUg4p1bftjOI9ivLLJzjegbrFS7X5JmR
+-->
+							</form> 
+							<div>
+            					<iframe src="https://sandbox-secure.xsolla.com/paystation2/?access_token=ktf2I665wcfHGJcpzOIswDigtkEnUzYG" frameborder="0" scrolling="auto"></iframe>
+							</div>
+							<script>
+								src="https://cdn.xsolla.net/paystation3/scripts/desktop-app.e666872b.js"
+							</script>
+						</div> 
+					</div> 
+				</div> <!-- common --> 
+
+			<script type="text/javascript">					var allCurrency = [];
+					allCurrency['75'] = 'Gold';
+					allCurrency['66'] = 'Gold';
+					allCurrency['62'] = 'Gold';
+					allCurrency['57'] = 'Gold';
+					allCurrency['39'] = 'Gold';
+					allCurrency['167'] = '';
+					allCurrency['160'] = '';
+					allCurrency['159'] = '';
+					allCurrency['125'] = '';
+					var allGameRatio = [];
+					allGameRatio['75'] = '10';
+					allGameRatio['66'] = '10';
+					allGameRatio['62'] = '20';
+					allGameRatio['57'] = '20';
+					allGameRatio['39'] = '100';
+					allGameRatio['167'] = '10';
+					allGameRatio['160'] = '10';
+					allGameRatio['159'] = '10';
+					allGameRatio['125'] = '10';
+	//var actionUrl = '';
+	//actionUrl = eval ("(" + actionUrl + ")");
+</script> <script type="text/javascript" src="./igamemore_files/paymentV3.js"></script> <input id="hadWorldPay" type="hidden" value="0" name="hadWorldPay"> <input id="WorldPayCard" type="hidden" value="0" name="WorldPayCard"> <button data-xpaystation-widget-open="" id="btnCheck" style="display: none;">Buy Credits</button> <svg xmlns="http://www.w3.org/2000/svg"> <filter id="grayscale"> <fecolormatrix type="matrix" values="0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0"></fecolormatrix> </filter> </svg> <style>	.PageContent .sideBar .subMenu .payment_list li img{ filter:url('#grayscale');}
+</style> <script type="text/javascript">	$(function(){
+		var gameId = $('#game_id').val();
+		var money=$('.item_list li.selected').attr('npayvalue');
+		var item_desc=$('.item_list li.selected').attr('npaydesc');
+		var item_name=$('.item_list li.selected').attr('npayname');
+		var item_id=$('.item_list li.selected').attr('itemid');
+		var submitUrl = $('.channel_list li.selected').attr('submit_url');
+		var channel_id = $('.channel_list li.selected').attr('channel_id');
+		var manner_id = $('.channel_list li.selected').attr('mannerId');
+		var ps_code = $('.channel_list li.selected').attr('ps_code');
+		var country_code = $('.channel_list li.selected').attr('country_code');
+		var tax = 0;
+		var tax_desc = '';
+		tax = $('.channel_list li.selected').attr('npaytax');
+		tax_desc = $('.channel_list li.selected').attr('tax_desc');
+		if(tax_desc==''){
+			$('.tip_method').hide();
+		}else{
+			$('.tip_method').html(tax_desc);
+			$('.tip_method').show();
+		}
+		$('#channel_id').val(channel_id);
+		$('#manner_id').val(manner_id);
+		$('#ps_code').val(ps_code);
+		$('#country_code').val(country_code);
+		$(".form_pay").attr("action",submitUrl);
+		var amount=$('.item_list li.selected').attr('npayamount');
+		$('#money').val(money);
+		$('#item_id').val(item_id);
+		$('#item_diamonds').html(amount+' '+item_name);
+		if(item_desc==''){
+			$('#item_gold').html('--');
+		}else{
+			$('#item_gold').html(item_desc);
+		}
+		$('#item_price i').html('$ ');
+		$('#item_price span').html((parseFloat(money)+parseFloat(Math.ceil(money)*tax)).toFixed(2));
+		$(".form_pay .item_list li").live('click', function(){
+			var id = $(this).attr('npayid');
+			var money = $(this).attr('npayvalue');
+			var $item = $(this).attr('itemid');
+			var item_desc = $(this).attr('npaydesc');
+			var item_name=$(this).attr('npayname');
+			var amount = $(this).attr('npayamount');
+			$(".payForm_w").hide();
+			$("#"+id).show();
+			$(".item_list").find('.selected').attr("class",'');
+			$(this).attr("class",'selected');
+			$("#money").val(money);
+			$("#item_id").val($item);
+			$('#item_diamonds').html(amount+' '+item_name);
+			var gameId = $('#game_id').val();
+			var tax = 0;
+			if(item_desc==''){
+				$('#item_gold').html('--');
+			}else{
+				$('#item_gold').html(item_desc);
+			}
+			$('#item_price i').html('$ ');
+			$('#item_price span').html((parseFloat(money)+parseFloat(Math.ceil(money)*tax)).toFixed(2));
+		});
+		$(".form_pay .channel_list li").live('click', function(){
+			$(".channel_list").find('.selected').attr("class",'');
+			$(this).attr("class",'selected');
+			var money=$('.item_list li.selected').attr('npayvalue');
+			var submitUrl = $(this).attr('submit_url');
+			var channel_id = $(this).attr('channel_id');
+			// 额外参数
+			var payment_method = $(this).attr('payment_method');
+
+			var manner_id = $(this).attr('mannerId');
+			var ps_code = $(this).attr('ps_code');
+			var country_code = $(this).attr('country_code');
+
+			var tax = $(this).attr('npaytax');
+			$(".form_pay").attr("action",submitUrl);
+			$('#channel_id').val(channel_id);
+			
+			// 额外参数
+			$('#payment_method').val(payment_method);
+
+			$('#manner_id').val(manner_id);
+			$('#ps_code').val(ps_code);
+			$('#country_code').val(country_code);
+			var gameId = $('#game_id').val();
+			var tax = 0;
+			var tax_desc = '';
+			if(tax_desc==''){
+				$('.tip_method').hide();
+			}else{
+				$('.tip_method').html(tax_desc);
+				$('.tip_method').show();
+			}
+			$('#item_price i').html('$ ');
+			$('#item_price span').html((parseFloat(money)+parseFloat(Math.ceil(money)*tax)).toFixed(2));
+
+		});
+		$("#showPaymentWall").click(function(){
+			$("#morePaymentArea").show();
+		});
+	});
+</script> 
+
+			</div> 
+		</div> <!--user content end--> <!--user content end--> <!-- footer --> <!-- footer --> 
+
+		<script type="text/javascript" src="./igamemore_files/jquery.render.js"></script> 
+
+		<div class="footerBlock">
+		<div class="footerShare"> 
+		<div class="shareMain"> 
+			<a href="https://www.facebook.com/swordsofdivinity" target="_blank" class="faceBook transition">facebook</a> 
+			<a href="https://twitter.com/SwordsDivinity" target="_blank" class="twitter transition">twitter</a> 
+			<a href="https://www.youtube.com/channel/UCZgJs6M4YSsItk8xu6kJ6_g" target="_blank" class="YouTube transition">Youtube</a> <a href="https://plus.google.com/u/0/104585591676303316605" target="_blank" class="twitch  transition">Google</a> 
+		</div> 
+		</div> 
+		<div class="footer"> 
+		<div class="footerTop"> 
+		<p> <a href="http://www.igamemore.com/" target="_blank">Home</a>				| <a href="http://www.igamemore.com/guide/index/detail/id/168.html" target="_blank">Terms &amp; Conditions</a>				| <a href="http://www.igamemore.com/guide/index/detail/id/167.html" target="_blank">Privacy</a>				| <a href="http://www.igamemore.com/guide/index/detail/id/169.html" target="_blank">About Us</a>				| <a href="http://www.igamemore.com/support" target="_blank">Contact Us</a> </p> 
+		<div class="clear">	
+		</div> 
+		</div> 
+		<style>			
+			.footer .footerTop a.igamemoreLogo{display: block; margin: 0px auto;}
+			.footer .footerTop{width: 735px; height: 200px; text-align: center; color:#fff;}
+			.footer .footerTop p:first-child{line-height: 16pt;margin-bottom: 0;width: 536px; margin: 0px auto; text-align: left;}
+			.footer .footerTop p:first-child a{margin-left: 0; display: inline; height:auto;line-height: 25px; text-transform: none;}
+			.footer .footerTop p:first-child a:last-child{color:#32c5f4;}
+			.footer{height: auto;}
+		</style> 
+		<div class="footerBottom"> <p>iGameMore | All rights reserved.</p> 
+		</div> 
+		<div class="hoverPreLoad1">
+		</div> 
+		<div class="hoverPreLoad2">
+		</div> 
+		</div> 
+
+		<script type="text/javascript" src="./igamemore_files/jquery.nicescroll.js"></script>
+		<script type="text/javascript" src="./igamemore_files/uplay_sdk.1.0.min.js"></script> 
+		<script type="text/javascript" src="./igamemore_files/easyXDM.min.js"></script> 
+		<script type="text/javascript" src="./igamemore_files/gameTop.js"></script> 
+		<script type="text/javascript" src="./igamemore_files/user.js"></script> </div> <script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-83315702-1', 'auto');
+  ga('send', 'pageview');
+</script> 
+
+<!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MDJXGF');</script> <!-- End Google Tag Manager --> <!-- Google Tag Manager (noscript) --> <noscript>&lt;iframe src="//www.googletagmanager.com/ns.html?id=GTM-MDJXGF"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript> <!-- End Google Tag Manager (noscript) --> <div></div>  <style>	.form_pay { position:relative; margin: 40px 0 0 24px;font-family: initial;}
+</style> 
+
+<style>	header.topBar .topBar_main {height: 40px;}
+	a {
+		border: 0;
+		font-family: inherit;
+		font-size: 100%;
+		font-style: inherit;
+		font-weight: inherit;
+		margin: 0;
+		outline: 0;
+		padding: 0;
+		vertical-align: baseline;
+	}
+</style> </body></html>

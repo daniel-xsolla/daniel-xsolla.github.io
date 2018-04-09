@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="en_us">
+  <head>
+    <title>Xsolla Test Pay2Play</title>
+    <style type="text/css">
+        * {
+            font: Times;
+        }
+        body {
+            background: black;
+        }
+        .widget-block-item {
+        display: inline-block;
+        margin-right: 18px;
+        top:100px;
+        }
+
+        #XS-pay2play-widget-2 {
+            position:absolute;
+            display: inline-block;
+            top:1%;
+            left:15%;
+            width: 224px;
+            height:150px;
+            border-radius:10px;
+            padding-top:74px;
+
+            color:white;
+            font-size:24px;
+            background-color:gray;
+            text-align: center;
+
+            cursor: pointer;
+        }
+
+        #XS-pay2play-widget-3 {
+            position:absolute;
+            display: inline-block;
+            top:1%;
+            left:29%;
+            width: 224px;
+            height:150px;
+            border-radius:10px;
+            padding-top:74px;
+
+            color:white;
+            font-size:24px;
+            background-color:gray;
+            text-align: center;
+
+            cursor: pointer;
+        }
+
+        #XS-pay2play-widget-4 {
+            position:absolute;
+            display: inline-block;
+            top:1%;
+            left:43%;
+            width: 224px;
+            height:150px;
+            border-radius:10px;
+            padding-top:74px;
+
+            color:white;
+            font-size:24px;
+            background-color:gray;
+            text-align: center;
+
+            cursor: pointer;
+        }
+
+        #XS-pay2play-widget-5 {
+            position:absolute;
+            display: inline-block;
+            top:1%;
+            left:57%;
+            width: 224px;
+            height:150px;
+            border-radius:10px;
+            padding-top:74px;
+
+            color:white;
+            font-size:24px;
+            background-color:gray;
+            text-align: center;
+
+            cursor: pointer;
+        }
+
+        #XS-pay2play-widget-6 {
+            position:absolute;
+            display: inline-block;
+            top:1%;
+            left:71%;
+            width: 224px;
+            height:150px;
+            border-radius:10px;
+            padding-top:74px;
+
+            color:white;
+            font-size:24px;
+            background-color:gray;
+            text-align: center;
+
+            cursor: pointer;
+        }
+        
+        .xpaystation-widget-lightbox-content {
+            background: rgb(0, 0, 0) !important;
+        }
+
+
+    </style>
+  </head>
+  
+  <body>
+
+
+    <div id="XS-pay2play-widget-2">BUY ME SOME WEAPONS</div>
+    <div id="XS-pay2play-widget-3">BUY ME SOME FREAKING FLARBS</div>
+    <div id="XS-pay2play-widget-4">SUBSCRIBEEEEEE GOLD</div>
+    <div id="XS-pay2play-widget-5">GET A GAME CODEEEEE</div>
+
+   
+    <script>
+        var options2 = {
+            access_token: 'jYKowVdlSqpHGvRuucdzRrNfEPHsoGwh',
+            host: 'secure.xsolla.com',
+            target_element: "#XS-pay2play-widget-2",
+            sandbox:true,
+            lightbox:{
+                height: '700px'
+            }
+        };
+
+       var options3 = {
+            access_token: 'lMt28oAVEeWC4zQSrdoBZFXKaPuChpVt',
+            host: 'secure.xsolla.com',
+            target_element: "#XS-pay2play-widget-3",
+            sandbox:true,
+            lightbox:{
+                height: '700px'
+            }
+        };
+       var options4 = {
+            access_token: 'H0QjuI40mKFY8gu8CBLsRdpCoXnWXnQM',
+            host: 'secure.xsolla.com',
+            target_element: "#XS-pay2play-widget-4",
+            sandbox:true,
+            lightbox:{
+                height: '700px'
+            }
+        };
+        var options5 = {
+            access_token: 'hnNQMm2gW0y8xzIAhvrZTfj6GvDIRglQ',
+            host: 'secure.xsolla.com',
+            target_element: "#XS-pay2play-widget-5",
+            sandbox:true,
+            lightbox:{
+                height: '700px',
+                contentMargin: '10px'
+            }
+        };
+
+
+        var s = document.createElement('script');
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "//static.xsolla.com/embed/paystation/1.0.7/widget.min.js";
+        s.addEventListener('load', function (e) {
+            document.getElementById('XS-pay2play-widget-2').addEventListener('click',function(e){
+                XPayStationWidget.init(options2);
+                XPayStationWidget.open();
+            });
+            document.getElementById('XS-pay2play-widget-3').addEventListener('click',function(e){
+                XPayStationWidget.init(options3);
+                XPayStationWidget.open();
+            });
+            document.getElementById('XS-pay2play-widget-4').addEventListener('click',function(e){
+                XPayStationWidget.init(options4);
+                XPayStationWidget.open();
+            });
+            document.getElementById('XS-pay2play-widget-5').addEventListener('click',function(e){
+                XPayStationWidget.init(options5);
+                XPayStationWidget.open();
+            });
+        }, false); 
+        var head = document.getElementsByTagName('head')[0];
+        head.appendChild(s);
+        //embed version for flarbs
+    </script> 
+
+
+  </body>
+  
+  
+</html>

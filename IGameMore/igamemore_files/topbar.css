@@ -1,0 +1,149 @@
+@charset "utf-8";
+body,ul,li,span,p,font,div,fieldset,legend,img,input,form,h1,h2,h3,h4,h5,h6,h7,dl,dd,dt{margin:0px;padding:0px;}
+.topBar img{border:0px;}  .topBar a,.topBar link {text-decoration: none;} .topBar a:hover { text-decoration: underline;}
+.clear{clear: both;font-size:0px;padding: 0px;margin: 0px;height:0px;line-height:0px; }
+.topBar .clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;} .topBar .clearfix{*zoom:1;}
+.topBar ul,.topBar li {white-space:normal;list-style:none;}
+
+.topBar .fl { float:left;} .topBar .fr { float: right;}
+header,section,aside{display:block;}
+/*header*/
+
+
+
+/*header.topBar {height:60px;background:#202020; display:block; position:relative; z-index:99; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;}
+header.topBar .topBar_main{ margin:0 40px; background:#202020;text-transform:uppercase; position:relative; min-width: 1220px;}*/
+/*header.topBar {width:100%; height: 36px; border-bottom:1px solid #666666; line-height: 36px; background: #202020  repeat-x;  z-index: 20;}*/
+header.topBar {width:100%; height:36px;background:#202020; display:block; position:fixed; z-index:99; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;}
+header.topBar .topBar_main {width:100%; height:40px; background:#202020;text-transform:uppercase; position:fixed; min-width: 1220px;}
+header.topBar .topBar_logo{width:176px;padding:10px 0 0; height: 36px; float:left;}
+header.topBar .topBar_logo a{background:url("http://www.igamemore.com/themes/main/Public/images/layout/logo.png?v=0326") center no-repeat;height:36px; width: 176px; display:block;}
+
+.headerMain{width:1175px; height: 36px; margin: 0px auto;}
+.headerMain span,.headerMain a{ display: inline-block; height: 36px;overflow:  hidden;line-height: 36px;}
+.topBar span.space{width:2px; text-indent: 1000px; overflow: hidden; background: url("http://www.igamemore.com/themes/main/Public/img/headerBG.png") -194px -233px no-repeat; }
+
+.topBar a.iLogo{margin-top: 10px; width:98px; margin:0px 9px 0px 9px; text-indent: 1000px; overflow: hidden; background: url("http://www.igamemore.com/themes/main/Public/img/newsBG.jpg") -7px -76px no-repeat; }
+.topBar a.faceBook{width:13px;margin-left:10px; text-indent: 1000px; overflow: hidden; background: url("http://www.igamemore.com/themes/main/Public/img/headerBG.png") -46px -38px no-repeat; }
+.topBar a.twitter{width:20px;margin-left:8px; text-indent: 1000px; overflow: hidden; background: url("http://www.igamemore.com/themes/main/Public/img/headerBG.png") -70px -38px no-repeat; }
+.topBar a.twitch{width:50px;margin-left:8px;margin-right: 8px; text-indent: 1000px; overflow: hidden; background: url("http://www.igamemore.com/themes/main/Public/img/headerBG.png") -150px -38px no-repeat; }
+.topBar a.YouTube{width:45px;margin-left:8px; text-indent: 1000px; overflow: hidden; background: url("http://www.igamemore.com/themes/main/Public/img/headerBG.png") -98px -38px no-repeat; }
+.topBar a.faceBook:hover{background: url("http://www.igamemore.com/themes/main/Public/img/headerBG-hover.png") -46px -38px no-repeat; }
+.topBar a.twitter:hover{ background: url("http://www.igamemore.com/themes/main/Public/img/headerBG-hover.png") -70px -38px no-repeat;}
+.topBar a.twitch:hover{background: url("http://www.igamemore.com/themes/main/Public/img/headerBG-hover.png") -150px -38px no-repeat; }
+.topBar a.YouTube:hover{ background: url("http://www.igamemore.com/themes/main/Public/img/headerBG-hover.png") -98px -38px no-repeat; }
+
+.topBar_nav {padding:0 0 0 40px; float:left;}
+.topBar_nav li{display: inline-block;padding:0 13px;font:700 17px/60px 'Helvetica Neue', Arial, Helvetica, sans-serif;float: left; position:relative;}
+.topBar_nav a{color:#999; display:block; height: 60px;}
+.topBar_nav a:hover,.topBar_nav .cur{color:#fe6c00; text-decoration: none;}
+.topBar_nav .nav_juegos a { background:url("http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png") no-repeat right -691px;padding:0 21px 0 0px;}
+.topBar_nav .nav_juegos a:hover,.topBar_nav .nav_juegos a.cur { background-position: right -751px}
+
+.topBar_login{font:14px/1.2 'Helvetica Neue', Arial, Helvetica, sans-serif; float:right;}
+.topBar_login .btn_logT,.topBar_login .btn_signT{background: #333333;background: -webkit-gradient(linear, left top, left bottom, from(#404040), to(#282828));background: -webkit-linear-gradient(top, #404040, #282828); background: -moz-linear-gradient(top, #404040, #282828);background: -ms-linear-gradient(top, #404040, #282828);background: -o-linear-gradient(top, #404040, #282828); margin:17px 0 0 14px; -moz-box-shadow:1px 1px 4px #000;-ms-box-shadow:1px 1px 4px #000; border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;  position:relative;}
+.topBar_login .btn_signT { z-index:3;}
+.topBar_login .btn_logT { z-index:0;}
+/*.topBar_login .btn_logT {margin:17px 0 0 0px;}*/
+.topBar_login a.btn {color:#ff7800;display:block;height:26px; line-height:26px;background: #202020; padding:0 10px 0 16px; position:relative; font-size:14px;}
+.topBar_login a.btn:hover { border:1px solid  #ff7800;}
+.topBar_login .cur:before,.topBar_login .btn:hover:before { content:""; position:absolute; left:0; top:0; width:100%; height:100%;background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.3)), to(rgba(255, 255, 255, 0)));background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0)); background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));background: -o-linear-gradient(top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;-ms-border-radius:3px;}
+.topBar_login .btn_logT a.btn{ background-position: 7px 2px; }
+.topBar_login .btn_signT a.btn{ background-position: 7px -34px; }
+.topBar_login .userName_log { color:#FFF; padding-right:30px; line-height:60px; max-width: 100px; overflow:visible;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.topBar_login .userName_log em { color:#08bbfd; font-style: normal; padding-left: 8px; float: right;}
+.topBar_login .userName_log em a { color:#08bbfd;}
+.TB_massage {width: 30px; height: 60px; float:left; position:relative;}
+.topBar_login .TB_massage .btn_massage { display:block;width: 24px; height: 60px; background:url("http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png") no-repeat 0 -808px;}
+.topBar_login .TB_massage .cur:before { background: none;}
+.topBar_login .TB_massage .unread { background-position: 0 -868px;}
+.TB_massage .gameBox_nav {margin-left:-90px;}
+.btn_logoutT { display:block; color:#999999; line-height: 60px; margin-left:20px; height:60px; position:relative;}
+.btn_logoutT:before { content:""; width:1px; height:20px; background-color:#555555; position:absolute; top:20px; left: -14px;}
+
+.gameBox_nav { position:absolute; top: 60px; margin-left:-90px; left: 50%;z-index:99; background-color:#434343; text-transform: none; display: none;}
+.nav_juegos .gameBox_nav{margin-left:-260px; width: 521px; }
+.gameBox_nav .list_gameBoxNav { width: 180px; float:left;}
+.border_right { border-right: 1px solid #535353;}
+.gameBox_nav .list_gameBoxNav li { width: 180px; height: 48px;font:14px/48px 'Helvetica Neue', Arial, Helvetica, sans-serif;display:block;padding:0;float: none;}
+.gameBox_nav .list_gameBoxNav li.new { background:url("http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png") no-repeat right -575px;}
+.gameBox_nav .list_gameBoxNav li.hot {background:url("http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png") no-repeat right -621px;}
+.gameBox_nav .list_gameBoxNav li:hover { background-color:#5b5a5a;}
+.gameBox_nav .list_gameBoxNav li a{ color:#fefefe; display:block; height: 47px; margin:0 10px; border-bottom:1px solid #535353; padding-left:8px;background: none; overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.gameBox_nav .list_gameBoxNav li a:hover { text-decoration:none;}
+.gameBox_nav .list_gameBoxNav li:last-child a{ border: none;}
+.gameBox_nav .list_gameBoxNav li.titel_pc_gameBox { background:url("http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png") no-repeat 5px -460px #313131; padding-left: 40px;color:#fe6c00; width: 140px;}
+.gameBox_nav .list_gameBoxNav li.titel_mobile_gameBox { background:url("http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png") no-repeat 5px -510px #313131; padding-left: 40px;color:#fe6c00;width: 140px;}
+.css3_bounceIn{-webkit-animation:bounceIn 0.2s .2s ease both;-moz-animation:bounceIn 0.2s .2s ease both;animation:bounceIn 0.2s .2s ease both;}
+@-webkit-keyframes bounceIn{0%{opacity:0;-webkit-transform: scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes bounceIn{0%{opacity:0;-moz-transform: scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+@keyframes bounceIn{0%{opacity:0;transform: scale(0)}100%{opacity:1;transform:scale(1)}}
+
+.gameBox_nav .tooLong { width: 260px;}
+.gameBox_nav .tooLong li.titel_pc_gameBox,.gameBox_nav .tooLong li.titel_mobile_gameBox { width:220px;}
+.gameBox_nav .tooLong li{ width: 260px;}
+
+
+/*-- Language --*/
+.Select_Language { height:60px; position:relative; margin-left:14px;}
+.Select_Language:before { content:""; width:1px; height:20px; background-color:#555555; position:absolute; top:20px;}
+.Select_Language .now_Lang {height:60px; line-height:60px;background: url("http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png") no-repeat right -691px;padding: 0 28px 0 14px; color:#999999; font-size:14px; cursor: pointer;}
+.Select_Language .Lang_box { position:absolute; top:60px; margin-left:-52px; background-color:#434343; width:104px; padding: 6px 0 0 0; display: none;}
+.Lang_box li { line-height: 30px; text-align:center;border-bottom: 1px solid #535353; margin:0 6px; overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.Lang_box li a { color:#999999; font-size:13px;}
+.Lang_box li a:hover { text-decoration:none; color:#FFF;}
+.Lang_box .box_v{ width:12px; height:7px; background: url("http://www.igamemore.com/themes/main/Public/images/layout/topBarIcon.png") no-repeat 0 -84px; position:absolute; left:50%; margin: -6px; top:0px;}
+
+/*-- layout --*/
+.Tsign_box {font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;text-transform:none; position:absolute; top:0px; margin-left:-104px; background:none;display: none;}
+.Tsign_head { height:43px;}
+.Tsign_box .box_v{ width:12px; height:7px; background: url("http://www.igamemore.com/themes/main/Public/images/layout/topBarIcon.png") no-repeat 0 -84px; position:absolute; left:70px; top:37px;}
+.Tsign_box .Tsign_main { padding:10px 18px 10px 18px; background:#172129;opacity: 0.96;}
+.Tsign_box .form_Tsign {  margin:0 auto; }
+.Tsign_box .form_Tsign .Tdd { width: 276px; position: relative; margin-bottom:10px;}
+.Tsign_box .form_Tsign .input_Tlogin { width: 260px; height: 32px; border: none; background:#FFF;  padding:0 8px; color:#b5b5b5; font:14px/32px 'Helvetica Neue', Arial, Helvetica, sans-serif; outline: none;}
+.Tsign_box .form_Tsign .input_Tlogin:focus {box-shadow: 0 0 8px #fe9500,0 0 2px #fe9500; -webkit-box-shadow: 0 0 8px #fe9500,0 0 2px #fe9500;-moz-box-shadow: 0 0 8px #fe9500,0 0 2px #fe9500;-ms-box-shadow: 0 0 8px #fe9500,0 0 2px #fe9500;}
+.Tsign_box .form_Tsign .Tyzm{ width: 100px; height: 32px;overflow:hidden; background-color:#CCC; text-align:center;}
+.Tsign_box .form_Tsign .Tyzm img { width:100%; height:100%;}
+.Tsign_box .form_Tsign .Tdd .label_checkboxT {font-size: 12px; color:#ececec; line-height:20px; height:20px; cursor: pointer; position:relative; padding-left:22px;}
+.Tsign_box .form_Tsign .Tdd .label_checkboxT a {color:#fe6c00; font-size: 12px;}
+.Tsign_box .form_Tsign .Tdd .label_checkboxT input { width: 18px; height: 18px; float:left; margin-right:2px; position:absolute; left:0px; top:-1px; outline: none;}
+.Tsign_box .form_Tsign .Tdd .btn_forgotPaswT { color:#fe6c00; font-size: 12px; line-height:20px; text-decoration:underline;}
+.Tsign_box .form_Tsign .btn_sign { width: 276px; margin-top: 10px; }
+.Tsign_box .form_Tsign .btn_sign a{ display:block; width: 276px; height: 42px; text-align:center; line-height: 42px; font-size: 22px; color:#FFF; background: url("http://www.igamemore.com/themes/main/Public/images/layout/buttom-log-in.png") no-repeat;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.Tsign_box .form_Tsign .btn_sign a:hover { text-decoration: none;}
+.Tsign_box .other_accountT { width: 276px; margin:0 auto; border-top: 1px dashed #535353; margin-top: 10px;}
+.Tsign_box .other_accountT .titleT { line-height: 26px; color:#ececec; font-size: 14px; padding-bottom:4px;}
+.Tsign_box .other_accountT .listT {}
+.Tsign_box .other_accountT .listT li { float:left; text-align:center; width: 55px;}
+.Tsign_box .other_accountT .listT li a { color:#FFF; display:block; width:100%; font-size: 12px; line-height: 16px;}
+.Tsign_box .other_accountT .listT li a:hover { opacity:0.8;}
+.Tsign_box .other_accountT .listT li a h3 {width: 38px; height: 38px; display:inline-block; background: url("http://www.igamemore.com/themes/main/Public/images/layout/topBarIcon.png") no-repeat;}
+.Tsign_box .other_accountT .listT li a .Facebook { background-position:0 -104px;}
+.Tsign_box .other_accountT .listT li a .Google { background-position: 0 -143px;}
+.Tsign_box .other_accountT .listT li a .Yahoo { background-position: 0 -182px;}
+.Tsign_box .other_accountT .listT li a .Twitter { background-position: 0 -221px;}
+.Tsign_box .other_accountT .listT li a .Windows { background-position: 0 -260px;}
+.Tsign_box .form_Tsign .Tdd .wrong_tipT { color:#ec502c; padding:4px 4px 0 4px; line-height: 15px; z-index:2;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; left: 0px; min-width: 240px; display: none; font-size:12px;}
+.form_Tsign .Tdd .nor { color:#b5b5b5;}
+.form_Tsign .Tdd .cur { color:#333;}
+
+.Tsign_box_B { padding: 17px 0 0 0;}
+.Tsign_box_B .Thang { float:left; margin-right:10px; position:relative;}
+.Tsign_box_B .input_Tlogin { border: none; height:26px; line-height: 26px; outline: none; background:#ffffff; width:100px; padding:0 5px; font-size:14px; color:#999999;}
+.Tsign_box_B .input_Tlogin:focus { box-shadow:2px 2px 5px rgba(0, 0, 0, 0.7) inset; -webkit-box-shadow:2px 2px 5px rgba(0, 0, 0, 0.7) inset; -moz-box-shadow:2px 2px 5px rgba(0, 0, 0, 0.7) inset;}
+.Tsign_box_B .Tyzm { width: 60px; height:26px;}
+.Tsign_box_B .Tyzm img { width:100%; height:100%;}
+.Tsign_box_B .Thang .wrong_tipTB { position:absolute; top: 30px; background-color:#fe6c00; color:#FFF; padding:8px; line-height: 16px; z-index:2;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; left: 0px; min-width: 240px; display: none; box-shadow:2px 2px 8px rgba(0, 0, 0, 0.7); font-size:12px;text-transform:none;}
+.Tsign_box_B .Thang .wrong_tipTB .tip_sj { color:#fe6c00; position:absolute; top: -13px; font-size:20px; left: 26px; font-weight:bold;}
+.Tsign_box_B .Thang .forgotPaswT { color:#393938; display:block; text-decoration:underline;}
+.QLoginT { padding-top: 17px; height:26px;}
+.QLoginT li { float:left; padding-left:8px;}
+.QLoginT li a { display:block; width:26px; height:26px; background:url("http://www.igamemore.com/themes/main/Public/images/layout/topBarIcon.png") no-repeat;}
+.QLoginT li a.FacebookT { background-position:0 -299px;}
+.QLoginT li a.GoogleT {background-position:0 -326px;}
+.QLoginT li a.TwitterT {background-position:0 -353px;}
+.QLoginT li a.YahooT {background-position:0 -380px;}
+.QLoginT li a.WindowsT {background-position:0 -407px;}
+.Tsign_box_B .Thang .nor { color:#b5b5b5;}
+.Tsign_box_B .Thang .cur { color:#333;}

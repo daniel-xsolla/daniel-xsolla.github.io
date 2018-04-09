@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+#jquery-loader{
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 5px 5px 5px 5px;
+	text-align: center;
+	background: url(/js/source/payment/ajax-loader.gif) no-repeat scroll 50% 50% #000000
+}
+#jquery-loader-overlay{
+  background-color: #000;
+}

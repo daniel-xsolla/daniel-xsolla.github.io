@@ -1,0 +1,126 @@
+@charset "utf-8";
+body,ul,li,span,p,font,div,fieldset,legend,img,input,form,h1,h2,h3,h4,h5,h6,h7,dl,dd,dt{margin:0px;padding:0px;}
+.popUp_sign img{border:0px;}  .popUp_sign a,.popUp_sign link {text-decoration: none;} .popUp_sign a:hover { text-decoration: underline;}
+.popUp_sign .clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;} .popUp_sign .clearfix{*zoom:1;}
+.popUp_sign ul,.popUp_sign li {white-space:normal;list-style:none;}
+.popUp_sign .fl { float:left;} .popUp_sign .fr { float: right;}
+
+
+/*=-老版本(保留未整合)
+----------------------------------------------------------*/
+/*-- layout --*/
+.popUp_sign {font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif; background-color:#172129;}
+.popUp_sign .popUp_head { position:relative;}
+.popUp_sign .popUp_head .btn_close { display:block; width: 64px; height: 64px; text-indent: -999em; overflow:hidden; background:url(../images/layout/sprite_other.png) no-repeat 0 0; position:absolute; right:0; top:0;}
+.popUp_sign .popUp_head .btn_close:hover { background-position: 0 -64px;}
+.popUp_sign .popUp_head .title { padding: 26px 0 30px 0; height: 40px; line-height: 48px;} 
+.popUp_sign .popUp_head .title p { font-size: 34px; height: 40px; line-height: 40px; color:#fff; text-align:center;font-weight:bold;text-transform:uppercase;}
+.popUp_sign .popUp_main {}
+/*-- Login Pop Up--*/
+.popUp_sign { width: 540px; height: 560px;}
+.popUp_sign .form_login { width: 410px; margin:0 auto; padding: 0;}
+.popUp_sign .form_login .dd { width: 410px; margin-bottom: 16px; position: relative;}
+.popUp_sign .form_login .input_login { width: 392px; height: 40px; border:1px solid #b0afaf; padding:0 8px; color:#cfcfcf; font:16px/40px 'Helvetica Neue', Arial, Helvetica, sans-serif; outline: none;}
+.popUp_sign .form_login .input_login:focus { -webkit-box-shadow: 0 0 6px #fe9500;-moz-box-shadow: 0 0 6px #fe9500;box-shadow: 0 0 6px #fe9500;border:1px solid #fe9500;}
+.popUp_sign .form_login .yzm{ width: 140px; height: 40px;border:1px solid #b0afaf; overflow:hidden;}
+.popUp_sign .form_login .dd .label_checkbox {font-size: 12px; color:#444444; line-height:20px; cursor: pointer; position:relative; padding-left:22px; display:block;}
+.popUp_sign .form_login .dd .label_checkbox a {color:#fe6c00; font-size: 12px;}
+.popUp_sign .form_login .dd .label_checkbox input { width: 18px; height: 18px; float:left; margin-right:2px; position:absolute; left:0px; top:1px;}
+.popUp_sign .form_login .dd .btn_forgotPasw { color:#fe6c00; font-size: 12px; margin-left: 60px;}
+.popUp_sign .form_login .btn_sign { width: 410px; margin-top: 26px; }
+.popUp_sign .form_login .btn_sign a{ display:block; width: 410px; height: 50px; text-align:center; line-height: 50px; font-size: 24px; color:#FFF; background: url(../images/layout/buttom-sign-up.png) no-repeat;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.popUp_sign .form_login .btn_sign button{ display:block; width: 410px; height: 50px; text-align:center; line-height: 50px; font-size: 24px; color:#FFF; background:#fe9500;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}
+.popUp_sign .form_login .btn_sign a:hover { text-decoration: none;}
+.popUp_sign .form_login .btn_sign button:hover { text-decoration: none; background:#fe6c00;}
+.popUp_sign .form_login div.noAccount { width: 410px; text-align:center; color:#444444; font-size:12px; line-height: 28px;}
+.popUp_sign .form_login div.noAccount a { color:#fe6c00;}
+.popUp_sign .other_account { width: 410px; margin:0 auto; border-top: 1px dashed #c5c5c5; margin-top: 30px;}
+.popUp_sign .other_account .title { line-height: 46px; color:#444444; font-size: 14px;padding: 0 0 8px 0;}
+.popUp_sign .other_account .list {}
+.popUp_sign .other_account .list li { float:left; text-align:center; width: 74px;}
+.popUp_sign .other_account .list li a { color:#444444; display:block; font-size: 12px; line-height: 24px;}
+.popUp_sign .other_account .list li a h3 {width: 42px; height: 42px; display:inline-block; background: url(../images/layout/sprite_other.png) no-repeat;}
+.popUp_sign .other_account .list li a .Facebook { background-position: -64px 0;}
+.popUp_sign .other_account .list li a .Google { background-position: -106px 0;}
+.popUp_sign .other_account .list li a .Yahoo { background-position: -148px 0;}
+.popUp_sign .other_account .list li a .Twitter { background-position: -190px 0;}
+.popUp_sign .other_account .list li a .Windows { background-position: -232px 0;}
+.popUp_sign .form_login .dd .wrong_tip { position:absolute; top: 36px; background-color:#fe6c00; color:#FFF; padding:8px; line-height: 16px; z-index:2;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px; left: 10px; min-width: 240px; display: none;}
+.popUp_sign .form_login .dd .wrong_tip .tip_sj { color:#fe6c00; position:absolute; top: -13px; font-size:20px; left: 26px; font-weight:bold;}
+
+
+.form_login .dd .nor { color:#cfcfcf;}
+.form_login .dd .cur { color:#333;}
+
+/*=-新版本
+----------------------------------------------------------*/
+.pop_sign { width:820px; height:550px;opacity: 0.96;}
+.pop_sign .popUp_head { position:relative; z-index:9;}
+.pop_sign .popUp_head .title { padding: 20px 0 20px 0; display: none;} 
+.pop_sign .popUp_head .title p { font-size: 36px;}
+.pop_sign .title_small { font-size: 24px; font-weight:bold; color:#444444; margin-bottom: 14px;}
+.pop_sign .popUp_main { padding:0 0 20px 36px; position:relative;}
+.pop_sign .form_login { width: 384px; height:470px; padding:80px 36px 0 24px; position:absolute; left:0; top:0; background:#172129;}
+.pop_sign .form_login .dd {width: 384px;}
+.pop_sign .form_login .input_login{ width:366px; }
+.pop_sign .form_login .yzm { width: 100px;}
+.pop_sign .form_login .yzm img{ width:100%; height:100%;}
+.pop_sign .form_login .btn_sign {width: 384px;}
+.pop_sign .form_login .btn_sign a {width: 384px;}
+.pop_sign .form_login .btn_sign button{ width: 384px;}
+.pop_sign .form_login .dd .label_checkbox { }
+.pop_sign .form_login .dd .btn_forgotPasw { position:absolute; right:0; top:0; line-height:20px; margin:0;}
+.pop_sign .form_login .dd .btn_forgotPasw a { color:#fe6c00}
+.pop_sign .form_login div.noAccount {width: 384px; line-height:16px; padding-top:12px;}
+.pop_sign .other_account { float:left; width: 315px; margin:0; border: none; padding-top:70px;}
+.pop_sign .other_account .title { font-size: 17px; font-weight: bold;}
+.pop_sign .other_account .list { padding-top:40px;}
+.pop_sign .other_account .list li { width:82px; padding:0 10px;}
+.pop_sign .other_account .list li a { color:#202020; font-size:16px; line-height:36px; width:100%;}
+.pop_sign .other_account .list li a h3 { width:56px; height:56px; background: url(../images/layout/fbgoogle.png) no-repeat;}
+.pop_sign .other_account .list li a .Twitter { background-position:0 -112px;}
+.pop_sign .other_account .list li a .Yahoo { background-position:-58px -112px;} 
+.pop_sign .other_account .list li a .Windows { background-position:-116px -112px;}  
+.pop_sign .line { height: 360px; width:1px; border-right:1px dashed #c5c5c5; position:absolute; left:374px; top:40px; z-index:3;}
+.pop_sign .line:before { content:""; width:1px; height:46px; position:absolute; left:0px; top:50%; margin-top:-23px;border-right:0px solid #FFF; }
+.pop_sign .line p{ width: 28px; height: 46px; line-height:46px; color:#aaaaaa; font-size:22px; left:-12px; position:absolute; top: 50%; margin-top: -23px;}
+.pop_sign .form_login .dd .wrong_tip { left:0px;}
+.pop_sign .form_login .btn_sign { margin-top:10px;}
+.btn_fbLogin,.btn_gLogin,.btn_tLogin { display:block; width:295px; height:54px; background: url(../images/layout/fbgoogle.png) no-repeat; line-height:54px; color:#FFF; font-size:18px; padding-left: 70px; margin-bottom:16px;}
+.btn_fbLogin { background-position: 0 0;}
+.btn_gLogin { background-position: 0 -56px;}
+.btn_tLogin { background-position: 0 -112px;}
+.pop_sign .btn_fbLogin:hover { background-position: -317px 0; text-decoration: none;}
+.pop_sign .btn_gLogin:hover { background-position: -317px -56px; text-decoration:none;}
+.pop_sign .btn_tLogin:hover { background-position: -317px -112px; text-decoration:none;}
+.Glogo { text-align:center; padding-bottom:16px;}
+
+/* 翻页动画 */
+.popUp_main {perspective: 1400px;-webkit-perspective: 1400px;-moz-perspective: 1400px;-ms-perspective: 1400px;-o-perspective: 1400px;perspective-origin: center center;-webkit-perspective-origin: center center;-moz-perspective-origin: center center;-ms-perspective-origin: center center;-0-perspective-origin: center center;}
+.box_loginG,.box_SignUpG { width:444px; height:550px; right:0; top:-80px;position:absolute; background-color:#172129;transform-origin:left center;-webkit-transform-origin:left center;-moz-transform-origin:left center;-ms-transform-origin:left center;-0-transform-origin:left center; transform-style: preserve-3d;-webkit-transform-style: preserve-3d;-moz-transform-style: preserve-3d;-ms-transform-style: preserve-3d;-0-transform-style: preserve-3d; }
+.popUp_main .pageRotate {z-index:3; animation:pageRotate 1s ease both;-webkit-animation:pageRotate 1s ease both;-moz-animation:pageRotate 1s ease both;-ms-animation:pageRotate 1s ease both;-0-animation:pageRotate 1s ease both;}
+.popUp_main .pageRotate:before { content:""; position:absolute; width:100%; height:100%; z-index:6;
+background: -moz-linear-gradient(left,  rgba(0,0,0,0.18) 0%, rgba(0,0,0,0) 62%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.18)), color-stop(62%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,0.18) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(0,0,0,0.18) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(0,0,0,0.18) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(0,0,0,0.18) 0%,rgba(0,0,0,0) 62%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */}
+.pageRotate .other_account{ position:absolute; left:0; top:0; z-index:3; padding: 150px 0 0 103px; width:341px; height:400px;background-color:#FFF;transform:rotateY(180deg) translateZ(2px);-webkit-transform:rotateY(180deg) translateZ(2px);-moz-transform:rotateY(180deg) translateZ(2px);-ms-transform:rotateY(180deg) translateZ(2px);-0-transform:rotateY(180deg) translateZ(2px);}
+@keyframes pageRotate{0%{transform:rotateY(0) scaleX(1);}60%{ opacity:1;}100%{transform:rotateY(-180deg) scaleX(0.83); opacity:0;}}
+@-webkit-keyframes pageRotate{0%{-webkit-transform:rotateY(0) scaleX(1);}60%{ opacity:1;}100%{-webkit-transform:rotateY(-180deg) scaleX(0.83); opacity:0;}}
+@-moz-keyframes pageRotate{0%{-moz-transform:rotateY(0) scaleX(1);}60%{ opacity:1;}100%{-moz-transform:rotateY(-180deg) scaleX(0.83); opacity:0;}}
+@-ms-keyframes pageRotate{0%{-ms-transform:rotateY(0) scaleX(1);}60%{ opacity:1;}100%{-ms-transform:rotateY(-180deg) scaleX(0.83); opacity:0;}}
+@-o-keyframes pageRotate{0%{-o-transform:rotateY(0) scaleX(1);}60%{ opacity:1;}100%{-o-transform:rotateY(-180deg) scaleX(0.83); opacity:0;}}
+#loginG .title_loginG { display:block;}
+#loginG .box_loginG{ z-index:1}
+#SignUpG .title_SignUpG { display:block;} 
+#SignUpG .box_SignUpG{z-index:1}
+
+
+.existingH { font-size:24px; line-height:44px; height:51px; color:#444444; text-align:center;}
+.other_account .tip_singS { font-size: 14px; color:#444444; line-height:18px; margin-top:50px;}
+.other_account .tip_singS em { font-style: normal; margin-bottom: 10px; display:block;}
+#loginG .existingS { display: none;}
+#SignUpG .existingL { display: none;}

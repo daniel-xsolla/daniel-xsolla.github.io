@@ -1,0 +1,154 @@
+/* NXW_SOURCE > eptica_contact.css */
+
+#eptica_contact table{border-collapse:collapse;empty-cells:show}
+#eptica_contact a{text-decoration:none;outline:none}
+#eptica_contact ul{list-style:none}
+
+#eptica_contact_border{margin:0 auto;padding:5px 10px;border-collapse:separate;border:1px solid #D8D8D8}
+#eptica_contact{margin:0 auto;border-collapse:collapse;empty-cells:show}
+#eptica_contact td{color:#000;font-family:Arial,Verdana,Helvetica,sans-serif;font-size:12px;vertical-align:top;padding:1px 0}
+#eptica_contact td.eptica_contact_empty{font-size:0;text-indent:-9999px;overflow:hidden}
+#eptica_contact td.eptica_contact_mandatory{color:#C30;font-family:Arial,Verdana,Helvetica,sans-serif;font-size:12px;font-weight:normal;text-align:right}
+#eptica_contact td.eptica_contact_cell_width_left{width:250px}
+#eptica_contact td.eptica_contact_cell_width_right{}
+#eptica_contact td label{padding:0 10px 0 0;display:block}
+#eptica_contact td span{color:#C30}
+#eptica_contact td input{width:170px}
+#eptica_contact td input,#eptica_contact td select,#eptica_contact td textarea{font-size:12px;border:1px solid #D8D8D8}
+#eptica_contact td textarea#message{}
+#eptica_contact td option{padding:0 10px 0 0}
+#eptica_contact td i{color:#8B8B8B;font-size:9px;font-weight:normal;white-space:nowrap}
+#eptica_contact td#eptica_contact_btn_send_position{text-align:right}
+#eptica_contact td input#eptica_contact_btn_send{width:auto;cursor:pointer}
+#eptica_contact_mess_sent{color:#000;font-family:Arial,Verdana,Helvetica,sans-serif;font-size:12px;padding:15px 0 0 0}
+#eptica_contact_mess_sent a{color:#000;font-family:Arial,Verdana,Helvetica,sans-serif;font-size:12px;text-decoration:underline}
+.eptica_contact_note { font-size: 11px; color: #555;}
+/* NXW_SOURCE > eptica_contact.css | end */
+
+/* NXW_SOURCE > fax.css */
+/*--- fax ---*/
+#nxw_fax{width:700px;margin:0 auto;background:#FFF;}
+
+#nxw_fax a{text-decoration:none;outline:none}
+#nxw_fax a:hover{text-decoration:underline}
+#nxw_fax ul,#fax p{margin:0;padding:0;border:0;list-style:none}
+#nxw_fax .fax_color{color:#006D55}
+
+#nxw_fax #fax_head{padding:15px 90px;background:#DFDFDF}
+#nxw_fax #fax_head div{font-weight:bold;padding:0 0 10px 0}
+#nxw_fax #fax_head ul{padding:0 0 0 15px}
+#nxw_fax #fax_head_scissors{padding:0 0 0 15px;background:#DFDFDF url(img/source/fax/fax_scissors_bg.png) repeat-x}
+#nxw_fax #fax_body{padding:5px 10px 0 10px}
+#nxw_fax #fax_body #fax_body_head{padding:0 0 20px 0;overflow:hidden;zoom:1}
+#nxw_fax #fax_body #fax_body_head span{padding:2px 0 25px 0;display:block}
+#nxw_fax #fax_body #fax_body_head #col_right{float:right}
+
+.nxw_fax_box_head{color:#666;font-weight:bold;padding:4px 10px;
+border:1px solid #CCC;
+border-radius:8px 8px 0 0;
+-moz-border-radius:8px 8px 0 0;
+-webkit-border-radius:8px 8px 0 0;
+background:#DFDFDF url(css/source/gradient.php?s[0]=FFFFFF&s[100]=D0D0D0);/* old browsers & IE9 */
+background:-moz-linear-gradient(top,#FFFFFF,#D0D0D0);/* Firefox 3.6 */
+background:-webkit-gradient(linear,0 0,0 100%,from(#FFFFFF),to(#D0D0D0));/* Safari et Chrome */
+-pie-background:linear-gradient(top,#FFFFFF,#D0D0D0);/* IE6/7/8 */
+behavior:url(js/source/htc/PIE.htc)}
+.nxw_fax_box_body{padding:10px;
+border-right:1px solid #CCC;border-bottom:1px solid #CCC;border-left:1px solid #CCC;
+border-radius:0 0 8px 8px;
+-moz-border-radius:0 0 8px 8px;
+-webkit-border-radius:0 0 8px 8px;
+background:#FFFFFF url(css/source/gradient.php?s[0]=FFFFFF&s[100]=DFDFDF);/* old browsers & IE9 */
+background:-moz-linear-gradient(top,#FFFFFF,#DFDFDF);/* Firefox 3.6 */
+background:-webkit-gradient(linear,0 0,0 100%,from(#FFFFFF),to(#DFDFDF));/* Safari et Chrome */
+-pie-background:linear-gradient(top,#FFFFFF,#DFDFDF);/* IE6/7/8 */
+behavior:url(js/source/htc/PIE.htc)}
+
+#nxw_fax_cb_nb_cartes{width:170px;float:left}
+#nxw_fax_cb_nb_cartes td{padding:2px 5px}
+#nxw_fax_cb_nb_cartes td div{height:20px;width:27px;font-size:0;text-indent:-9999px;background:url(img/source/fax/sprite_fax.png) no-repeat;overflow:hidden}
+#nxw_fax_cb_nb_cartes td div.card_cb{background-position:-19px -70px}
+#nxw_fax_cb_nb_cartes td div.card_visa{background-position:-82px -70px}
+#nxw_fax_cb_nb_cartes td div.card_mastercard{background-position:-147px -70px}
+#nxw_fax_cb_nb_cartes td div.card_american_express{background-position:-211px -70px}
+#nxw_fax_cb_nb_cartes td div.card_jcb{background-position:-275px -70px}
+#nxw_fax_cb_nb_cartes td div.card_postepay{background-position:-339px -70px}
+#nxw_fax_cb_nb_content{width:auto;margin:0 0 0 190px}
+#nxw_fax_cb_nb_content table{width:100%;border:1px solid #CCC}
+#nxw_fax_cb_nb_content td{font-weight:bold;padding:0 5px;border-bottom:1px solid #CCC}
+#nxw_fax_cb_nb_content td.fax_cb_nb_content_title{height:32px;border-right:1px solid #CCC}
+#nxw_fax_txt_crypto{font-size:10px;margin:5px 0 15px 0}
+
+.nxw_fax_box_table{width:100%;border-collapse:separate}
+.nxw_fax_box_table td{padding:4px 10px;border-right:1px solid #CCC;border-left:1px solid #FFF;border-bottom:1px solid #CCC}
+.nxw_fax_box_table td.fax_first_col{border-left:1px solid #CCC}
+.nxw_fax_box_table td.fax_last_col{border-right:1px solid #CCC}
+.nxw_fax_box_table tr.fax_last_row td{border-bottom:1px solid #CCC;
+background:#F6F6F6;/* old browsers */
+background:-moz-linear-gradient(top,#FFFFFF,#DFDFDF);/* Firefox 3.6 */
+background:-webkit-gradient(linear,0 0,0 100%,from(#FFFFFF),to(#DFDFDF));/* Safari et Chrome */
+-pie-background:linear-gradient(top,#FFFFFF,#DFDFDF);/* IE6/7/8 */
+behavior:url(js/source/htc/PIE.htc)}
+.nxw_fax_box_table tr.fax_last_row td.fax_left{
+border-radius:0 0 0 8px;
+-moz-border-radius:0 0 0 8px;
+-webkit-border-radius:0 0 0 8px;
+behavior:url(js/source/htc/PIE.htc)}
+.nxw_fax_box_table tr.fax_last_row td.fax_right{
+border-radius:0 0 8px 0;
+-moz-border-radius:0 0 8px 0;
+-webkit-border-radius:0 0 8px 0;
+behavior:url(js/source/htc/PIE.htc)}
+.nxw_fax_box_table .fax_product_price{font-size:14px}
+.nxw_fax_box_table .fax_product_price s{font-size:12px}
+.nxw_fax_box_table .fax_box_spacer{height:4px;font-size:0;text-indent:-9999px;padding:0;border-right:0;border-left:0;overflow:hidden}
+
+#nxw_fax #fax_foot{width:100%}
+#nxw_fax #fax_foot td{padding:20px 40px}
+/*--- fax_off ---*/
+/*--- fax_return ---*/
+#nxw_fax_return_container{width:680px;margin:10px auto}
+#nxw_fax_return_container a{color:#006D55;text-decoration:underline}
+/*--- fax_return_off ---*/
+/* NXW_SOURCE > fax.css | end */
+
+#eptica_contact_mess_sent {
+    padding: 15px 20px;
+}
+
+#eptica_contact_border {
+margin: 0 auto;
+padding: 5px 10px;
+border-collapse: separate;
+border: none;
+width: 100%;
+}
+
+#eptica_contact {
+margin: 0 auto;
+border-collapse: collapse;
+empty-cells: show;
+width: 100%;
+}
+
+#eptica_contact td {
+color: #000;
+font-family: Arial,Verdana,Helvetica,sans-serif;
+font-size: 12px;
+vertical-align: top;
+padding: 10px 0;
+text-align: left;
+}
+
+#eptica_contact td input, #eptica_contact td select{
+font-size: 12px;
+border: 1px solid #D8D8D8;
+height: 34px;
+width:80%;
+}
+#eptica_contact td textarea {
+font-size: 12px;
+border: 1px solid #D8D8D8;
+width:80%;
+height: 144px;
+}

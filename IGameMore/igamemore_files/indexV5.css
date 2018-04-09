@@ -1,0 +1,628 @@
+@charset "utf-8";
+/*ͼƬ�ֲ�*/
+.flexslider{position: relative;height:540px;overflow:hidden;background: url(http://www.igamemore.com/themes/main/Public/images/index/payment_head.jpg) 50% no-repeat;margin-bottom:56px;}
+.slides { position: relative; z-index: 1;}
+.slides li { height: 540px;}
+.slides li a { display:block; width:100%; height:100%;}
+.flex-control-nav{position: absolute;bottom:25px;z-index:2;right:30%;}
+.flex-control-nav li{display: inline-block;margin: 0 5px; *display: inline; zoom: 1;}
+.flex-control-nav a{display: inline-block;height:24px;width:24px;line-height:150px;overflow: hidden;cursor: pointer;
+	-webkit-border-radius:30px; -moz-border-radius:30px; border-radius:30px;
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,.5); -moz-box-shadow: 0 0 2px rgba(0,0,0,.5); box-shadow: 0 0 2px rgba(0,0,0,.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#7FFFFFFF', endColorstr='#7FFFFFFF');}
+:root .flex-control-nav a{filter:none;background-color:rgba(255,255,255,0.5);}
+.flex-control-nav a.flex-active {width:52px;
+	-webkit-border-radius:30px; -moz-border-radius:30px; border-radius:30px;
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,.5); -moz-box-shadow: 0 0 2px rgba(0,0,0,.5); box-shadow: 0 0 2px rgba(0,0,0,.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#FFFFCC00', endColorstr='#FFFFCC00');
+}
+:root .flex-control-nav a.flex-active {
+	filter:none;
+	background-color:rgba(255,204,0,1);
+}
+
+/*con*/
+div.main{padding-bottom:56px;}
+.indexH2{background:url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_icon.png) no-repeat;height:46px;font:700 36px/.9 'Helvetica Neue', Arial, Helvetica, sans-serif;color:#444;text-transform:uppercase;padding-left:53px;}
+.indexH2 span{display: block;}
+.indexH2 .tts{font-size:16px;color:#909090;}
+
+.jHot{background-position: 0 -182px;}
+.fb{background-position: 0 -228px;}
+.juegos{background-position: 0 -275px;}
+.movil{background-position: 0 -320px;}
+.noticias{background-position: 0 -366px;}
+.hot{background-position: 0 -413px;}
+
+.more{display: block;margin-top:-18px;font:400 14px/1.3 'Verdana';color:#909090;}
+.more i{font-style: normal;color:#08bbfd;}
+
+/*List1*/
+.r-fb-list{width:290px;}
+.lh-game{width:910px;}
+/*hot*/
+.hot-game{padding-top:40px;width:930px;}
+.hot-game a{position: relative;width:290px;height:390px;float:left;margin-right:20px;color:#fff;display: block;}
+.hot-game a:hover { text-decoration:none;}
+.t-list{height:139px;width:290px;position: absolute;bottom:0;left:0;z-index:9;
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#BF000000', endColorstr='#BF000000');overflow: hidden;}
+:root .t-list {
+	filter:none;
+	background-color:rgba(0,0,0,0.75);
+}
+.t-list span{display: block;}
+.t-list .tit{font: 24px/2.1 'Helvetica Neue', Arial, Helvetica, sans-serif;padding:0 3px 0 16px;}
+.t-list .txt{font-size:12px;padding:3px 16px;height:80px;overflow: hidden;line-height:1.5;color:#cecece; position:relative;}
+.t-list .btn{background:url(http://www.igamemore.com/themes/main/Public/images/index/btnRight.png) right center no-repeat;width:195px;height:50px;font:20px/2.4 'Helvetica Neue', Arial, Helvetica, sans-serif;text-indent: 20px;margin-top:15px; position:absolute; left: -195px; top: 40px;}
+.t-list .soon{font: 24px/139px 'Helvetica Neue', Arial, Helvetica, sans-serif;padding:0 7px;color:#909090;text-align: center;}
+
+/*fb*/
+.fb-cont{width:290px;height:390px;overflow:hidden;margin-top:40px;}
+
+/*list2*/
+/*left*/
+.juegos-list{padding-top:20px;width:741px;}
+.juegos-list a{position: relative;width:227px;height:157px;margin:20px 20px 0 0;display: block;float: left; overflow:hidden}
+.j-pic span{height:33px;position: absolute;display: block;bottom: 0;left:0;font-family: 'Verdana';width:227px;text-indent:16px;color:#fff;
+	filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#A5000000', endColorstr='#A5000000');}
+
+:root .j-pic span {
+	filter:none;
+	background-color:rgba(0,0,0,0.65);
+}
+.p-hover{position: absolute;top:-157px;left:0;height:157px;overflow: hidden; _filter:alpha(opacity=0); opacity:0;}
+.juegos-list a:hover { text-decoration: none;}
+
+/*mobile*/
+.m-list{width:450px;padding-top:11px;}
+.m-list a{display: block;width:125px;float: left;margin:29px 25px 0 0;}
+.m-list .txt{display: block;text-align: center;font:16px/1.2 'Helvetica Neue', Arial, Helvetica, sans-serif;color:#777;}
+.m-list a:hover .txt{text-decoration: underline;}
+.m-list .less_list a{ float: none; margin:28px 0 40px 0;  width: 160px;}
+.m-list .less_list a img {padding-left: 20px;}
+.less_list li { float:left; margin-right: 58px;}
+.less_list li .btn_ios { display:block; width:160px; height:49px; background:url(http://www.igamemore.com/themes/main/Public/images/index/download.jpg) no-repeat 0 0; margin:0 0 20px 0; padding:0;}
+.less_list li .btn_Android {display:block; width:160px; height:49px; background: url(http://www.igamemore.com/themes/main/Public/images/index/download.jpg) no-repeat -160px 0;margin:0 0 20px 0; padding:0;}
+.less_list li .btn_ios:hover { background-position: 0 -49px;}
+.less_list li .btn_Android:hover { background-position: -160px -49px;}
+/*List3*/
+.l-list{width:721px;}
+.r-list{width:420px; overflow: hidden;}
+.hotPIc{margin:35px 0 -10px;}
+
+/*news*/
+.news-list{padding-top:10px;}
+.news-list .nr{padding:30px 0;border-bottom: 1px dashed #c4c4c4;height:100px;}
+.news-list .pic{float: left;width:217px;}
+.news-list .pic img{ width: 196px; height: 100px;}
+.news-list dl{width:504px;}
+.news-list dl dt { height:33px;}
+.news-list h3{font:700 20px/33px 'Helvetica Neue', Arial, Helvetica, sans-serif;width: 386px; height: 33px; float:left;}
+.news-list h3 a{color:#35c0ff; display:block;width: 386px; height: 33px; overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.news-list .data{float: right;color:#08bbfd;}
+
+.news-list dd{line-height:1.5; float:none;}
+.news-list a.m{float: right;color:#35c0ff;font-size:12px;padding-top:3px;}
+
+/*===============================================   page  ================================================*/
+.PageMain {}
+.PageMain .PageHead{ height: 250px;}
+.PageMain .PageHead .PageHead_main{ width: 1220px; margin:0 auto;}
+.PageMain .PageHead .PageHead_main .title { color:#444444; font-size: 60px; line-height: 250px; font-weight:700;text-transform:uppercase;}
+.PageMain .PageContent { width: 1000px; margin:0 auto; min-height:600px; _height:600px; background-color: #fff;}
+.PageMain .PageContent .sideBar { width: 100px; background:#fff no-repeat right top; min-height: 600px;}
+/*.PageMain .PageContent .sideBar { width: 365px; background:url(../images/index/sidebar_shadow.jpg) no-repeat right top; min-height: 600px;}*/
+
+/*-=About us
+-----------------------------------------------------------*/
+.about_head { background:url(http://www.igamemore.com/themes/main/Public/images/index/aboutUs_head.jpg) no-repeat 50% 0;}
+.about_head .PageHead_main {background:url(http://www.igamemore.com/themes/main/Public/images/index/aboutUs_head.jpg) no-repeat 50% 0;}
+.PageContent .sideBar .subMenu { padding-top: 40px;width: 285px;}
+.PageContent .sideBar .subMenu ul li { border-bottom:1px solid #e2e2e2;}
+.PageContent .sideBar .subMenu ul li a { display:block; width: 255px; padding-left: 30px; height: 61px; color:#777777;background-color:#FFF; font-size: 20px; line-height: 60px;text-transform:uppercase;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.PageContent .sideBar .subMenu ul li.current a,.PageContent .sideBar .subMenu ul li a:hover {background-color:#35c0ff;color:#FFF; text-decoration:none;}
+.PageContent .PageContent_side { padding: 0 80px 80px 40px; width: 734px;}
+.PageContent_side .title { height: 102px;}
+.PageContent_side .title h3 { font-size: 30px; color:#444444; line-height: 102px;text-transform:uppercase;}
+.PageContent_side .content {line-height: 24px; padding-bottom: 80px;}
+.PageContent_side .content img { margin-bottom: 18px; }
+.PageContent_side .content strong { color:#444444; margin-right: 10px; font-size: 18px;}
+/*updating维护中*/
+.PageContent_side .updatingBox {  background:url(http://www.igamemore.com/themes/main/Public/images/index/updating.jpg) center 20px no-repeat; padding-top:300px; line-height:60px;}
+.PageContent_side .updatingBox h2 { text-align:center; font-size:60px; text-transform: uppercase;color:#444444;}
+.PageContent_side .updatingBox .updating_p { text-align:center; line-height:30px; color:#444444; font-size:18px;text-transform: uppercase;}
+.PageContent_side .updatingBox .btn_detail { text-align:center; margin-top:10px;}
+.PageContent_side .updatingBox .btn_detail a { font-size:24px; color:#ffffff; background-color:#79a0b5; padding: 10px 58px; border-radius:5px;}
+.PageContent_side .updatingBox .btn_detail a:hover { text-decoration: none;}
+
+/*-=Payment储值
+-----------------------------------------------------------*/
+/*--侧边导航--*/
+.payment_head { background:url(http://www.igamemore.com/themes/main/Public/images/index/payment_head.jpg) no-repeat 50% 0;}
+.payment_head .PageHead_main {background:url(http://www.igamemore.com/themes/main/Public/images/index/payment_head.jpg) no-repeat 50% 0;}
+.freegold_head { background:url(http://www.igamemore.com/themes/main/Public/images/index/freegold_head.jpg) no-repeat 50% 0;}
+.freegold_head .PageHead_main {background:url(http://www.igamemore.com/themes/main/Public/images/index/freegold_head.jpg) no-repeat 50% 0;}
+.PageContent .sideBar .subMenu .payment_list li { margin-bottom: 20px; border: none; position:relative;}
+.PageContent .sideBar .subMenu .payment_list li img { float:left; margin-right:10px; width:69px; height:70px;-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: grayscale(100%); filter: gray;}
+.PageContent .sideBar .subMenu .payment_list li a.current img {-webkit-filter: none; -moz-filter: none; -ms-filter: none; -o-filter: none; filter: none; filter: none; background:none;}
+.PageContent .sideBar .subMenu .payment_list li a{ display:block; width: 245px; height: 70px; border:1px solid #999999; padding-left:38px; font-size:32px; color:#666666; font-weight:bold; line-height:70px; text-transform: none;}
+.PageContent .sideBar .subMenu .payment_list li a:hover,.sideBar .subMenu .payment_list li a.current { color:#666666; background:none; border:1px solid #35c0ff;}
+.sideBar .subMenu .payment_list li a:after { content:''; width: 10px; height:20px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_otherV3.png) no-repeat -64px -108px; display: none; color:#35c0ff; position:absolute; right: -24px; top: 26px;}
+.PageContent .sideBar .subMenu .payment_list li .Recently { position:absolute; display:block; height:24px; z-index:3; top:0; left:0; background:url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_otherV3.png) no-repeat right -72px; color:#FFF; line-height:10px; font-style:normal; font-size:10px; padding:4px 18px 0 4px; -webkit-transform: scale(0.85); -webkit-transform-origin:0 0;-webkit-text-size-adjust:none;}
+.sideBar .subMenu .payment_list li a.current:after,.sideBar .subMenu .payment_list li a:hover:after { display: block;}
+.sideBar .subMenu .payment_list li.pay_card a { background-position: 0 -128px;}
+.sideBar .subMenu .payment_list li.pay_wallets a { background-position: 0 -200px;}
+.sideBar .subMenu .payment_list li.pay_scratch a { background-position: 0 -272px;}
+.sideBar .subMenu .payment_list li.pay_sms a { background-position: 0 -344px;}
+.sideBar .subMenu .payment_list li.pay_card .current,.sideBar .subMenu .payment_list li.pay_card a:hover { background-position: -286px -129px;}
+.sideBar .subMenu .payment_list li.pay_wallets .current,.sideBar .subMenu .payment_list li.pay_wallets:hover a { background-position: -285px -200px;}
+.sideBar .subMenu .payment_list li.pay_scratch .current,.sideBar .subMenu .payment_list li.pay_scratch:hover a { background-position: -285px -272px;}
+.sideBar .subMenu .payment_list li.pay_sms .current,.sideBar .subMenu .payment_list li.pay_sms:hover a { background-position: -285px -344px;}
+/*
+.sideBar .subMenu .payment_list li.visa a { background-position: 0 -128px;}
+.sideBar .subMenu .payment_list li.paypal a { background-position: 0 -200px;}
+.sideBar .subMenu .payment_list li.pay3 a { background-position: 0 -272px;}
+.sideBar .subMenu .payment_list li.pay4 a { background-position: 0 -344px;}
+.sideBar .subMenu .payment_list li.pay5 a { background-position: 0 -488px;}
+.sideBar .subMenu .payment_list li.pay6 a { background-position: 0 -560px;}
+.sideBar .subMenu .payment_list li.visa .current,.sideBar .subMenu .payment_list li.visa a:hover { background-position: -285px -128px;}
+.sideBar .subMenu .payment_list li.paypal .current,.sideBar .subMenu .payment_list li.paypal a:hover { background-position: -285px -200px;}
+.sideBar .subMenu .payment_list li.pay3 .current,.sideBar .subMenu .payment_list li.pay3 a:hover { background-position: -285px -272px;}
+.sideBar .subMenu .payment_list li.pay4 .current,.sideBar .subMenu .payment_list li.pay4 a:hover { background-position: -285px -344px;}
+.sideBar .subMenu .payment_list li.pay5 .current,.sideBar .subMenu .payment_list li.pay5 a:hover { background-position: -285px -488px;}
+.sideBar .subMenu .payment_list li.pay6 .current,.sideBar .subMenu .payment_list li.pay6 a:hover { background-position: -285px -560px;}
+*/
+.sideBar .subMenu .payment_list li.history a { font-size: 22px; line-height:72px; color:#66a0b5; font-weight:bold;width: 229px; padding-left:56px; text-transform: uppercase;height: 72px; background: url(../images/layout/sprite_otherV3.png) no-repeat 0 -416px; border:none;}
+.sideBar .subMenu .payment_list li.history .current,.sideBar .subMenu .payment_list li.history a:hover { border:none; background: url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_otherV3.png) no-repeat -285px -416px;color:#66a0b5;}
+/*--储值--*/
+.form_pay { position:relative; margin: 40px 0 0 24px;}
+.form_pay .dd{ width: 720px; position:relative; border-left:1px dashed #dadada;padding:0 0 24px 28px;}
+.form_pay .dd .title_side{ height: 34px;line-height:27px;}
+.form_pay .dd .title_side .header {}
+.form_pay .dd .title_side em{ font-size: 24px; color:#777777;font-style: normal; /*text-transform: uppercase;*/}
+.form_pay .dd .title_side em i { font-size:24px; margin-left:16px;}
+.form_pay .dd .right_side {  }
+.form_pay .select_gameS { width:222px; height:41px; line-height: 41px;border: 1px solid #b0afaf;  margin-right: 16px; font-size: 16px; color:#8B8B8B; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; outline: none; padding-left:10px; margin-bottom:20px;}
+.form_pay .select_gameS:focus {-webkit-box-shadow: 0 0 6px #fe9500;-moz-box-shadow: 0 0 6px #fe9500;box-shadow: 0 0 6px #fe9500;border:1px solid #fe9500;}
+.form_pay .select_gameS option {  line-height:41px; color:#777777;}
+.form_pay .amount_list li{ width: 222px; height: 72px; border: 1px solid #b0afaf; position:relative; float:left; margin:0 16px 20px 0; cursor: pointer;}
+.form_pay .amount_list li:hover {border: 1px solid #35c0ff;}
+.form_pay .amount_list li.selected {background:url(http://www.igamemore.com/themes/main/Public/images/index/Payment_selected.jpg) no-repeat right bottom; border: 1px solid #35c0ff;}
+.form_pay .amount_list li .money { display:block; height: 27px; line-height: 27px; background-color:#b0afaf; position:absolute; top:0; left:0; font-size: 24px; color:#FFF; min-width: 42px;}
+.form_pay .amount_list li .bonus { display:block; height: 27px; line-height: 16px; background-color:transparent; position:absolute; bottom:5px; left:0; font-size: 18px; color:red; font-style: italic;min-width: 42px;}
+.form_pay .amount_list li .bonus2 { display:block; height: 27px; line-height: 16px; background-color:transparent; position:absolute; bottom:-12px; left:0; font-size: 18px; color:red; font-style: italic;min-width: 42px;}
+.form_pay .amount_list li .gold_name { display:block; height: 24px; background-color:transparent; position:absolute; bottom:-8px; left: 111px; font-size: 13px; color:#757474; min-width: 42px;font-weight: 600;}
+.form_pay .amount_list li .money i { display:block; width: 26px; height: 27px; position:absolute; right: -26px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_otherV3.png) no-repeat -90px -81px; top:0;}
+.form_pay .amount_list li.selected .money{ background-color:#35c0ff;}
+.form_pay .amount_list li.selected i{ background-position: -64px -81px;}
+.treasure { float:left;height:72px; width:56px; padding-left:0px; margin-right:5px;}
+.treasure img {width: 64px;height: 64px;margin: auto 120px;}
+.form_pay .amount_list li .amount_nub{ display:block; width:69px; height:35px; margin:20px 0 0 0px; font-size: 32px; color:#777777; font-weight: bold;line-height:16px; float:left;}
+.form_pay .amount_list li .amount_nub em{ display:block; font-size:24px; font-style:normal;}
+.form_pay .right_side .payForm_w { font-size: 16px; color:#777777; line-height: 24px;}
+.btn_recharge_bottom { padding:20px 0 20px 28px;}
+.btn_recharge_bottom a{ display:block; width: 323px; height: 50px; background:#fe9500; color:#FFF; text-align:center; line-height: 50px; font-size: 48px; border-radius:4px;margin: 0 auto;}
+.btn_recharge_bottom a:hover { text-decoration:none; background:#35c0ff}
+.btn_freegold_bottom { padding:20px 0 20px 28px;}
+.btn_freegold_bottom a{ width: 323px; height: 50px; background:#fe9500; color:#FFF; line-height: 50px; font-size: 48px; border-radius:4px;margin-left: 25px;}
+.btn_freegold_bottom a:hover { text-decoration:none; background:#35c0ff}
+.form_pay .wrong_tip { position:relative; color:#ff6600; padding-left:20px;  line-height: 26px; z-index:3;-webkit-border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;  min-width: 180px; display: none;}
+.form_pay .wrong_tip .tip_sj { position:absolute; top: 6px; left: 0px; width:14px; height:14px;  background:url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_otherV3.png) no-repeat -182px -44px;}
+.form_pay .tip_game { top: 34px; left: 140px;}
+.form_pay .tip_server { top: 34px; left: 394px;}
+/* 201509 add */
+.tip_method { background-color:#f2f2f2; width:657px; line-height: 22px; color:#666666; padding:24px; margin-bottom:14px;}
+.payMethod a { display:block; width: 222px; height: 72px;}
+.payMethod a img { width: 200px; height: 72px;}
+.table_summary {width:705px;}
+.table_summary th{ background-color:#f2f2f2; font-size:24px; color:#666666; font-weight: normal; height:36px;}
+.table_summary td { height: 48px; font-size:32px; color:#333333;}
+.table_summary .pay_price { font-size:25px; font-style:normal;}
+.tip_summary { color:#999999; font-size:22px;}
+.number_pay { display:block; width:23px; height:23px; text-align:center; line-height:23px; font-size:12px; color:#FFF; font-weight: bold; font-style: normal; background:url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_otherV3.png) no-repeat -141px -81px; position:absolute; left: -11px; top:0px; z-index:3;}
+.role_game {position:absolute; left:510px; top:33px;height:40px; line-height:40px; font-size:18px; color:#333333}
+.searching { color:#999999; font-size:16px;}
+.flag_box { position:absolute; right:16px; top:0; z-index:3;}
+.flag_current { color:#666666; font-size:14px; line-height:16px; padding: 4px; width: 130px; border:1px solid #b0afaf; cursor: pointer; background:url(http://www.igamemore.com/themes/main/Public/images/layout/sprite_otherV3.png) no-repeat right -35px;}
+.flag_box span { display:block; width:28px; height:16px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/flag.png) no-repeat; margin-right:8px;}
+.flag_box span.flag_Fran { background-position:0 0;}
+.flag_box span.flag_USA { background-position:0 -17px;}
+.flag_box span.flag_Turkey { background-position:0 -34px;}
+.flag_list { position:absolute; right:0; top:30px; background-color:#FFF; border:1px solid #b0afaf; width: 300px; padding:10px 0 0 20px; *padding-bottom:10px;}
+.flag_list li { float:left; line-height:16px;width: 100px; margin: 0 0 10px 0;}
+.flag_list li a { color:#666666; font-size:12px;}
+.flag_list li a:hover { }
+/*--Pay History--*/
+.PageContent .payHistory {padding:40px 0 80px 0; width: 855px;}
+.payHistory  .select_time { width: 227px; height: 41px; border: 1px solid #b0afaf; color:#777777; font: 16px/41px 'Helvetica Neue', Arial, Helvetica, sans-serif; background:url(../images/layout/sprite_otherV3.png) no-repeat -614px 5px #FFF; padding:0 0 0 40px; margin-bottom: 30px; outline: none; margin-right: 10px;}
+.payHistory  .select_time:focus {-webkit-box-shadow: 0 0 6px #fe9500;-moz-box-shadow: 0 0 6px #fe9500;box-shadow: 0 0 6px #fe9500;border:1px solid #fe9500;}
+.btn_check {width: 100px; height: 43px; border: none; background-color:#fe9500;color: #FFF;text-align: center;line-height: 43px;font-size: 16px;border-radius: 4px; outline: none; cursor:pointer;}
+.payHistory_list { min-height: 400px; _height:600px; border: 1px solid #b0afaf;}
+.payHistory_list table {border-collapse: collapse;}
+.payHistory_list table thead th{ background-color:#e1edf2; font-size: 16px; color:#777777; font-weight: 700px;line-height: 40px;}
+.payHistory_list table td { line-height: 18px; font-size: 14px; color:#777777; text-align:center; padding:0 6px; height:60px; /*word-break:break-all;*/}
+.payHistory_list table .color_success { color:#d21034; font-style: normal;}
+.payHistory_list table .color_failed { color:#63af01;font-style: normal;}
+.tip_noPayHistory { text-align:center; margin-top: 120px;}
+/*--Pay Wrong--*/
+.some_wrong { padding-top: 16px;}
+.some_wrong h3 { font-size:30px; color:#444444; line-height: 80px; text-transform: uppercase;}
+.tips_sWrong { color:#777777; line-height: 21px;}
+.btn_contact { padding: 20px 0;}
+.btn_contact a{ padding:10px 14px; background:#fe9500; color:#FFF; text-align:center; line-height: 53px; font-size:16px; border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; text-decoration: none;}
+.btn_contact a:hover {background: #35c0ff;}
+.SW_QA_list { border-top:1px dashed #c5c5c5;padding: 30px 0 0 0;}
+.SW_QA_list ul{  margin-bottom:24px;}
+.SW_QA_list ul em { font-size:22px; font-style:normal; position:absolute; left:0;}
+.SW_QA_list ul li { line-height: 30px; position:relative; padding-left:30px; margin-bottom:8px;}
+.SW_QA_list ul li.question { color:#444444; font-size:16px;}
+.SW_QA_list ul li.answer { color:#777777; font-size:14px;}
+.SW_QA_list ul li.question em{ color:#09b5ed;}
+.SW_QA_list ul li.answer em{ color:#08e680;}
+
+/*-=Profile
+-----------------------------------------------------------*/
+/*个人中心Account_Bound*/
+a.code,
+.per a.cp,
+.psdBox a,
+.emaiBox a.set,
+.emaiBox a.modify,
+.emaiBox a.gifts{border-radius:5px;display:block;color:#fff;height:36px;line-height:36px;text-align:center;font-size:16px;}
+a.code{background:#fe9500;width:144px;margin:20px 0 0;}
+a.fdBtn,a.gdBtn{ display:block;width:235px;height:42px;background:url(http://www.igamemore.com/themes/main/Public/images/layout/btn.jpg) no-repeat; margin:20px 0 10px}
+a.fdBtn{background-position:0 0;}
+a.gdBtn{background-position:0 -50px;}
+a.code:hover{text-decoration:none;}
+
+.userBox{min-height:108px;padding-top:30px;font-size:14px;}
+.userIco{position:relative;float:left;height:100px;padding-top:10px;}
+.userIco .uName{position:absolute;width:100px;height:23px;line-height:23px;background:rgba(0, 0, 0, 0.50);text-align:center;color:#fff;left:0;bottom:0;font-size:12px;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#A4000000', endColorstr='#A4000000');}
+:root .userIco .uName {filter:none;background-color:rgba(0, 0, 0, 0.50);}
+.userRight{width:165px;float:left;margin-left:20px;}
+.userBtn a{display:inline-block;width:73px;line-height:23px;color:#fff;text-align:center; margin:10px 0 8px}
+.userBtn a:hover{text-decoration:none}
+.userBtn a.rg{background:#fe9500}
+.userBtn a.ep{background:#7494d4;margin-left:15px;}
+.exBtn{color:#909090; float:right; position:relative; z-index:2; background-color:#FFF;}
+.uNum{line-height:37px;height:37px;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.sTime,.sIp{font-size:12px; line-height:18px;line-height:18px;}
+.f20{font-size:20px;}
+.PageContent .sideBar .uMenu ul li a{background:url(http://www.igamemore.com/themes/main/Public/images/layout/uM_ico.png) no-repeat;width:235px;padding-left:50px;}
+.PageContent .sideBar .uMenu ul li.nav1 a{background-position:-24px 0;}
+.PageContent .sideBar .uMenu ul li.nav1 a:hover,.PageContent .sideBar .uMenu ul li.nav1 a.cur{ background-position:-24px -60px;}
+.PageContent .sideBar .uMenu ul li.nav2 a{background-position:-24px -120px;}
+.PageContent .sideBar .uMenu ul li.nav2 a:hover,.PageContent .sideBar .uMenu ul li.nav2 a.cur{ background-position:-24px -180px;}
+.PageContent .sideBar .uMenu ul li.nav3 a{background-position:-24px -240px;}
+.PageContent .sideBar .uMenu ul li.nav3 a:hover,.PageContent .sideBar .uMenu ul li.nav3 a.cur{ background-position:-24px -300px;}
+.PageContent .sideBar .uMenu ul li.nav4 a{ background-position:-24px -360px; }
+.PageContent .sideBar .uMenu ul li.nav4 a:hover,.PageContent .sideBar .uMenu ul li.nav4 a.cur{ background-position:-24px -420px;}
+.PageContent .sideBar .uMenu ul li.unread a{ background-position:-24px -480px; }
+.PageContent .sideBar .uMenu ul li.unread a:hover,.PageContent .sideBar .uMenu ul li.unread a.cur{ background-position:-24px -540px;}
+.cmyIco{ padding:20px 10px; border-top:1px dashed #c5c5c5; margin-top:20px;}
+.cmyIco ul li{float:left;width:56px;margin-right:20px; text-align:center;}
+.cmyIco a{color:#202020}
+.cmyIco p{line-height:15px;font-size:12px;text-align:center;}
+.cmyIco a:hover{ text-decoration:none}
+.PageContent_side .content .cmyIco a img{margin:0;}
+.textCon{ padding-top:20px;}
+.textCon p{ line-height:20px;}
+.textCon .cor1{ color:#35c0ff}
+.psdBox .msg{ padding:10px 0 0 205px; color:#f00; font-size:16px;}
+.emaiBox .psdBox .msg{ padding:0 0 0 205px;}
+
+/*个人中心Account_Safe*/
+.emaiBox{padding-top:40px;}
+.emaiBox .tab { height: 56px;}
+.emaiBox .tab ul li{float:left; height: 55px;}
+.emaiBox .tab a{display: inline-block;border:1px solid #b0afaf; padding:0 10px;margin-right:10px;font-size:20px;line-height:55px;border-bottom:0;text-align:center;text-transform:uppercase;overflow:hidden;background:#b0afaf;color:#fff;}
+.emaiBox .tab a:hover{text-decoration:none;}
+.emaiBox .tab a.cur{background:#FFF;color:#777;}
+.emaiBox .bor{border:1px solid #b0afaf;height:368px;border-top:1px solid #b0afaf}
+.emaiBox .bor .psdBox{ margin:0 auto;}
+.emaiBox .ctxt{width:535px;margin:0 auto;padding-top:60px;}
+.emaiBox a.set,.emaiBox a.modify,.emaiBox a.gifts{display:inline-block;width:104px;background:#fe9500;text-decoration:none;}
+.emaiBox a.set{float:right;}
+.emaiBox a.gifts{background:#7494d4;margin-left:30px;}
+.emaiBox a:hover{text-decoration:none}
+.emaiBox .e_txt{color:#777;margin-top:20px;}
+.emaiBox .e_red{color:#35c0ff; margin-top: 8px;}
+.emaiBox .mt30{margin-top:30px;}
+.emaiBox .pdt20{padding-top:20px;}
+.email_line{height:36px;background:url(http://www.igamemore.com/themes/main/Public/images/layout/emial.jpg) 0 0 no-repeat;padding-left:60px;width:360px;color:#444;font-size:20px;line-height:36px;float:left;}
+.psdBox{width:620px;margin:0;padding-top:30px;}
+.psdBox .line{height:40px; margin-top:10px;}
+.psdBox .lab{float:left;height:40px;font-size:14px;line-height:40px;width:190px;text-align:right;padding-right:5px; color:#777777; padding-right: 6px;}
+.psdBox a{display:block;width:364px;height:50px;background:#fe9500;border-radius:5px; margin:20px 0 0 195px;text-align:center;color:#fff;line-height:50px;font-size:24px;}
+.psdBox a:hover{text-decoration:none; background-color:#35c0ff;}
+.psdBox .pInput{width:400px;height:20px;padding:10px 5px;border:1px solid #b0afaf;background:#fff;font-size:16px;color:#909090;float:left;font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;}
+.psdBox .pInput:focus {border: 1px solid #fa960a;box-shadow: 0 0 5px #fb970b;outline: none;}
+.btn_modify { padding: 30px 0 20px 0;}
+.btn_modify a{ display: inline-block; padding:0 20px;  height: 34px; text-align:center; line-height: 34px; text-align:center; background:#fe9500; color:#FFF; font-size: 16px; border-radius: 4px; margin-right: 24px;}
+.btn_modify a.blue { background:#7494d4;}
+/**/
+.per{text-align:center; position:relative; width: 600px;}
+.per a.cp{display:inline-block; width:134px; height:36px; position:absolute; background:#fe9500; margin:50px 20px 0;}
+.per a.cp:hover{text-decoration:none;}
+.perBox .psdBox{padding-top:0px}
+.sel{background:#fff;border: 1px solid #b0afaf;color:#909090;height:40px;margin-top: 3px;width: 135px; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;}
+/*个人中心首页*/
+.personal_head { background:url(http://www.igamemore.com/themes/main/Public/images/index/PersonalCenter_head.jpg) no-repeat 50% 0;}
+.personal_head .PageHead_main{background:url(http://www.igamemore.com/themes/main/Public/images/index/PersonalCenter_head.jpg) no-repeat 50% 0;}
+.firstEnter_tip { background-color:#f2f2f2; padding: 16px; border-radius:4px; position:relative;}
+.firstEnter_tip p { width: 500px;}
+.firstEnter_tip .tip_warning { color:#35c0ff; display:block; margin-top: 10px;}
+.btn_set { width: 104px; height: 36px; display:block; line-height:36px; text-align:center; color:#FFF; background:#fe9500; border-radius: 4px;-moz-border-radius: 4px;-webkit-border-radius: 4px; position:absolute; right: 38px; top: 38px;}
+.btn_set:hover { text-decoration:none; background:#35c0ff;}
+.playGame_box { border: 1px solid #e2e2e2; padding: 18px; margin-bottom: 20px;}
+.playGame_box .tip { border-bottom: 1px dashed #c5c5c5; padding:10px 0;}
+.title_playGame { font-size: 18px; color:#777777; font-weight:bold; line-height:50px;}
+.playGame_list {}
+.playGame_list li {text-align:center; width: 120px; float:left; margin-right: 6px;}
+.playGame_list li a{ color:#777777; font-size: 12px; line-height:14px; font-weight: bold;}
+.PageContent_side .content .playGame_list li a img { width: 100px; height: 100px; margin-bottom: 0;}
+.playGame_list li a p{ height:20px; line-height: 20px; overflow:hidden;}
+
+
+/*-=News
+-----------------------------------------------------------*/
+.news_head{background:url(http://www.igamemore.com/themes/main/Public/images/index/news_head.jpg) no-repeat 50% 0;}
+.news_head .PageHead_main{background:url(http://www.igamemore.com/themes/main/Public/images/index/news_head.jpg) no-repeat 50% 0;}
+.tab-nav{padding:0 0 0 322px;height:59px; margin-top: -59px; position: relative; z-index: 3;}
+.tab-nav li{float: left;margin-right:20px;}
+.tab-nav li a{ display:block;width:140px;height:59px; line-height: 59px;background:#cbcbcb;text-align: center;font-size:26px;color:#fff; text-transform: uppercase;}
+.tab-nav li a:hover { text-decoration: none;}
+.tab-nav li.cur a{background:#fff;border:1px solid #cbcbcb;border-bottom:0;width:138px;height:58px;color:#777;}
+/*--news list--*/
+.u-textList{padding:45px 45px 0;}
+.news_list li{margin-bottom:2em;font-size:14px;min-height:210px;position:relative;border-bottom: 1px dashed #c5c5c5;padding-bottom:1.5em;}
+.news_list li:last-of-type{margin-bottom: 0;}
+.news_list dl{margin-left:375px;}
+.news_list dt,.news-nrBox dt{text-transform:capitalize;font:20px/2 700 'Helvetica Neue', Arial, Helvetica, sans-serif;color:#35c0ff}
+.news_time{margin-bottom:.5em;color: #08bbfd;}
+.news_list dd.news_con{height:85px;overflow: hidden;}
+.news_list dd.news_attr a{color: #35c0ff;}
+.news_list a:hover{text-decoration:underline;}
+.news_list dt a{color:#35c0ff;}
+.news_list .news_img{position:absolute;left:0;top:1em;}
+/*pagenum*/
+.pagenumQu{padding:26px 10px 26px 0;text-align: center;}
+.yiiPager{}
+.yiiPager li{display:inline;}
+.yiiPager .first,.yiiPager .previous,.yiiPager .next,.yiiPager .last{font-family: 'sunsim';font-size:10px;}
+.yiiPager a{padding:0 9px;margin:0px 3px;color:#909090;border:1px solid #c5c5c5;overflow:hidden;height:22px;display:inline-block;line-height:22px;}
+.yiiPager a:hover,.yiiPager .selected a{background:#35c0ff;color:#fff;border: 0;padding:0 10px;line-height:24px;height:24px;text-decoration: none;}
+/*news detail*/
+.newsD-title{font:700 60px/2 'Helvetica Neue', Arial, Helvetica, sans-serif;color:#444;background:url(http://www.igamemore.com/themes/main/Public/images/index/news_titleR.jpg) right 30px no-repeat;height:110px;border-bottom: 1px solid #909090;padding-top:50px;}
+.news-nrBox{padding:50px 110px 0;}
+.news-nrBox .txt-con{padding:20px 0 50px; overflow-wrap: break-word;}
+.news-nrBox .txt-con p{padding-bottom:15px;}
+.news-nrBox .ttO{color:#35c0ff;}
+.news-more{float: right;font-family:'Verdana';color:#909090;}
+.news-more i{color:#08bbfd;font-style: normal;}
+.newsDetail_end { height: 60px;}
+
+/*-=404
+-----------------------------------------------------------*/
+.box-404m{background:url(http://www.igamemore.com/themes/main/Public/images/index/page404.png) center no-repeat;height:740px;position: relative;}
+.box-404m a{display:block;width:190px;height:50px;position: absolute;top:460px;font-size:24px;color:#fff;text-align: center;
+	-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.box-404m .btn-o{background: #fe9500;left: 180px;}
+.box-404m .btn-b{background: #7494d4;left:390px;}
+.box-404m .txt{font:700 50px/2 'Helvetica Neue', Arial, Helvetica, sans-serif;color:#a0b7c5;position: absolute;left:180px;top:370px;}
+
+/*-=Account Massge
+-----------------------------------------------------------*/
+.massage_tag { border-bottom:1px solid #b0afaf;height:46px; width: 762px; padding: 40px 0 0 20px;}
+.massage_tag ul { height:46px;}
+.massage_tag ul li { float:left; margin-right: 10px;}
+.massage_tag ul li a { display:block; width: 143px; height: 46px; background-color:#cbcbcb; text-align:center; line-height: 46px; font-size: 18px; font-weight:bold; color:#FFF;text-transform: uppercase;}
+.massage_tag ul li.cur a { color:#777777;width: 141px; height: 46px; background-color:#FFF; border: 1px solid #b0afaf; border-bottom: none;}
+.massage_tag ul li .msg_number { color:#35c0ff;}
+.massage_tag ul li a:hover { text-decoration: none;}
+.massage_tag .label_Mread { cursor: pointer; line-height:46px; font-size: 14px;}
+.massage_tag .btn_compose { display:block; width: 80px; height: 35px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 0 0; font-size: 14px; color:#FFF;  padding-left: 50px;text-transform: uppercase; line-height:35px; margin: 4px 0 0 10px;}
+.massage_tag .btn_compose:hover { background-position:-130px 0; text-decoration:none;}
+
+.massage_list { width: 782px;}
+.massage_list a:hover { text-decoration:none;}
+.massage_list .massage_box { border-bottom:1px solid #e2e2e2; padding: 40px 0 30px 0; width: 782px; }
+.massage_list .massage_box:last-child { border: none;}
+.massage_list .massage_box .user_pic { padding:6px 0 0 20px; width: 86px; height: 86px; float:left; margin-right: 36px;}.massage_list .massage_box .user_pic img {width: 86px; height: 86px;}
+.massage_list .massage_box .msg_main { float:left;}
+.msg_main .msg_head { height: 24px; line-height:24px; font-size:13px; width: 620px; margin-bottom: 16px;}
+.msg_main .msg_head  .user_name { color:#35c0ff; font-size: 14px; font-weight:bold; margin-right: 10px; padding-left: 14px;}
+.msg_main .msg_head .btn_function { float:right;}
+.msg_main .msg_head .btn_function a{ color:#909090; font-size: 13px; display:block; width: 54px; height: 22px; float:left; background-color:#f1f0f0; text-align:center; line-height: 22px; border:1px solid #dbdbdb; margin-left: 12px; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;}
+.msg_main .msg_head .btn_function a:hover { background-color:#ebebeb; text-decoration: none;}
+.msg_main .msg_w { border:1px solid #b0afaf;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; padding: 20px 30px;*zoom:1; width: 578px; position:relative;}
+.msg_main .msg_w:after { content:""; width: 26px; height: 17px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 0 -50px; position:absolute; z-index:3; top: -17px; left: 46px;}
+.msg_main .msg_w .msg_title { font-size: 14px; color:#515151;}
+.msg_main .msg_w .btn_read { display:block; text-align:center; line-height: 15px; width: 35px; height: 15px; color:#f96a02; border: 1px solid #f96a02;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px; font-size: 14px;}
+.msg_main .msg_w .btn_expand { color:#f96a02; font-size: 14px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 0 -108px; padding-left: 12px; margin-left: 18px;}
+.msg_main .msg_w .btn_hide {color:#f96a02; font-size: 14px;background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 0 -135px; padding-left: 12px; margin-left: 30px;}
+.msg_replie_h { margin-bottom: 16px; color:#909090;}
+.replies_list li{ width: 446px; border:1px solid #f8c781; background-color:#fdefdb; padding: 10px 20px; color:#515151; font-size: 14px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; line-height: 24px; *zoom:1; position:relative; margin-bottom: 24px;}
+.replies_list li:after {content:""; width: 22px; height: 15px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 0 -35px; position:absolute; z-index:3; top: -15px; left: 24px;}
+.replies_list li .replies_head { color:#777777; font-size: 13px;}
+.replies_list li .replies_head .user_name { font-size:14px; color:#0fb8f7; font-weight:bold; margin-right: 10px;}
+.new_icon { display:inline-block; width: 37px; height: 15px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat -22px -35px; margin-left: 6px;}
+
+.writeMessage {border:1px solid #dbdbdb;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;width: 638px; margin-left: 142px; background-color:#FFF;}
+.writeMessage .writeMsg_head { height:39px; border-bottom:1px solid #dbdbdb; background-color:#f4f4f4; font-size: 14px; font-family:Arial, Helvetica, sans-serif; color:#5d5d5d;}
+.writeMessage .writeMsg_head .Z_left { display: block; float:left; width: 32px; height: 19px;background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat -59px -35px; border-right: 1px solid #9d9d9d; margin: 10px 12px 0 10px;}
+.writeMessage .writeMsg_head p { float:left;height: 19px; line-height: 19px; margin-top: 10px;}
+.writeMessage .writeMsg_main {  }
+.writeMessage .writeMsg_main textarea {  border: none; height: 80px; width: 608px; outline: none; padding: 10px 10px 0px 20px; background: none; line-height: 22px; font-family:Arial, Helvetica, sans-serif; color:#515151;}
+.writeMessage .writeMsg_bottom {height:39px; border-top:1px solid #dbdbdb; background-color:#f4f4f4;}
+.writeMsg_bottom .btn_send { width: 72px; height: 29px; background:#fe9500; color:#fdfdfd; font-size: 14px; text-align:center; display:block; line-height: 29px;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; float:left; margin: 5px 18px 0 14px;}
+.writeMsg_bottom .btn_send:hover { text-decoration:none; background-color:#35c0ff;}
+.writeMsg_bottom .btn_addImage { float:left; display:block; width: 24px; height: 29px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 0 -67px; margin:5px 4px 0 0;}
+.writeMsg_bottom .btn_addImage:hover { background-position: -48px -67px;}
+.writeMsg_bottom .btn_addIcon {float:left; display:block; width: 24px; height: 29px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat -24px -67px; margin:5px 0 0 0;}
+.writeMsg_bottom .btn_addIcon:hover {background-position: -72px -67px;}
+
+/*-=Support
+---------------------------------------------------------------------*/
+/*-----------Support index-------------*/
+.support_wrap { min-height: 600px; _height: 600px; padding-bottom: 20px;}
+.support_wrap a ,.support_wrap a:hover{ text-decoration:none;}
+.support_main { width: 1220px; margin:0 auto;}
+.support_title p{ font-size: 36px; height: 152px; line-height: 152px; text-align:center; color: #909090;}
+.choiseGame_list ul { padding:0 0 40px 90px;}
+.choiseGame_list ul li { width:299px; float:left; margin: 0 48px 24px 0; border-radius:6px;}
+.choiseGame_list ul li .img { width: 299px; height: 210px; background:url(http://www.igamemore.com/themes/main/Public/images/pic/choiseGame_none.jpg) no-repeat 0 0;transition:ease all .7s;-moz-transition:ease all .7s;-webkit-transition:ease all .7s;}
+.choiseGame_list ul li a:hover .img{ opacity: 0.75; transform:translate(-8px,-4px);-moz-transform:translate(-8px,-4px);-webkit-transform:translate(-8px,-4px);}
+.choiseGame_list ul li .title { background-color:#363636; height: 53px; line-height:53px; padding-left: 17px; font-size:16px; color:#d4d4d4; border-bottom:1px solid #ff6c00; border-top-left-radius: 6px;border-top-right-radius: 6px;}
+
+/*-----------Support page-------------*/
+.support_head {background:url(http://www.igamemore.com/themes/main/Public/images/index/support_head.jpg) no-repeat 50% 0;}
+.support_head .PageHead_main{background:url(http://www.igamemore.com/themes/main/Public/images/index/support_head.jpg) no-repeat 50% 0;}
+/*Support menu*/
+.subMenu2 {}
+.subMenu2 ul { padding: 40px 0 0 0;}
+.subMenu2 ul li { margin-bottom: 10px; width: 285px;}
+.subMenu2 ul li a { display:block; width: 207px; height: 46px; line-height: 46px; font-size:18px; color:#FFF; background: url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 254px -202px #35c0ff; padding: 0 38px 0 40px; text-transform: uppercase; overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.subMenu2 ul li.current a{ background-position: 254px -163px;}
+.subMenu2 ul li a:hover { text-decoration:none;}
+.subMenu2 .dropdown_list { padding:20px 0 8px 0; display: none;}
+.subMenu2 .dropdown_list li { margin:0; border-bottom:1px solid #f0f0f0;}
+.subMenu2 .dropdown_list li a{ background: none; color:#777777; font-size:14px; height: 32px; line-height:32px;text-transform: none;}
+.subMenu2 .dropdown_list li a:hover,.subMenu2 .dropdown_list li.on a { color:#35c0ff;}
+/*Support right side*/
+.support_right { width: 855px;}
+.supportRt_head { line-height: 50px; color:#909090; border-bottom:1px solid #e2e2e2; padding-top:18px;}
+.supportRt_head .currentS a { color:#909090;}
+.supportRt_head .currentS .current_on {color:#35c0ff;}
+.supportRt_head .user_f { color:#444444;}
+.supportRt_head .btn_myTicket { color:#909090; display:block; width: 78px; height: 22px; line-height:22px; text-align:center; border:1px solid #bdbdbd;border-radius:4px; display: inline-block; margin-left: 12px;}
+.supportRt_head .btn_myTicket:hover { text-decoration: none; color:#fe9500; border:1px solid #fe9500;}
+/*search box*/
+.searchBox { width: 714px; height: 62px; background-color:#f1f1f1; border-radius:6px; margin: 40px 0 0 70px;}
+.searchBox p{ display:inline;}
+.searchBox .input_search { height:34px; width: 544px; border:1px solid #cecece; margin:13px 20px 0 16px; padding-left: 10px; line-height:34px;}
+.searchBox .btn_search { width: 104px; height: 36px; background-color:#fe9500; border: none; color:#FFF; font-size:16px; border-radius:4px; cursor: pointer; outline: none; font-family:Arial, Helvetica, sans-serif;}
+.searchBox .btn_search:hover { background-color:#35c0ff;}
+.search_w { text-align:center; line-height: 60px; font-size: 20px; color:#fe9500; margin-bottom: -30px;}
+.keyword { color:#35c0ff; font-style:normal;}
+.highlight{background:#FFFF00; display:inline-block;}
+
+/*-----------Support detail-------------*/
+.QA_box { padding: 40px 70px 30px 70px;}
+.QA_box .QA_list li {}
+.QA_box .QA_list li .btn_f{ color:#444444; font-size:16px; line-height:48px;}
+.QA_box .color_F { font-size:22px; color:#09b5ed; margin-right:10px;}
+.QA_box .color_Q { font-size:22px;color:#08e680;margin-right:10px;}
+.QA_box .QA_list .qWen { display: none; border-bottom:1px solid #e2e2e2;margin-bottom: 30px; color:#777777; line-height:30px; }
+.btn_help { text-align:center; padding: 50px 0 50px 0;}
+.btn_help a{ display: inline-block; padding: 9px 20px;font-size:18px; border-radius:6px;  color:#777777; border:1px solid #909090;font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; font-weight:600;}
+.btn_help a:hover { text-decoration:none; color:#fe9500;border:1px solid #fe9500; }
+/*game Support index*/
+.supportIndx_S { position: relative;}
+.supportIndx_S .searchBox{ margin: 0px 0 0 250px; }
+.supportIndx_S .keyword { padding:12px 0 0 250px; line-height: 24px;width: 714px; overflow:hidden;}
+.supportIndx_S .btn_myTicket{display: block;height: 22px;line-height: 22px;padding: 0 8px;text-align: center;background: none;color: #909090;border: 1px solid #bdbdbd;border-radius: 4px;position: absolute;left: 885px;top: -88px;}
+.supportIndx_S .btn_myTicket:hover {color: #fe9500;border: 1px solid #fe9500;}
+.supportIndx_S .keyword a { display:inline-block; padding: 0px 10px; background:#80daed; margin:0 5px 5px 5px; color:#FFF; font-size:12px;}
+.how_list { padding: 56px 0 40px 106px;}
+.how_list .how_box {width: 221px; height: 424px;border:solid 1px #e2e2e2; float:left; margin-right:36px;}
+.how_list .how_box .icon { width:84px; height: 84px; margin:26px 0 0 70px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/suport_icon.jpg) no-repeat;}
+.how_list .how_box .icon_1 { background-position: 0 0;}
+.how_list .how_box .icon_2 { background-position: 0 -84px;}
+.how_list .how_box .icon_3 { background-position: 0 -168px;}
+.how_list .how_box .icon_4 { background-position: 0 -252px;}
+.how_list .how_box .title {width: 221px; height:158px; overflow:hidden; border-bottom:solid 1px #e2e2e2;  }
+.how_list .how_box .title h3{  text-align: center;font-weight:normal;font-size:18px; color:#444444; line-height: 36px;}
+.how_ul { padding:14px 0 20px 0;}
+.how_ul li { padding-left: 26px; line-height:25px; width: 174px; overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.how_ul li a{ color:#777777;}
+.how_ul li a:hover { color:#35c0ff; text-decoration: underline;}
+.btn_more { margin-left: 86px;color:#35c0ff; font-size:12px;}
+/*game Support list*/
+.support_list ul { padding: 50px 0 0 12px;}
+.support_list ul li { float:left; margin:0 50px 50px 0;width: 231px; height: 130px;}
+.support_list ul li a {display:block; width: 229px; height: 128px; border:1px solid #909090; color:#444444;font-family:'Helvetica Neue', Arial, Helvetica, sans-serif; text-align:center; border-radius:6px;}
+.support_list ul li a strong { display:block; text-align:center; font-size: 24px; text-transform:uppercase; padding: 32px 0 7px 0;line-height: 20px;}
+.support_list ul li a i { display:block; font-style:normal; font-size:12px; line-height:20px;}
+.support_list ul li a:hover { text-decoration:none; color:#35c0ff;border:1px solid #35c0ff;}
+/*Comment评价*/
+.comment_box { background-color:#f9f9f9; border:1px solid #e7e7e7; margin:20px 0 20px 0px; padding:20px; color:#515151; border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px; width: 360px;}
+.comment_box form {  padding-left: 16px;}
+.comment_box p { line-height: 36px;}
+.comment_box label { cursor: pointer; line-height:30px; height:30px;}
+.comment_box input {width: 16px;height: 16px;vertical-align: middle;}
+.star_Com { line-height: 20px; height:20px; margin-bottom:24px;}
+.star_Com em{ float:left; font-style: normal; margin-right:10px; padding-left: 16px;}
+.star_list { float:left;}
+.myTicket_content .comment_box .star_list li { float:left; width: 20px; height:20px; background:url(http://www.igamemore.com/themes/main/Public/images/layout/button.png) no-repeat 0 -264px; line-height:60px; padding:0; margin:0 8px 0 0; border: none; overflow:hidden;}
+.myTicket_content .comment_box .star_list li.on { background-position:-20px -264px;}
+.myTicket_content .comment_box .star_list li a{ display:block;}
+.bt_submit { background-color:#fe9500; border:none; color:#FFF; padding: 7px 15px; cursor:pointer;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px; outline: none; margin:20px 0 10px 16px;}
+.comment_box .input_other { width: 160px; height:20px; border-width:0 0 1px 0; border-bottom:1px solid #d9d9d9; outline: none; padding:0 10px; line-height: 20px; background-color:#f9f9f9; font-family:'Helvetica Neue', Arial, Helvetica, sans-serif;}
+
+
+/*-----------Support Ticket-------------*/
+/*My Ticket*/
+.myTicket_nr { padding:0 20px 40px 20px;}
+.tichet_title { padding-left:20px; position:relative;}
+.tichet_title h2{ font-size:30px; color:#444444; line-height:90px; text-transform: uppercase;}
+.myTicket_nr .payHistory_list a { color:#777777;}
+.myTicket_nr .payHistory_list a:hover { color:#35c0ff;}
+.ticketNav { position:absolute; right:0; top:19px;}
+.ticketNav a{  background-color:#FFF; color:#777777; font-size:16px; display:inline-block; margin-left:20px; line-height:43px; padding:0px 32px; border:1px solid #b0afaf;}
+.ticketNav a:hover { text-decoration: none;}
+.ticketNav a.on{ background-color:#35c0ff; color:#FFF;border:1px solid #35c0ff;}
+/*My Ticket detail*/
+.myTicket_content { border:1px solid #e2e2e2; margin:0 20px; padding:40px 20px; margin-bottom:40px;}
+.myTicket_content .title { height: 42px;font-size:16px; color:#444444; }
+.myTicket_content .Wen {border-bottom:1px dashed #CCC; line-height: 24px; color:#777777; font-size:16px; padding-bottom: 20px; margin-bottom: 30px;}
+.myTicket_content .server_reply  { border:1px solid #e7e7e7;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; margin-bottom: 30px; padding:10px 20px; color:#515151; line-height: 24px;}
+.myTicket_content .server_reply .title { font-size: 13px; height:32px; color:#777777;}
+.myTicket_content .server_reply .title span { font-size: 14px; color:#444444; margin-right:10px;}
+.myTicket_content .title .h { display:block; width:600px;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap;}
+.myTicket_content .title .time { font-size:14px; color:#777777;}
+.myTicket_content .btn_function { margin-bottom: 30px; text-align:right; }
+.myTicket_content .btn_function a{ color:#0fb8f7; font-size: 13px; margin-right: 20px;}
+.myTicket_content .btn_function a:hover { }
+.myTicket_content .replies_list { background-color:#fffaf2; border: 1px solid #fde8ad;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.myTicket_content .replies_list li{ width: 690px; border: none; background: none; border-bottom:1px dashed #c5c5c5; margin:0 20px 26px 20px; padding-left:0; padding-right:0;}
+.myTicket_content .replies_list li:after { display: none;}
+.replies_list li.msg_w { }
+.replies_list li.msg_w:after { display: none;}
+.replies_list li.msg_w .user_name { color:#35c0ff;}
+.myTicket_nr .writeMessage{ margin:0 0 20px 20px; width: 690px;}
+.myTicket_nr .writeMessage .writeMsg_main textarea { width: 660px;}
+/*My Ticket pop Up*/
+.support_tig { padding:100px 0 0 90px;}
+.support_tig .pop-btn { text-align:center; padding-top:80px; }
+.support_tig .pop-btn .btn_backUp { width:150px; display: inline-block;}
+.btn_backUp:hover { text-decoration: none;}
+.support_tig .msg { padding-left: 90px; line-height:30px; font-size:16px; color:#777777; width: 540px;}
+.support_tig .msg a { color:#35c0ff; text-decoration:underline;}
+/*Ticket submit*/
+.submit_note { line-height:21px; color:#777777; padding-left:20px; margin-bottom: 30px;}
+.form_submit { padding:0 0 20px; 0;}
+.form_submit .row { margin-bottom: 16px;}
+.form_submit .row .row_l{ text-align:right; width: 190px; font-size:18px; color:#777777; line-height: 43px; padding-right: 12px; overflow:hidden; }
+.form_submit .row .row_r { position:relative;}
+.form_submit .row select { width: 325px; height:41px; padding:0 10px; border:1px solid #b0afaf; font:14px/41px Arial, Helvetica, sans-serif; color:#444444;}
+.form_submit .row input { width: 438px; height:41px; padding:0 10px; border:1px solid #b0afaf; font:14px/41px Arial, Helvetica, sans-serif; color:#444444;}
+.form_submit .row textarea { width: 438px; height:80px;padding:10px; border:1px solid #b0afaf; font:14px/24px Arial, Helvetica, sans-serif; color:#444444;}
+.form_submit .btn_file { display:inline-block; width: 104px; height:36px; background:#fe9500; text-align:center; line-height: 36px; color:#FFF; cursor: pointer; font-size:16px; font-weight:400; border-radius:4px; margin-top:5px;}
+.form_submit .row input.input_file { position:absolute; top:5px; left:0; width: 104px; height:36px; overflow:hidden; cursor: pointer; opacity:0;filter:alpha(opacity=0); }
+.form_submit .file_msg { color:#fa0909; padding-left:30px;}
+.form_submit .pop-btn { padding-top: 30px;}
+.form_submit .pop-btn a { margin:0 40px 0 0; text-decoration:none;}
+.form_submit .pop-btn a.btn-blue { width:174px;}
+.row select:focus,.row textarea:focus,.row input:focus {border: 1px solid #fa960a;box-shadow: 0 0 5px #fb970b;outline: none;}
+
+/*=- 20151105LoA Club -=*/
+.innerConWrap { margin:0 auto; width:1220px;}
+.grid .u-menu{ height: 36px;line-height: 36px;text-align: center;color: #909090; font-size:36px !important; padding-top:40px;}
+.grid table tr{ height:42px;}
+.grid table tr td{ height:46px; line-height:46px; font-size:16px;}
+.grid table tr td input { width:300px; height:32px; line-height:32px;border: 1px solid #b0afaf;background: #fff;font-size: 16px;color: #909090; padding:0 10px;}
+.grid table tr td select { height:32px;border: 1px solid #b0afaf;background: #fff;font-size: 16px;color: #909090; padding:0 10px;}
+.grid table tr td label  { margin-right:20px; cursor: pointer;}
+.grid table tr td label input { width:20px; height:20px; vertical-align:middle;}
+.grid table #btn_sub{  display: block;width: 240px; height: 50px;background: #fe9500;color: #FFF;text-align: center; outline:none; cursor:pointer;line-height: 50px; border:none;font-size: 24px;border-radius: 4px; margin:20px 0;}

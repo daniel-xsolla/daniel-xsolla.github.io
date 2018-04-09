@@ -1,0 +1,211 @@
+.modal-subscription .modal-dialog
+{
+    width: 510px;
+}
+
+
+.modal-subscription .modal-dialog
+{
+    background: #fff;
+    margin-top: 100px;
+    border-radius: 5px;
+//width: 625px;
+}
+
+.modal-subscription .close
+{
+    font-size: 25px;
+    /* color: #e0ddd7; */
+}
+.modal-subscription .modal-title
+{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21pt;
+    color: #000;
+}
+.modal-subscription .modal-title img
+{
+    margin-right: 10px;
+}
+
+.modal-subscription .btn-payment-method-other,
+.modal-subscription .btn-payment-method-cards
+{
+    cursor: pointer;
+    border-bottom: 1px dashed;
+}
+.modal-subscription .btn-payment-method-cards
+{
+    margin-top: 50px;
+    display: inline-block;
+}
+.modal-subscription .modal-body
+{
+    padding-bottom: 0;
+    height: 300px;
+}
+.modal-subscription .modal-body.height-auto
+{
+    padding-bottom: 0;
+    height: auto !important;
+}
+.modal-subscription .height-auto iframe
+{
+    min-height: 610px !important;
+    overflow: auto;
+}
+.modal-subscription .row-payment-method-other
+{
+    margin-bottom: 30px;
+}
+
+.modal-subscription iframe
+{
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    background: #fff;
+    border: 0;
+//overflow: hidden;
+}
+
+.modal-subscription .steps-indicator
+{
+    width: 33.3%;
+    height: 6px;
+    background: #f6f5f3;
+    float: left;
+    padding: 0 2px;
+    position: relative;
+    box-sizing: border-box;
+}
+.modal-subscription .steps-indicator-left
+{
+    width: 33.4%;
+}
+.modal-subscription .steps-indicator-center::before,
+.modal-subscription .steps-indicator-right::before
+{
+    left: 0;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    content: '';
+    position: absolute;
+    top: 0;
+    border-left: 3px solid #fff;
+}
+.modal-subscription .steps-indicator-left
+{
+    background: #ffeda9;
+}
+.modal-subscription .steps-indicator-left::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #ffeda9;
+}
+.modal-subscription .steps-indicator-center
+{
+    background: #fed954;
+}
+.modal-subscription .steps-indicator-center::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fed954;
+}
+.modal-subscription .payment-amount p,
+.modal-subscription .payment-amount p .price::after
+{
+    margin-top: 10px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 21pt !important;
+    color: #000;
+}
+
+.subscription-price .ribbon {
+    position: absolute;
+    right: -18px;
+    top: -18px;
+    z-index: 1;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    text-align: right;
+}
+.subscription-price .ribbon span {
+    font-size: 17px;
+    font-family: RobotoRegular;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 28px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 140px;
+    display: block;
+    background: #00C3BD;
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 27px;
+    right: -29px;
+}
+.subscription-price .ribbon span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #248D89;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid #248D89;
+}
+.subscription-price .ribbon span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 7px solid #248D89;
+    border-bottom: 7px solid transparent;
+    border-top: 3px solid #248D89;
+}
+@media screen and (max-width: 768px)
+{
+    .subscription-price .ribbon
+    {
+        right: -24px;
+    }
+    .modal-subscription .modal-body
+    {
+        padding: 5px;
+    }
+    .modal-subscription .modal-title
+    {
+        font-size: 16px;
+    }
+    .modal-subscription .modal-title img
+    {
+        width: 32px;
+    }
+}
+.modal-subscription .already-bought
+{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 21pt;
+    color: #000;
+    margin: 20px;
+}

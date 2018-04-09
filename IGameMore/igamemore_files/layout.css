@@ -1,0 +1,61 @@
+@charset "utf-8";
+body{color:#777;font:14px/2 'Helvetica Neue', Arial, Helvetica, sans-serif;}
+img{border:0;}
+body,ul,li,span,p,font,div,fieldset,legend,img,input,form,h1,h2,h3,h4,h5,h6,h7,dl,dd,dt{margin:0px;padding:0px;}
+ul,li,ol {white-space:normal;list-style:none;} table {border-collapse: collapse;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+
+header,footer,section,article,aside{display:block;}
+
+/* clear */
+.f-cb{*zoom:1;}
+.f-cb:after{clear:both;display:block;height:0;visibility:hidden;content:".";}
+.clear {clear:both; font-size:0; height:0;}
+
+/*hidden*/
+.none{display: none;}
+.ir{display: block;overflow:hidden;line-height:99em;}
+
+/*浮动*/
+.fl{float: left;display: inline;position: relative;}
+.fr{float: right;display: inline;font-size: 50px;position: relative;}
+.main{width:1220px;margin:0 auto;}
+
+/*header*/
+/*
+ * header{height:60px;background:#202020;}
+ * header .main{background:#202020;text-transform:uppercase; position:relative;}
+ * .logo{width:176px;padding:10px 0 0; height: 36px;}
+ * .logo a{background:url(../images/layout/logo.png) center no-repeat;height:36px; width: 176px;}
+ *
+ * nav{padding:0 0 0 60px;}
+ * nav li{display: inline-block;padding:0 15px;font:18px/3.2 'Helvetica Neue', Arial, Helvetica, sans-serif;float: left;}
+ * nav a{color:#999; display:block; height: 60px;}
+ * nav a:hover,nav .cur{color:#fe6c00; text-decoration: none;}
+ * nav .nav_juegos a { background:url(../images/layout/sprite_icon.png) no-repeat 48px -691px;padding:0 21px 0 0px;}
+ * nav .nav_juegos a:hover { background-position: 48px -751px}
+ * */
+
+/*footer*/
+footer{background: #202020;margin-top:24px;}
+footer .main{background: #202020;padding:10px 0px 12px 0px;width:1220px;}
+.copy{border-top:1px solid #333;color:#aaa;padding-top:10px;}
+
+.f-list{height:218px;}
+.f-list dl{width:240px;float: left;}
+/*.f-list dt{font:20px/3.5 'robotoregular';padding-bottom: 8px;color:#fff;}*/
+.f-list dt{font:20px/3.5 'Helvetica Neue', Arial, Helvetica, sans-serif;padding-bottom: 8px;color:#fff;}
+.f-list dt a { color:#FFF;} .f-list dt a:hover { text-decoration:none;}
+.f-list dd a{display: block;color:#aaa;line-height:2.1;}
+
+.f-list .f-icon{width:260px;}
+.f-icon dd a{display:inline-block;width:35%;background:url(../images/layout/sprite_icon.png) no-repeat;float: left;padding-left:36px;height:30px;overflow: hidden;margin-bottom:5px;}
+.f-icon dd .icon-facebook{background-position:2px -60px;}
+.f-icon dd .icon-twitter{background-position:2px -90px;}
+.f-icon dd .icon-LinkedIn{background-position:2px -120px;}
+.f-icon dd .icon-YouTube{background-position:2px -150px;}
+
+
+
+

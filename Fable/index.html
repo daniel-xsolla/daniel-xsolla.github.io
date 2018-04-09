@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fable Demo</title>
+	<style>
+		body {
+			background-color: #000;
+			background-image: url(ss_2.jpg);
+			background-position: 50% 0px;
+			background-repeat: no-repeat;
+    		background-size: cover;
+		}
+		.container {
+			position: absolute;
+			//background-color: black;
+			left:0px;
+			top: 0px;
+			right: 0px;
+			bottom: 0px;
+			z-index: 1;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			width: 100%;
+			height: 100%;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: start;
+			-webkit-align-items: flex-start;
+			-ms-flex-align: start;
+			align-items: flex-start;
+		}
+		#xsolla_btn_1 {
+			position: absolute;
+			top: 730px;
+			width: 215px;
+			height: 46px;
+			margin-left: -335px;
+			padding-left: 0px;
+			opacity: 0;
+			cursor: pointer;
+			background-color: black;
+		}
+		#xsolla_btn_2 {
+			position: absolute;
+			top: 730px;
+			width: 215px;
+			height: 46px;
+			margin-left: 0px;
+			padding-left: 0px;
+			opacity: 0;
+			cursor: pointer;
+			background-color: red;
+		}
+		#xsolla_btn_3 {
+			position: absolute;
+			top: 730px;
+			width: 215px;
+			height: 46px;
+			margin-left: 332px;
+			padding-left: 0px;
+			opacity: 0;
+			cursor: pointer;
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div id="xsolla_btn_1"></div>
+		<div id="xsolla_btn_2"></div>
+		<div id="xsolla_btn_3"></div>
+	</div>
+
+	<script>
+	   var options1 = {
+	   		access_token: 'Fmdj4QH3QFCAq3TSLVmYfBufIDmF7Gh0',
+	        host: 'sandbox-secure.xsolla.com',
+	        target_element: "#xsolla_btn_1",
+	        sandbox:true,
+	        lightbox:{
+	            height: '660px'
+	        }
+	    };
+	    var options2 = {
+	   		access_token: 'tw9tiTO3GpiKwZDWihGmx01KyPbNJ8Ia',
+	        host: 'sandbox-secure.xsolla.com',
+	        target_element: "#xsolla_btn_1",
+	        sandbox:true,
+	        lightbox:{
+	            height: '660px'
+	        }
+	    };
+	    var options3 = {
+	   		access_token: 'Fmdj4QH3QFCAq3TSLVmYfBufIDmF7Gh0',
+	        host: 'sandbox-secure.xsolla.com',
+	        target_element: "#xsolla_btn_1",
+	        sandbox:true,
+	        lightbox:{
+	            height: '660px'
+	        }
+	    };
+
+
+	    var s = document.createElement('script');
+	    s.type = "text/javascript";
+	    s.async = true;
+	    s.src = "//static.xsolla.com/embed/paystation/1.0.7/widget.min.js";
+	    s.addEventListener('load', function (e) {
+	        document.getElementById('xsolla_btn_1').addEventListener('click',function(e){
+	            XPayStationWidget.init(options1);
+	            XPayStationWidget.open();
+	        })
+	        document.getElementById('xsolla_btn_2').addEventListener('click',function(e){
+	            XPayStationWidget.init(options2);
+	            XPayStationWidget.open();
+	        })
+	        document.getElementById('xsolla_btn_3').addEventListener('click',function(e){
+	            XPayStationWidget.init(options3);
+	            XPayStationWidget.open();
+	        });
+	    }, false); 
+	    var head = document.getElementsByTagName('head')[0];
+	    head.appendChild(s);
+    </script> 
+</body>
+</html>

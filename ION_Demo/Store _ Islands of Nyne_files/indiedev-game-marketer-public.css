@@ -1,0 +1,22 @@
+.indiedev-presskit-wrap {
+    display: table;
+}
+.indiedev-presskit-entry {
+    display: table-cell;
+}
+.indiedev-presskit-top, .indiedev-presskit-bottom {
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+    overflow:visible;
+}
+
+.indiedev-presskit-toc, .indiedev-presskit-credits {
+    height:100%;
+    break-inside: avoid-column;
+}
+
+.indiedev-presskit-factsheet, .indiedev-presskit-contact {
+    height:100%;    
+    break-inside: avoid-column;
+}

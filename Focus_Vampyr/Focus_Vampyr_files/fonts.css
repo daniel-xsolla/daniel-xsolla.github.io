@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'helioscondregular';
+    /*src: url("fonts/helioscondregular-webfont.eot");*/
+    src: /*url("fonts/helioscondregular-webfont.eot?#iefix") format('embedded-opentype'),
+         url("fonts/helioscondregular-webfont.svg#helioscondregular") format('svg'),*/
+         url(fonts/helioscondregular-webfont.woff) format('woff'),
+         url(fonts/helioscondregular-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+/*@font-face {
+    font-family: 'helioscondbold';
+    src: url("fonts/helioscondbold-webfont.eot");
+    src: url("fonts/helioscondbold-webfont.eot?#iefix") format('embedded-opentype'),
+         url("fonts/helioscondbold-webfont.svg#helioscondbold") format('svg'),
+         url("fonts/helioscondbold-webfont.woff") format('woff'),
+         url("fonts/helioscondbold-webfont.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}*/
+
+@font-face {
+    font-family:'eurostilebold';
+/*    src: url("fonts/eurostile-black-webfont.eot");*/
+    src: /*url("fonts/eurostile-black-webfont.eot?#iefix") format('embedded-opentype'),*/
+         url(fonts/eurostile-black-webfont.woff2) format('woff2'),
+/*         url("fonts/eurostile-black-webfont.woff") format('woff'),
+         url("fonts/eurostile-black-webfont.svg#eurostilebold") format('svg'),*/
+         url(fonts/eurostile-black-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:'eurostiledemi';
+    /*src: url("fonts/eurostile-demi-webfont.eot");*/
+    src: /*url("fonts/eurostile-demi-webfont.eot?#iefix") format('embedded-opentype'),*/
+         url(fonts/eurostile-demi-webfont.woff2) format('woff2'),
+         /*url("fonts/eurostile-demi-webfont.woff") format('woff'),
+         url("fonts/eurostile-demi-webfont.svg#eurostilebold") format('svg'),*/
+         url(fonts/eurostile-demi-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'MuseoSans';
+  src: url('fonts/MuseoSans-100.eot');
+  src: url('fonts/MuseoSans-100.woff') format('woff'),
+       url('fonts/MuseoSans-100.ttf') format('truetype'),
+       url('fonts/MuseoSans-100.svg#MuseoSans-100') format('svg'),
+       url('fonts/MuseoSans-100.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MuseoSans-500';
+  src: url('fonts/MuseoSans-500.eot');
+  src: url('fonts/MuseoSans-500.woff') format('woff'),
+       url('fonts/MuseoSans-500.ttf') format('truetype'),
+       url('fonts/MuseoSans-500.svg#MuseoSans-500') format('svg'),
+       url('fonts/MuseoSans-500.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

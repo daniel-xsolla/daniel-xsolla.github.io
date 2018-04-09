@@ -1,0 +1,966 @@
+.lesson-navbar.dictation-active i:before {
+  background-position: -36px 0px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.dictation-error i:before {
+  background-position: -108px -36px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.dictation-passed i:before {
+  background-position: 0px -36px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.dictation-passive i:before {
+  background-position: -36px -36px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.interpretation-active i:before {
+  background-position: -72px 0px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.interpretation-error i:before {
+  background-position: -72px -36px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.interpretation-passed i:before {
+  background-position: 0px -72px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.interpretation-passive i:before {
+  background-position: -36px -72px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.listening-active i:before {
+  background-position: -72px -72px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.listening-error i:before {
+  background-position: -108px 0px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.listening-passed i:before {
+  background-position: 0px 0px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.listening-passive i:before {
+  background-position: -108px -72px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.translation-active i:before {
+  background-position: 0px -108px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.translation-error i:before {
+  background-position: -36px -108px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.translation-passed i:before {
+  background-position: -72px -108px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.translation-passive i:before {
+  background-position: -108px -108px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.vocabulary-active i:before {
+  background-position: -144px 0px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.vocabulary-error i:before {
+  background-position: -144px -36px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.vocabulary-passed i:before {
+  background-position: -144px -72px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar.vocabulary-passive i:before {
+  background-position: -144px -108px;
+  width: 36px;
+  height: 36px;
+}
+
+.lesson-navbar {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.lesson-navbar i {
+  display: block;
+}
+.lesson-navbar i:before {
+  background-image: url(../images/icons-scenarios.png);
+  content: '';
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+}
+.lesson-navbar.passive {
+  color: #d0d2d3;
+}
+
+a.lesson-navbar.active {
+  color: #20928a;
+  text-decoration: none;
+  padding: 2px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  border-color: #ddd;
+  background: #f5f5f5;
+}
+a.lesson-navbar.passed {
+  color: #91bbb9;
+}
+
+.lesson-bottom-nav a.button-grammar i,
+.lesson-bottom-nav a.button-repeat i,
+.lesson-bottom-nav a.button-volume i,
+.lesson-bottom-nav a.button-info i,
+.lesson-bottom-nav a.button-task i,
+.lesson-bottom-nav a.button-finish i,
+.lesson-bottom-nav a.button-next i,
+.lesson-bottom-nav a.button-dictionary i,
+.lesson-bottom-nav a.button-play i {
+  display: block;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-grammar i:after,
+.lesson-bottom-nav a.button-repeat i:after,
+.lesson-bottom-nav a.button-volume i:after,
+.lesson-bottom-nav a.button-info i:after,
+.lesson-bottom-nav a.button-task i:after,
+.lesson-bottom-nav a.button-finish i:after,
+.lesson-bottom-nav a.button-next i:after,
+.lesson-bottom-nav a.button-dictionary i:after,
+.lesson-bottom-nav a.button-play i:after {
+  display: inline-block;
+  overflow: hidden;
+  content: '';
+  background-image: url(../images/icons-lessons.png);
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-repeat .icon-scenarios-repeat:after {
+  background-position: 0px -120px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-repeat.active .icon-scenarios-repeat:after {
+  background-position: -120px -80px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-repeat.disabled .icon-scenarios-repeat:after {
+  background-position: -40px -120px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-play .icon-scenarios-repeat:after {
+  background-position: 0px -120px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-play.active .icon-scenarios-repeat:after {
+  background-position: -120px -80px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-play.disabled .icon-scenarios-repeat:after {
+  background-position: -40px -120px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-grammar .icon-scenarios-grammabank:after {
+  background-position: -80px 0px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-grammar.active .icon-scenarios-grammabank:after {
+  background-position: -40px -40px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-grammar.disabled .icon-scenarios-grammabank:after {
+  background-position: -80px -40px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-volume .icon-scenarios-volume:after {
+  background-position: -120px -120px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-volume.active .icon-scenarios-volume:after {
+  background-position: -160px 0px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-volume.disabled .icon-scenarios-volume:after {
+  background-position: -160px 0px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-finish .icon-scenarios-next:after, .lesson-bottom-nav a.button-next .icon-scenarios-next:after {
+  background-position: -120px 0px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-finish:hover .icon-scenarios-next:after, .lesson-bottom-nav a.button-next:hover .icon-scenarios-next:after {
+  background-position: 0px 0px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-finish.disabled .icon-scenarios-next:after, .lesson-bottom-nav a.button-next.disabled .icon-scenarios-next:after {
+  background-position: -120px -40px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-info .icon-scenarios-i:after {
+  background-position: -40px -80px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-info:hover .icon-scenarios-i:after {
+  background-position: 0px -80px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-info.disabled .icon-scenarios-i:after {
+  background-position: -120px -40px;
+  width: 40px;
+  height: 40px;
+}
+
+.lesson-bottom-nav a.button-task .icon-scenarios-q:after {
+  background-position: -158px -80px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-task:hover .icon-scenarios-q:after {
+  background-position: -158px -40px;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.lesson-bottom-nav a.button-dictionary .icon-scenarios-dictionary:after {
+  background-position: -80px -80px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-dictionary:hover .icon-scenarios-dictionary:after {
+  background-position: -40px 0px;
+  width: 40px;
+  height: 40px;
+}
+.lesson-bottom-nav a.button-dictionary.disabled .icon-scenarios-dictionary:after {
+  background-position: -80px -80px;
+  width: 40px;
+  height: 40px;
+}
+
+.progress-menu-item.achievements-active i {
+  background-position: 0px 0px;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-menu-item.achievements-passive i {
+  background-position: -80px 0px;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-menu-item.lessons-active i {
+  background-position: 0px -80px;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-menu-item.lessons-passive i {
+  background-position: -80px -80px;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-menu-item.progress-active i {
+  background-position: -160px 0px;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-menu-item.progress-passive i {
+  background-position: -160px -80px;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-menu-item.time-active i {
+  background-position: 0px -160px;
+  width: 80px;
+  height: 80px;
+}
+
+.progress-menu-item.time-passive i {
+  background-position: -80px -160px;
+  width: 80px;
+  height: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  .progress-menu-item.achievements-active i {
+    background-position: 0px 0px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-menu-item.achievements-passive i {
+    background-position: -40px 0px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-menu-item.lessons-active i {
+    background-position: 0px -40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-menu-item.lessons-passive i {
+    background-position: -40px -40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-menu-item.progress-active i {
+    background-position: -80px 0px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-menu-item.progress-passive i {
+    background-position: -80px -40px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-menu-item.time-active i {
+    background-position: 0px -80px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .progress-menu-item.time-passive i {
+    background-position: -40px -80px;
+    width: 40px;
+    height: 40px;
+  }
+}
+.progress-menu-item {
+  text-align: center;
+  display: inline-block;
+}
+.progress-menu-item i {
+  display: block;
+  background-image: url(../images/icons-progress.png);
+}
+@media only screen and (max-width: 768px) {
+  .progress-menu-item i {
+    background-image: url(../images/icons-progress-sm.png);
+  }
+}
+
+.blue_flag-passive .achievement-icon {
+  background-position: -1046px -745px;
+  width: 149px;
+  height: 149px;
+}
+
+.blue_flag .achievement-icon {
+  background-position: -450px 0px;
+  width: 149px;
+  height: 150px;
+}
+
+.bronze_cup-passive .achievement-icon {
+  background-position: -596px -749px;
+  width: 149px;
+  height: 149px;
+}
+
+.bronze_cup .achievement-icon {
+  background-position: -450px -300px;
+  width: 149px;
+  height: 150px;
+}
+
+.bronze_medal-passive .achievement-icon {
+  background-position: -596px -600px;
+  width: 149px;
+  height: 149px;
+}
+
+.bronze_medal .achievement-icon {
+  background-position: -298px -300px;
+  width: 149px;
+  height: 150px;
+}
+
+.diamond_cup-passive .achievement-icon {
+  background-position: -1046px -149px;
+  width: 149px;
+  height: 149px;
+}
+
+.diamond_cup .achievement-icon {
+  background-position: 0px -300px;
+  width: 149px;
+  height: 150px;
+}
+
+.double_blue_flag-passive .achievement-icon {
+  background-position: -447px -600px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_blue_flag .achievement-icon {
+  background-position: 0px 0px;
+  width: 150px;
+  height: 150px;
+}
+
+.double_bronze_medal-passive .achievement-icon {
+  background-position: -745px -600px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_bronze_medal .achievement-icon {
+  background-position: -897px -149px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_golden_medal-passive .achievement-icon {
+  background-position: -897px -447px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_golden_medal .achievement-icon {
+  background-position: 0px -749px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_gray_flag-passive .achievement-icon {
+  background-position: -298px -749px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_gray_flag .achievement-icon {
+  background-position: -150px 0px;
+  width: 150px;
+  height: 150px;
+}
+
+.double_green_flag-passive .achievement-icon {
+  background-position: -894px -749px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_green_flag .achievement-icon {
+  background-position: 0px -150px;
+  width: 150px;
+  height: 150px;
+}
+
+.double_orange_flag-passive .achievement-icon {
+  background-position: -1046px -447px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_orange_flag .achievement-icon {
+  background-position: -150px -150px;
+  width: 150px;
+  height: 150px;
+}
+
+.double_platinum_medal-passive .achievement-icon {
+  background-position: -149px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_platinum_medal .achievement-icon {
+  background-position: -447px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_silver_medal-passive .achievement-icon {
+  background-position: -745px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_silver_medal .achievement-icon {
+  background-position: -748px -450px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_wood_medal-passive .achievement-icon {
+  background-position: 0px -600px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_wood_medal .achievement-icon {
+  background-position: -149px -600px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_yellow_flag-passive .achievement-icon {
+  background-position: -298px -600px;
+  width: 149px;
+  height: 149px;
+}
+
+.double_yellow_flag .achievement-icon {
+  background-position: -300px 0px;
+  width: 150px;
+  height: 150px;
+}
+
+.golden_cup-passive .achievement-icon {
+  background-position: -1043px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.golden_cup .achievement-icon {
+  background-position: -450px -150px;
+  width: 149px;
+  height: 150px;
+}
+
+.golden_medal-passive .achievement-icon {
+  background-position: -897px 0px;
+  width: 149px;
+  height: 149px;
+}
+
+.golden_medal .achievement-icon {
+  background-position: -300px -150px;
+  width: 149px;
+  height: 150px;
+}
+
+.gray_flag-passive .achievement-icon {
+  background-position: -897px -298px;
+  width: 149px;
+  height: 149px;
+}
+
+.gray_flag .achievement-icon {
+  background-position: -599px 0px;
+  width: 149px;
+  height: 150px;
+}
+
+.green_flag-passive .achievement-icon {
+  background-position: -897px -596px;
+  width: 149px;
+  height: 149px;
+}
+
+.green_flag .achievement-icon {
+  background-position: -599px -150px;
+  width: 149px;
+  height: 150px;
+}
+
+.orange_flag-passive .achievement-icon {
+  background-position: -149px -749px;
+  width: 149px;
+  height: 149px;
+}
+
+.orange_flag .achievement-icon {
+  background-position: -599px -300px;
+  width: 149px;
+  height: 150px;
+}
+
+.platinum_cup-passive .achievement-icon {
+  background-position: -447px -749px;
+  width: 149px;
+  height: 149px;
+}
+
+.platinum_cup .achievement-icon {
+  background-position: 0px -450px;
+  width: 149px;
+  height: 150px;
+}
+
+.platinum_medal-passive .achievement-icon {
+  background-position: -745px -749px;
+  width: 149px;
+  height: 149px;
+}
+
+.platinum_medal .achievement-icon {
+  background-position: -149px -450px;
+  width: 149px;
+  height: 150px;
+}
+
+.silver_cup-passive .achievement-icon {
+  background-position: -1046px 0px;
+  width: 149px;
+  height: 149px;
+}
+
+.silver_cup .achievement-icon {
+  background-position: -298px -450px;
+  width: 149px;
+  height: 150px;
+}
+
+.silver_medal-passive .achievement-icon {
+  background-position: -1046px -298px;
+  width: 149px;
+  height: 149px;
+}
+
+.silver_medal .achievement-icon {
+  background-position: -447px -450px;
+  width: 149px;
+  height: 150px;
+}
+
+.triple_golden_medal-passive .achievement-icon {
+  background-position: -1046px -596px;
+  width: 149px;
+  height: 149px;
+}
+
+.triple_golden_medal .achievement-icon {
+  background-position: -596px -450px;
+  width: 149px;
+  height: 150px;
+}
+
+.triple_platinum_medal-passive .achievement-icon {
+  background-position: 0px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.triple_platinum_medal .achievement-icon {
+  background-position: -748px 0px;
+  width: 149px;
+  height: 150px;
+}
+
+.wood_cup-passive .achievement-icon {
+  background-position: -298px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.wood_cup .achievement-icon {
+  background-position: -748px -150px;
+  width: 149px;
+  height: 150px;
+}
+
+.wood_medal-passive .achievement-icon {
+  background-position: -596px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.wood_medal .achievement-icon {
+  background-position: -748px -300px;
+  width: 149px;
+  height: 150px;
+}
+
+.yellow_flag-passive .achievement-icon {
+  background-position: -894px -898px;
+  width: 149px;
+  height: 149px;
+}
+
+.yellow_flag .achievement-icon {
+  background-position: -149px -300px;
+  width: 149px;
+  height: 150px;
+}
+
+.achievement-icon {
+  background-image: url(../images/icons-achievements-big.png);
+}
+
+.finish-progress-title.achievements-icon i {
+  background-position: 0px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.finish-progress-title.progress-icon i {
+  background-position: -30px 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.finish-progress-title.time-icon i {
+  background-position: 0px -30px;
+  width: 30px;
+  height: 30px;
+}
+
+.finish-progress-title.words-icon i {
+  background-position: -30px -30px;
+  width: 30px;
+  height: 30px;
+}
+
+.finish-progress-title i {
+  background-image: url(../images/icons-progress-xs.png);
+}
+
+.finish-achievement-icon.blue_flag i {
+  background-position: -55px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.bronze_cup i {
+  background-position: -110px -165px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.bronze_medal i {
+  background-position: 0px -55px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.diamond_cup i {
+  background-position: -55px -55px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_blue_flag i {
+  background-position: -110px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_bronze_medal i {
+  background-position: -110px -55px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_golden_medal i {
+  background-position: 0px -110px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_gray_flag i {
+  background-position: -55px -110px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_green_flag i {
+  background-position: -110px -110px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_orange_flag i {
+  background-position: -165px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_platinum_medal i {
+  background-position: -165px -55px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_silver_medal i {
+  background-position: -165px -110px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_wood_medal i {
+  background-position: 0px -165px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.double_yellow_flag i {
+  background-position: -55px -165px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.golden_cup i {
+  background-position: 0px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.golden_medal i {
+  background-position: -165px -165px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.gray_flag i {
+  background-position: -220px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.green_flag i {
+  background-position: -220px -55px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.orange_flag i {
+  background-position: -220px -110px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.platinum_cup i {
+  background-position: -220px -165px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.platinum_medal i {
+  background-position: 0px -220px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.silver_cup i {
+  background-position: -55px -220px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.silver_medal i {
+  background-position: -110px -220px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.triple_golden_medal i {
+  background-position: -165px -220px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.triple_platinum_medal i {
+  background-position: -220px -220px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.wood_cup i {
+  background-position: -275px 0px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.wood_medal i {
+  background-position: -275px -55px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon.yellow_flag i {
+  background-position: -275px -110px;
+  width: 55px;
+  height: 55px;
+}
+
+.finish-achievement-icon i {
+  background-image: url(../images/icons-achievements-small.png);
+}
+
+.leaderboard-arrow.arrow-down i {
+  background-position: 0px 0px;
+  width: 51px;
+  height: 12px;
+}
+
+.leaderboard-arrow.arrow-up i {
+  background-position: 0px -12px;
+  width: 51px;
+  height: 12px;
+}
+
+.leaderboard-arrow i {
+  background-image: url(../images/icons-leaderboard.png);
+}

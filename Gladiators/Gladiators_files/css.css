@@ -1,0 +1,1447 @@
+/* ============ main elements */
+html {
+	margin: 0;
+	padding: 0;
+	background: #ece8dd url('http://gladiators.ru/images/fone.gif') left top repeat;
+}
+
+td {
+	font-size:11px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url('http://gladiators.ru/images/fone-stripe.gif') 50% 548px repeat-x;
+	color: #2c231e;
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 0.7em;
+}
+
+hr {
+	color:#444444;
+	background-color:#444444;
+	height: 1px;
+	border-width:0px;
+}
+
+#page-wrapper {
+	position: relative;
+	margin: 0;
+	min-width: 1000px;
+	overflow: hidden; /* cuts everything outside */
+	text-align: center;
+
+}
+
+#page {
+	position: relative;
+	width: 1000px;
+	margin: 0 auto;
+	overflow: visible;
+
+}
+
+
+/* ============ header block */
+#header {
+	height: 1%; /* for ie6: hasLayout */
+	position: relative;
+	z-index: 3;
+	font-weight: bold;
+}
+
+#header .shadow-left {
+	position: relative;
+	left: -18px;
+	background: url('http://gladiators.ru/images/shadows.gif') left top repeat-y;
+}
+
+#header .shadow-right {
+	position: relative;
+	left: 18px;
+	background: url('http://gladiators.ru/images/shadows.gif') right top repeat-y;
+}
+
+#header .border-left {
+	position: relative;
+	left: 18px;
+	padding: 0 0 0 28px;
+	background: url('http://gladiators.ru/images/v-borders.gif') left top repeat-y;
+	height: 1%; /* for ie6: hasLayout */
+}
+
+#header .shadow-right .border-left {
+	left: -18px;
+}
+
+#header .border-right {
+	padding: 0 28px 0 0;
+	background: url('http://gladiators.ru/images/v-borders.gif') right top repeat-y;
+}
+
+#header .content {
+	height: 1%; /* for ie6: hasLayout */
+	background: url('http://gladiators.ru/images/fone-sand.gif') left top repeat;
+}
+
+/* ---- title pages specific */
+#header .picture {
+	display: block;
+}
+
+/* ---- inner page specific */
+.inner #header .content {
+	padding: 20px;
+	height: 24px;
+	overflow: hidden;
+}
+
+#header ul {
+	list-style-type: none;
+	width: 245px;
+}
+
+#header ul.left {
+	float: left;
+	text-align: left;
+}
+
+#header ul.right {
+	float: right;
+	text-align: right;
+}
+
+#header ul li {
+	position: relative;
+	display: inline;
+	margin-left: 11px;
+	padding: 2px 0 6px 15px;
+	background: url('http://gladiators.ru/images/dotted-border.gif') left top repeat-y;
+	line-height: 150%;
+}
+
+#header ul.left li {
+}
+
+#header ul.right li {
+}
+
+#header a {
+	color: #342111;
+}
+
+#header ul li.first {
+	margin-left: 0;
+	padding-left: 0;
+	background: none;
+}
+
+/* ---- trees */
+#header .tree-left {
+	position: absolute;
+	left: -96px; top: 134px;
+	width: 96px; height: 442px;
+	background: url('http://gladiators.ru/images/tree-left-2.jpg') left top no-repeat;
+}
+
+
+
+.title #header .tree-left {
+	position: absolute;
+	left: -102px; top: 240px;
+	width: 102px; height: 420px;
+	background: url('http://gladiators.ru/images/tree-left-1.jpg') left top no-repeat;
+}
+
+#header .tree-right {
+	position: absolute;
+	right: -150px; top: 18px;
+	width: 150px; height: 595px;
+	background: url('http://gladiators.ru/images/tree-right-2.jpg') left top no-repeat;
+}
+
+.title #header .tree-right {
+	position: absolute;
+	right: -172px; top: 0;
+	width: 172px; height: 695px;
+	background: url('http://gladiators.ru/images/tree-right-1.jpg') left top no-repeat;
+}
+
+#header .tree-right-piece {
+	position: absolute;
+	right: -40px; top: 18px;
+	width: 85px; height: 38px;
+	background: url('http://gladiators.ru/images/tree-right-3.gif') left top no-repeat;
+}
+
+
+/* ==== game menu */
+#game-menu-wrapper {
+	z-index: 5;
+	position: relative;
+	height: 210px;
+	margin: -11px 0 -22px;
+}
+
+.title #game-menu-wrapper {
+	height: 136px;
+}
+
+#game-menu {
+	position: absolute;
+	left: -67px; top: 0;
+	width: 1130px;
+	background: url('http://gladiators.ru/images/columns-top.gif') left bottom no-repeat;
+}
+
+#game-menu .top {
+	position: relative;
+	background: url('http://gladiators.ru/images/menu-top.gif') left top no-repeat;
+	height: 210px;
+}
+
+.title #game-menu .top {
+	background: url('http://gladiators.ru/images/menu-top-title.gif') left top no-repeat;
+	height: 136px;
+}
+
+/* ---- title logo with links */
+.title #game-menu img, .title #game-menu ul {
+	position: absolute;
+	left: 294px;
+	top: -53px;
+	width: 576px;
+	height: 232px;
+}
+
+.title #game-menu ul {
+	list-style-type: none;
+	font-size: 110%;
+	color: #ffe7b6;
+}
+
+.title #game-menu ul li {
+	position: absolute;
+	top: 204px;
+	margin-top: -0.65em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title #game-menu .demo {
+	left: 15px;
+	width: 142px;
+}
+
+.title #game-menu .reg {
+	left: 210px;
+	width: 120px;
+        font-weight: bold;
+        color: #ffe7b6;
+}
+
+.title #game-menu .shots {
+	left: 384px;
+	width: 170px;
+
+}
+
+.title #game-menu a {
+	padding-left: 15px;
+	/*background: url('/images/bull-logo2.gif') left 50% no-repeat;*/
+	color: #ffe7b6;
+	text-decoration: none;
+}
+
+a.blinking {
+	padding-left: 15px;
+	/*background: url('/images/bull-logo.gif') left 50% no-repeat;*/
+	color: #ffe7b6;
+	text-decoration: none;
+}
+
+a.non_blinking {
+	padding-left: 15px;
+	background: url('http://gladiators.ru/images/bull-logo2.gif') left 50% no-repeat;
+	color: #ffe7b6;
+	text-decoration: none;
+}
+
+.title #game-menu a:hover {
+	text-decoration: underline;
+}
+
+.regstyle {
+    font-weight: bold;
+    color: #ffe7b6;
+    text-decoration:none;
+
+}
+
+td.menu-item-short {
+    height:28px;
+    background: url('http://gladiators.ru/images/menu-item-short.gif') center no-repeat;
+}
+
+/* ---- inner */
+#game-menu .logo {
+	position: absolute;
+	left: 350px;
+	top: -52px;
+}
+
+#game-menu .menu {
+	list-style-type: none;
+	position: absolute;
+	left: 65px; top: 44px;
+}
+
+.inner #game-menu ul li {
+	float: left;
+	position: relative;
+	width: 130px;
+	height: 82px;
+	margin-right: 16px;
+	text-align: center;
+}
+
+.inner #game-menu ul span {
+	display: block;
+	position: absolute;
+	left: 0; top: 0;
+	width: 100%;
+	height: 100%;
+	background: url('http://gladiators.ru/images/band-w-leaves.gif') left bottom no-repeat;
+	overflow: hidden;
+}
+
+.inner #game-menu ul span a {
+	display: block;
+	position: absolute;
+	left: 0; bottom: 17px;
+	margin-bottom: -0.6em;
+	width: 100%;
+	padding-top: 100px;
+	color: #f5e8cd;
+	text-decoration: none;
+}
+
+#game-menu .sub-menu {
+	display: none;
+	position: absolute;
+	left: 50%; top: 77px;
+	width: 135px;
+	margin-left: -68px;
+	text-align: left;
+	background: url('http://gladiators.ru/images/submenu-scroll.gif') left top repeat-y;
+}
+
+#game-menu .active .sub-menu {
+	display: block;
+}
+
+#game-menu .sub-menu .m-top {
+	position: relative;
+	top: -19px;
+	background: url('http://gladiators.ru/images/submenu-top.gif') left top no-repeat;
+	padding-top: 10px;
+}
+
+#game-menu .sub-menu .m-bottom {
+	position: relative;
+	top: 42px;
+	background: url('http://gladiators.ru/images/submenu-bottom.gif') left bottom no-repeat;
+	padding-bottom: 1px;
+}
+
+#game-menu .sub-menu ul {
+	position: relative;
+	top: -18px;
+	list-style-type: none;
+}
+
+.inner #game-menu ul ul li {
+	position: static;
+	float: none;
+	width: auto;
+	height: auto;
+	margin: 0 0 9px;
+	padding-left: 22px;
+	text-align: left;
+	background: url('http://gladiators.ru/images/bull-black.gif') 11px 0.5em no-repeat;
+}
+
+#game-menu .chains {
+	position: absolute;
+	left: 162px; bottom: 12px;
+	width: 807px;
+	height: 32px;
+	background: url('http://gladiators.ru/images/chains.gif') left top no-repeat;
+}
+
+
+/* ============ content block */
+#content3 {
+	height: 1%; /* for ie6: hasLayout */
+	background: url('http://gladiators.ru/images/content-fone.jpg') 39px 310px repeat-y;
+	z-index: 1;
+    margin-bottom: -100px;
+}
+
+#content {
+	height: 1%; /* for ie6: hasLayout */
+	background: url('http://gladiators.ru/images/content-fone.jpg') 39px 310px repeat-y;
+	z-index: 1;
+    margin-bottom: -100px;
+}
+
+#content-ops {
+	height: 1%; /* for ie6: hasLayout */
+	background: url('http://gladiators.ru/images/content-fone.jpg') 39px 310px repeat-y;
+	z-index: 1;
+	margin-bottom: -100px;
+}
+
+#content .shadow-left {
+	position: relative;
+	left: -18px;
+	background: url('http://gladiators.ru/images/shadows.gif') left top repeat-y;
+}
+
+#content .shadow-right {
+	position: relative;
+	left: 36px;
+	background: url('http://gladiators.ru/images/shadows.gif') right top repeat-y;
+}
+
+#content .column-top {
+	position: relative;
+	left: -18px;
+	background: url('http://gladiators.ru/images/content-fone-top.jpg') 39px top no-repeat;
+}
+
+#content .column-left {
+	height: 1%; /* for ie6: hasLayout */
+	background: url('http://gladiators.ru/images/column-left.gif') left top repeat-y;
+	padding-left: 62px;
+}
+
+#content .column-right {
+	height: 1%; /* for ie6: hasLayout */
+	background: url('http://gladiators.ru/images/column-right.gif') right top repeat-y;
+	padding: 10px 62px 50px 0;
+	text-align: left;
+}
+
+#content .footer-pad {
+	padding: 1px 0 100px;
+}
+
+.title #content .column-left {
+	padding-left: 80px;
+}
+
+.title #content .column-right {
+	padding: 35px 80px 50px 0;
+}
+
+
+/* ---- left and right panels */
+.left-panel {
+	float: left;
+	width: 628px;
+}
+
+.right-panel {
+	margin-top: 10px;
+	float: right;
+}
+
+.right-panel-orig {
+	margin-top: 10px;
+	float: right;
+	width: 228px;
+}
+
+.title .right-panel {
+	width: 255px;
+	margin: 50px 20px 0 0;
+	display: inline; /* ie double margin fix */
+}
+
+
+/* ---- leaves */
+#content .leaves-1 {
+	position: absolute;
+	left: 0; top: 55px;
+	width: 27px; height: 49px;
+	background: url('http://gladiators.ru/images/leaves-1.gif') left top no-repeat;
+}
+
+#content .leaves-2 {
+	position: absolute;
+	right: 0; top: 260px;
+	width: 33px; height: 62px;
+	background: url('http://gladiators.ru/images/leaves-2.gif') left top no-repeat;
+}
+
+#content .leaves-3 {
+	position: absolute;
+	left: -25px; top: 230px;
+	width: 69px; height: 56px;
+	background: url('http://gladiators.ru/images/leaves-3.gif') left top no-repeat;
+}
+
+#game-menu .leaves-4 {
+	position: absolute;
+	left: -3px; bottom: 33px;
+	width: 56px; height: 48px;
+	background: url('http://gladiators.ru/images/leaves-4.gif') left top no-repeat;
+}
+
+/* ============ footer */
+
+#footer {
+ z-index: 15;
+ position: relative;
+ width: 100%;
+ height: 100px;
+}
+
+#footer .column-bottom {
+	position: absolute;
+	left: -57px; bottom: 0;
+	width: 1117px;
+	height: 43px;
+	background: url('http://gladiators.ru/images/columns-bottom.gif') left bottom no-repeat;
+}
+
+#footer .caesar {
+	position: absolute;
+	left: -78px; bottom: 1px;
+	width: 139px; height: 267px;
+	background: url('http://gladiators.ru/images/caesar.gif') left top no-repeat;
+}
+
+#footer .shield {
+	position: absolute;
+	right: -30px; bottom: 3px;
+	width: 88px; height: 165px;
+	background: url('http://gladiators.ru/images/shield.gif') left top no-repeat;
+}
+
+#footer .content {
+	padding: 10px 70px 38px;
+	color: #2b1b10;
+	text-align: left;
+    background: url('http://gladiators.ru/images/content-fone.jpg') repeat-y scroll 39px 310px;
+}
+
+#footer .content2 {
+	padding: 10px 70px 38px;
+	color: #2b1b10;
+	text-align: left;
+}
+
+#footer .contacts {
+	width: 430px;
+	margin-left: 100px;
+}
+
+#footer .counters {
+	float: right;
+	width: 315px;
+}
+
+#footer .counters img {
+	margin-right: 10px;
+	border: #271b13 solid 1px;
+}
+
+
+/* ==== shader */
+#shader, #message {
+	display: none;
+}
+
+
+#message.show {
+	display: block;
+
+	width: 478px;
+
+	z-index: 11;
+}
+
+
+
+#message .lr {
+	position: relative;
+	padding: 0 3px;
+	background: url('http://gladiators.ru/images/message-border-lr.gif') left top repeat-y;
+}
+
+#message .t {
+	position: relative;
+	top: -4px;
+	padding-top: 2px;
+	background: url('http://gladiators.ru/images/message-border-tb.gif') 3px top repeat-x;
+}
+
+#message .b {
+	position: relative;
+	top: 8px;
+	padding: 0 3px 2px;
+	background: url('http://gladiators.ru/images/message-border-tb.gif') left bottom repeat-x;
+	height: 1%; /* for ie6: hasLayout */
+}
+
+#message-text {
+	position: relative;
+	top: -4px;
+	padding: 25px;
+	background: url('http://gladiators.ru/images/fone-message.gif') left top repeat;
+}
+
+.big {font-weight:bold}
+
+/* ==== manuscript */
+.header {
+background-color:#e8bf87;
+}
+
+.clear {border:0;background-color:#feeac6;}
+
+.button {background-color:#faeecf;border: 1px solid #6f4219;}
+.disabledbutton {background-color:#D0D0D0;color:white;border: 1px solid #E5CEA6;}
+.bluebutton {background-color:#F3C647;color:black;border: 0px solid #E5CEA6;}
+.blackbutton {background-color:#faeecf;border: 1px solid #6f4219;}
+
+
+.script {
+	width: 540px;
+	background: url('http://gladiators.ru/images/script-scroll.jpg') 32px 246px repeat-y;
+}
+
+.script .bottom {
+	background: url('http://gladiators.ru/images/script-bottom.jpg') 6px bottom no-repeat;
+	padding-bottom: 80px;
+}
+
+.script .top {
+	background: url('http://gladiators.ru/images/script-top.jpg') left top no-repeat;
+	padding: 115px 50px 0 60px;
+	min-height: 333px;
+	font-size:13px;
+}
+
+
+.script4 {
+	width: 540px;
+	background: url('http://gladiators.ru/images/script-scroll.jpg') 32px 246px repeat-y;
+}
+
+.script4 .bottom {
+	background: url('http://gladiators.ru/images/script-bottom.jpg') 6px bottom no-repeat;
+	padding-bottom: 80px;
+}
+
+.script4 .top {
+	background: url('http://gladiators.ru/images/script-top_.jpg') left top no-repeat;
+	padding: 99px 50px 0 60px;
+	min-height: 333px;
+	font-size:13px;
+}
+
+
+.script2 {
+	width: 860px;
+margin-left:4px;
+	background: url('http://gladiators.ru/images/script-scroll2.jpg') 32px 246px repeat-y;
+}
+
+.script2 .bottom {
+	background: url('http://gladiators.ru/images/script-bottom2.jpg') 6px bottom no-repeat;
+	padding-bottom: 80px;
+}
+
+.script2 .top {
+	background: url('http://gladiators.ru/images/script-top2.jpg') left top no-repeat;
+	padding: 115px 50px 0 60px;
+	min-height: 333px;
+	font-size:13px;
+}
+
+.script5 {
+	width: 860px;
+margin-left:4px;
+	background: url('http://gladiators.ru/images/script-scroll2.jpg') 32px 246px repeat-y;
+}
+
+.script5 .bottom {
+	background: url('http://gladiators.ru/images/script-bottom2.jpg') 6px bottom no-repeat;
+	padding-bottom: 80px;
+}
+
+.script5 .top {
+	background: url('http://gladiators.ru/images/script-top2_.jpg') left top no-repeat;
+	padding: 115px 50px 0 60px;
+	min-height: 333px;
+	font-size:13px;
+}
+
+
+.script22 {
+	margin-top: 20px;
+	background: url('http://gladiators.ru/images/battle_bg.jpg');
+	width: 873px;
+	height: 600px;
+	background-repeat: no-repeat;
+}
+
+
+
+* html .script .top {
+	height: 333px; /* ie6-style "min-height" */
+}
+
+
+.script3 {
+	width: 640px;
+
+	background: url('http://gladiators.ru/images/script-scroll3.jpg') 32px 246px repeat-y;
+}
+
+.script3 .bottom {
+	background: url('http://gladiators.ru/images/script-bottom3.jpg') 6px bottom no-repeat;
+	padding-bottom: 80px;
+}
+
+.script3 .top {
+	background: url('http://gladiators.ru/images/script-top3.jpg') left top no-repeat;
+	padding: 100px 50px 0 60px;
+	min-height: 333px;
+	font-size:13px;
+}
+
+.script6 {
+	width: 640px;
+
+	background: url('http://gladiators.ru/images/script-scroll3.jpg') 32px 246px repeat-y;
+}
+
+.script6 .bottom {
+	background: url('http://gladiators.ru/images/script-bottom3.jpg') 6px bottom no-repeat;
+	padding-bottom: 55px;
+}
+
+.script6 .top {
+	background: url('http://gladiators.ru/images/script-top3_.jpg') left top no-repeat;
+	padding: 85px 50px 0 60px;
+	min-height: 333px;
+	font-size:13px;
+}
+
+
+
+* html .script .top {
+	height: 333px; /* ie6-style "min-height" */
+}
+
+
+/* ==== horizontal separators */
+.hr {
+	height: 6px;
+	margin: 1em 0;
+	background: url('http://gladiators.ru/images/hr.gif') left top no-repeat;
+	overflow: hidden;
+}
+
+.hr2 {
+	margin: 1em 0;
+	background: url('http://gladiators.ru/images/hr-left.gif') left top repeat-x;
+}
+
+.hr2 div {
+	height: 6px;
+	background: url('http://gladiators.ru/images/hr-right.gif') right top no-repeat;
+	overflow: hidden;
+}
+
+
+/* ==== forms */
+.login-form table {
+	border-collapse: collapse;
+}
+
+.login-form td {
+	text-align: left;
+	vertical-align: middle;
+	padding: 0 0 10px 3px;
+}
+
+
+
+
+
+
+/* ==== status bar */
+#status {
+	position: relative;
+	left: -13px; top: 10px;
+	margin-bottom: 10px;
+	background: url('http://gladiators.ru/images/status-shadow-scroll.gif') left 10px repeat-y;
+	line-height: 150%;
+}
+
+#status .shadow-top {
+	background: url('http://gladiators.ru/images/status-shadow-top.gif') left top no-repeat;
+}
+
+#status .shadow-bottom {
+	background: url('http://gladiators.ru/images/status-shadow-bottom.jpg') left bottom no-repeat;
+	height: 36px;
+}
+
+#status .content {
+	position: relative;
+	left: 13px; top: -10px;
+	background: #faeecf;
+}
+
+#status .content .top {
+	background: url('http://gladiators.ru/images/status-top.gif') left top no-repeat;
+	padding-top: 6px;
+}
+
+#status .content .bottom {
+	background: url('http://gladiators.ru/images/status-bottom.gif') left bottom no-repeat;
+	padding: 0 9px 7px 9px;
+	text-align: center;
+}
+
+
+#status .content .bottom span * {
+	vertical-align: middle;
+}
+
+#status .content .bottom .complex * {
+	vertical-align: baseline;
+}
+
+
+#status span {
+ white-space: nowrap;
+ margin-left: 15px;
+}
+
+#status img {
+ margin-right: 2px;
+}
+
+#status em {
+	font-style: normal;
+}
+
+#status a {
+	text-decoration: none;
+}
+
+#status a:hover {
+	text-decoration: underline;
+}
+
+#status .content .bottom .complex * {
+	vertical-align: baseline;
+}
+
+
+/* ==== task bar */
+.task {
+	margin-bottom: 0px;
+}
+
+.task .top {
+	background: url('http://gladiators.ru/images/task-top.gif') left top no-repeat;
+	padding-top: 8px;
+}
+
+.task .bottom {
+	background: url('http://gladiators.ru/images/task-bottom.gif') left bottom no-repeat;
+	padding-bottom: 8px;
+}
+
+.task .content {
+	background: #22160f url('http://gladiators.ru/images/task-scroll.gif') left 8px repeat-y;
+	padding: 7px 26px;
+	text-align: center;
+	color: #eed7a3;
+}
+
+.task .content a {
+	color: #f09d00;
+}
+
+
+/* ==== light bordered infobox */
+.light-box {
+	position: relative;
+	margin: 10px 0;
+	padding: 6px;
+}
+
+.light-box .top {
+	position: relative;
+	left: -25px; top: -31px;
+	background: url('http://gladiators.ru/images/lightbox-tb.gif') left top repeat-x;
+}
+
+.light-box .bottom {
+	position: relative;
+	top: 12px;
+	background: url('http://gladiators.ru/images/lightbox-tb.gif') left bottom repeat-x;
+}
+
+.light-box .left {
+	position: relative;
+	top: -6px; left: -6px;
+	background: url('http://gladiators.ru/images/lightbox-lr.gif') left top repeat-y;
+}
+
+.light-box .right {
+	position: relative;
+	left: 12px;
+	background: url('http://gladiators.ru/images/lightbox-lr.gif') right top repeat-y;
+}
+
+.light-box .content {
+	position: relative;
+	left: -6px;
+	padding: 6px 12px;
+	background: #faeecf;
+	height: 1%; /* for ie6: hasLayout */
+}
+
+.light-box .lt, .light-box .rt, .light-box .rb, .light-box .lb {
+	position: relative;
+	width: 13px;
+	height: 16px;
+	background-image: url('http://gladiators.ru/images/lightbox-corners.gif');
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.light-box .lt {
+	float: left;
+	left: -18px; top: -12px;
+	background-position: -13px -16px;
+}
+
+.light-box .rt {
+	float: right;
+	right: -18px; top: -12px;
+	background-position: 0 -16px;
+}
+
+.light-box .rb {
+	float: right;
+	right: -18px; bottom: -12px;
+	background-position: 0 0;
+}
+
+.light-box .lb {
+	float: left;
+	left: -18px; bottom: -12px;
+	background-position: -13px 0;
+}
+
+.light-box .leaves-lt {
+	position: relative;
+	left: -25px; top: -25px;
+	background: url('http://gladiators.ru/images/leaves-5t.gif') left top no-repeat;
+}
+
+.light-box .leaves-rb {
+	position: relative;
+	left: 50px; top: 50px;
+	background: url('http://gladiators.ru/images/leaves-5b.gif') right bottom no-repeat;
+}
+
+table.maintable {
+/*	border-collapse: collapse; */
+}
+
+/* ==== table */
+table.pretty {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	background: #e7dbbb;
+}
+
+table.pretty td, table.pretty th {
+	border: #918567 solid 1px;
+	padding: 6px 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table.pretty th, table.pretty tr.th td {
+	padding: 8px;
+	background: #c9bb93;
+	font-weight: bold;
+}
+
+table.pretty .nopad {
+	padding: 2px !important;
+}
+
+table.pretty .nopad img {
+	display: block;
+}
+
+table.double-pad td, table.double-pad th, table.double-pad tr.th td {
+	padding: 8px 12px;
+}
+
+/* ---- gladiator list specific */
+.gladiators img, .gladiators a {
+	vertical-align: middle;
+}
+
+.gladiators th, .gladiators tr.th td {
+	padding: 2px 8px;
+	font-weight: normal !important;
+}
+
+/* ---- registration table specific */
+table.registration td {
+	text-align: left;
+}
+
+table.registration em {
+	font-style: normal;
+	float: right;
+}
+
+table.registration input.text {
+	width: 160px;
+	background: #d7c698;
+}
+
+table.form {
+	border-width: 0px;
+	background: #FAEECF;
+	cellspacing: 0px;
+	cellpadding: 0px;
+}
+td.form {
+	border: #918567 solid 1px;
+	background: #FAEECF;
+	cellspacing: 0px;
+	cellpadding: 0px;
+}
+
+
+/*
+ var $xml_document;
+ var $tableclass="class=maintable";
+ var $type;
+ var $width;
+ var $height;
+ var $border=0;
+ var $bgcolor="#918567";
+ var $rowcolor="#FAEECF";
+ var $hcolor="#C9BB93";
+ var $cellspacing="1";
+ var $cellpadding="4";
+ var $pagecount=20;
+ var $numrows;
+ var $maxcount;
+ var $pages=1;
+ var $maxpages=30;
+ var $mixcolor="";
+ var $headerbg="";
+ var $headerclass="header";
+ var $buttonclass="button";
+ var $align;
+ */
+
+table.registration input,  table.registration label {
+	vertical-align: middle;
+}
+
+
+/* ==== picture border */
+.pic-border {
+	position: relative;
+	background: #583c22;
+	margin-bottom: 1em;
+}
+
+.tocenter .pic-border {
+	margin: 0 auto;
+}
+
+.pic-border .t {
+	background: url('http://gladiators.ru/images/pic-border-tb.gif') 3px top repeat-x;
+	padding-top: 8px;
+}
+
+.pic-border .b {
+	background: url('http://gladiators.ru/images/pic-border-tb.gif') left bottom repeat-x;
+	padding-bottom: 8px;
+}
+
+.pic-border .l {
+	background: url('http://gladiators.ru/images/pic-border-lr.gif') left top repeat-y;
+	padding-left: 8px;
+}
+
+.pic-border .r {
+	background: url('http://gladiators.ru/images/pic-border-lr.gif') right 3px repeat-y;
+	padding-right: 8px;
+}
+
+
+/* ==== wooden menu */
+
+
+tr.wooden {	
+	height:35px;
+}
+td.wooden {	
+	height:28px;	
+	background: url('http://gladiators.ru/images/menu-item.gif') left top no-repeat;
+	text-align: center;
+	padding-top:7px;
+	vertical-align:top;
+	color:#fff0c9;
+}
+
+td.wooden a {
+	text-decoration: none;
+	color: #f5e4ba;
+}
+
+tr.wooden2 {
+	height:35px;
+}
+
+td.wooden2 {
+	height:28px;
+	background: url('http://gladiators.ru/images/menu-item-short.gif') left top no-repeat;
+	text-align: center;
+	padding-top:7px;
+	vertical-align:top;
+	color:#fff0c9;
+        font-weight: bold;
+}
+
+td.wooden2 a {
+	text-decoration: none;
+	color: #f5e4ba;
+}
+
+
+
+
+/* ==== chat window */
+#chat {
+	margin-bottom: 0px;
+	background: url('http://gladiators.ru/images/chat-bottom.gif') left bottom no-repeat;
+	padding-bottom: 19px;
+}
+
+#chat .top {
+	background: url('http://gladiators.ru/images/chat-top.gif') left top no-repeat;
+	padding-top: 9px;
+}
+
+#chat .content {
+	position: relative;
+	padding: 5px 13px 5px 13px;
+	background: #faeecf;
+	height: 1%; /* for ie6: hasLayout */
+}
+
+#chat .text-bar {
+	padding: 8px 13px 1px;
+	background: #e7dbbb;
+}
+
+#chat-dialog {
+	width: 568px;
+	height: 15em;
+	padding: 7px 6px;
+	border: #ac6b40 solid 1px;
+	overflow: auto;
+}
+
+#chat-room {
+	float: right;
+	width: 230px;
+}
+
+#chat-room p {
+	margin-bottom: 5px;
+}
+
+#chat-room select {
+	width: 125px;
+}
+
+#chat-persons {
+	position: absolute;
+	right: 25px; bottom: 5px;
+	width: 230px;
+	height: 12em;
+	border: #ac6b40 solid 1px;
+	overflow: auto;
+}
+
+#chat-persons p {
+	padding: 4px 0 0 7px;
+	margin: 0;
+	white-space: nowrap;
+}
+
+#chat-persons p * {
+	vertical-align: middle;
+}
+
+#chat-persons img {
+	margin-right: 7px;
+}
+
+#chat-persons span {
+	margin-right: 12px;
+}
+
+#chat .text-bar * {
+	vertical-align: middle;
+}
+
+#chatInput {
+	width: 454px;
+	padding: 2px 5px;
+	border: #a69a78 solid 1px;
+	background: #d7c698;
+	font-size: 110%;
+}
+
+
+/* ==== attention block */
+.attention {
+	margin-top: 1em;
+	padding: 5px 20px 5px 80px;
+	border: #a49265 solid 1px;
+	background: #e7c878 url('http://gladiators.ru/images/attention.jpg') 15px 50% no-repeat;
+	min-height: 57px;
+}
+
+* html .attention {
+	height: 57px; /* ie6-style "min-height" */
+}
+
+/* ==== headers */
+h1, h2, h3, h4 {
+	margin: 0 0 0.8em;
+}
+
+h1, h2 {
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+
+/* ==== hyperlinks */
+a {
+	color: #7a0000;
+	text-decoration: underline;
+}
+
+a.passive {
+	text-decoration: none;
+}
+
+a.passive:hover {
+	text-decoration: underline;
+}
+
+
+/* ==== lists */
+ul, ul li {
+	margin: 0;
+	padding: 0;
+}
+
+ul.dot {
+	height: 1%; /* for ie6: hasLayout */
+	list-style-type: none;
+}
+
+ul.dot li {
+	padding-left: 35px;
+	background: url('http://gladiators.ru/images/bull-big.gif') 19px 0.4em no-repeat;
+	margin-bottom: 20px;
+}
+
+
+dl {
+	margin: 0;
+	padding: 0;
+}
+
+dl dt {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+dl dd {
+	margin: 0;
+	padding: 0;
+}
+
+dl .date {
+	margin:0;
+	color: #5c5036;
+}
+
+
+/* ==== text */
+p {
+	margin: 0 0 1em;
+}
+
+.bull {
+	padding-left: 15px;
+	background: url('http://gladiators.ru/images/bull.gif') left 70% no-repeat;
+}
+
+.arrow {
+	padding-left: 9px;
+	background: url('http://gladiators.ru/images/arrow.gif') left 70% no-repeat;
+}
+
+.arrow-red {
+	padding-right: 9px;
+	background: url('http://gladiators.ru/images/arrow-red.gif') right 70% no-repeat;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+
+/* ==== images */
+img {
+	border: none;
+}
+
+
+/* ==== positioning */
+.toleft, .toleft td, .toleft th {
+	text-align: left !important;
+}
+
+.tocenter, .tocenter td, .tocenter th {
+	text-align: center !important;
+}
+
+.tomid, .tomid td, .tomid th {
+	vertical-align: middle !important;
+}
+
+.totop, .totop td, .totop th {
+	vertical-align: top !important;
+}
+
+
+/* ==== margins */
+.no-mb {
+	margin-bottom: 0 !important;
+}
+
+.mb {
+	margin-bottom: 1em;
+}
+
+.mt {
+	margin-top: 1em;
+}
+
+.left-pad {
+	margin-left: 35px;
+}
+
+
+/* ==== floating */
+.lfloat {
+	float: left;
+}
+
+.rfloat {
+	float: right;
+}
+
+.clearer {
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+.full {
+	width: 100%;
+}
+
+
+/* ==== sizing */
+.smaller {
+	font-size: 90%;
+}
+
+.bigger {
+	font-size: 110%;
+}
+
+.big {
+	font-size: 125%;
+}
+
+
+/* ==== forms */
+form {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	font-size:12px;
+}
+
+input.black {
+	padding: 2px 4px;
+	border: #6e6041 solid 1px;
+	background: #46362a;
+	color: #e9ce9a;
+}
+
+select {
+
+	font-size: 95%;
+}
+
+#h1_main h1 {
+	font-size: 12px;
+}

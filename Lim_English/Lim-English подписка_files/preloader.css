@@ -1,0 +1,33 @@
+.preloader {
+    position: fixed;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1050;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.preloader .bg
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1051;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    display: block;
+    opacity: 0.8;
+    background: #b3b3b3;
+}
+.preloader img
+{
+    position: absolute;
+    z-index: 1052;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}

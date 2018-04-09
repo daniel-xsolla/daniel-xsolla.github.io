@@ -1,0 +1,20 @@
+﻿var globalMessage = {
+    "incorrectIdAndPassword": "The username or password is incorrect. Please try again.",
+    "inactiveUserMessage": 'Inactive account. Please visit <a href="http://www.cabal.com" target="_blank">www.cabal.com</a> to re-activate.',
+    "notinputID": "Please enter your ID.",
+    "notinputPassword": "Please enter your Password.",
+    "IDAlreadyInUse": "ID already in use",
+    "EmailIsAlreadyInUse": "Email is already in Use",
+    "PleaseEnterAValidEmail": "Please enter a valid e-mail.",
+    "PleaseEnterAValidID": "Please enter a valid ID.",
+    "PleaseConfirmYourEmail": "please confirm your email",
+    "AVerificationMail": "A verification mail has been sent to your email. Check your email inbox.",
+    "FailedToSendValidationEmail": "Failed to send validation email",
+    "PleaseEnterSecretAnswer": "Please enter Secret Answer.",
+    "PleaseEnterOldPassword": "Please enter old password.",
+    "ValidationMailHasBeenSent": "Validation mail has been sent",
+    "ErrorOccuredWhileSendingMail": "Error occured while sending mail",
+    "ThisEmailIsInvalid": "This email is invalid.",
+    "ThisEmailIsRegisteredAsSpam": "This email is registered as spam.",
+    "ConnectionErrorOccurred": "Connection error occurred."
+};

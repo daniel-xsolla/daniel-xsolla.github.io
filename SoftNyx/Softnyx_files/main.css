@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* All  */
+html {font-size:62.5%; height:100%}
+body {font-size:14px;font-size:1.4rem; height:100%} /* 14px */
+h1 {font-size:24px;font-size:2.4rem} /* 24px */
+body, div, ul, li, dl, dt, dd, ol, p, h1, h2, h3, h4, h5, h6, form {margin:0;padding:0}
+body {background-color:#000}
+ul, ol, dl, li {list-style:none}
+img {vertical-align:top}
+em {font-style:normal}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
+img, embed, object, video, iframe {max-width:100%; height:auto;	border:0}
+html, body {min-height:100%;height:100%}
+a {cursor:pointer;text-decoration:none}
+a, img {border:none;border:0;outline:none}
+strong {font-weight: bold}
+
+
+
+@font-face{ 
+font-family:"titillium";
+font-weight:100;
+src:url('//web.softnyx.com/Font/titillium-regular-webfont.eot');
+src:url('//web.softnyx.com/Font/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+url('//web.softnyx.com/Font/titillium-regular-webfont.woff') format('woff'), 
+url('//web.softnyx.com/Font/titillium-regular-webfont.ttf') format('truetype');
+url('//web.softnyx.com/Font/titillium-regular-webfont.svg#titillium') format('svg') 
+src:local(※), url('//web.softnyx.com/Font/titillium-regular-webfont.woff') format('woff');
+}
+
+body, table, input, button, textarea, select, li, a, ul, p, div, h1, h2, h3, h4, h5, span  {font-family:titillium, tahoma, Geneva, sans-serif}
+
+
+
+.main_mvArea {position:relative;}
+.main_mvArea>p a {display:inline-block; zoom:1; *display:inline; z-index:100;overflow:hidden;position:absolute;text-indent:-9999px;width:25px;height:58px;
+background:url(http://img.softnyx.com/3/sn2016/mv_moveBtn_s.png) no-repeat;top:50%;margin-top:-29px}
+
+.main_mvArea>p.mv_move_left a {left:5px;background-position:0 0}
+.main_mvArea>p.mv_move_left a:hover{background-position:0 -58px}
+.main_mvArea>p.mv_move_right a {right:5px;background-position:-25px 0}
+.main_mvArea>p.mv_move_right a:hover{background-position:-25px -58px}
+
+.game_mvArea {position:relative}
+video {display:none}
+.game_mvArea_novideo {}
+
+.wt_contents {position:absolute; background:url(http://img.softnyx.com/3/sn2016/game_bg_s.png);  width:100%; text-align:center; padding:10px 0; bottom:0}
+.wt_contents h1 {color:#FFF}
+.wt_contents h1 img {display:none}
+.wt_contents p {color:#676666}
+
+.Gamebtn_Area {margin-top:10px}
+.Gamebtn_Area li {display:inline-block; zoom:1; *display:inline; margin:0 5px}
+.Gamebtn_Area li a {border:#fdbf15 solid 2px; border-radius:-moz-border-radius:5px;	-webkit-border-radius:5px;	-o-border-radius:5px;	border-radius:5px; display:inline-block; zoom:1; *display:inline; padding:4px 20px; color:#fdbf15; text-transform:uppercase;}
+.Gamebtn_Area li a:hover {background:#fdbf15; color:#fff}
+
+.game_page {display:none}
+
+.quicktBtn_area {background:url(http://img.softnyx.com/3/sn2016/forum_bg.jpg)}
+.quicktBtn_area ul {text-align:center; padding:40px 0}
+.quicktBtn_area ul li {display:inline-block; zoom:1; *display:inline; vertical-align:top}
+.quicktBtn_area ul li a {display:block; width:159px; height:63px; color:#FFF; line-height:63px; font-size:16px; font-size:1.6rem; padding-left:80px; text-align:left}
+.quicktBtn_area ul li a:hover {color:#fdbf15}
+.quicktBtn_area ul li a.store_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 0 no-repeat;}
+.quicktBtn_area ul li a.faq_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 -63px no-repeat;}
+.quicktBtn_area ul li a.cash_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 -126px no-repeat;}
+.quicktBtn_area ul li a.dealers_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 -189px no-repeat; line-height:normal; padding-top:12px; height:51px}
+.quicktBtn_area ul li a.launcher_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 -252px no-repeat; line-height:normal; padding-top:12px; height:51px}
+.quicktBtn_area ul li a.pas_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 -315px no-repeat;}
+.quicktBtn_area ul li a.cafe_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 -378px no-repeat;}
+.quicktBtn_area ul li a.club_btn {background:url(http://img.softnyx.com/3/sn2016/quick_btn.png) 0 -441px no-repeat;}
+
+
+.forum_area {background:#0e0e0e; padding:40px 20px}
+.forum_area h1 {color:#fdbf15; font-size:20px; font-size:2.0rem}
+.forum_area ul li {display:inline-block; zoom:1; *display:inline; color:#FFF; font-size:18px; font-size:1.8rem; line-height:22px; padding-top:30px; width:100%}
+.forum_area p.forum_title a {color:#FFF;}
+.forum_area p.forum_title a:hover {color:#fdbf15;}
+.forum_date {color:#fdbf15; font-size:14px; font-size:1.4rem; padding:10px 0 4px}
+.more_btn a {width:92%; height:49px; display:inline-block; zoom:1; *display:inline; font-size:18px; font-size:1.8rem; color:#676767; padding-left:8%; line-height:46px; font-weight:bold; border:#676767 solid 2px; background:#0e0e0e url(http://img.softnyx.com/3/sn2016/icon_arrow01.png) 92% -107px no-repeat; 
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;}
+.more_btn a:hover {background:#fdbf15 url(http://img.softnyx.com/3/sn2016/icon_arrow01.png) 92% -54px no-repeat; color:#0e0e0e; border:#fdbf15 solid 2px;}
+
+
+.footer_area {padding:40px 0}
+
+
+#ieUser {display:none}
+
+
+
+
+
+
+/* Tablet */
+@media all and (min-width:633px) and (max-width:1023px) {
+
+#flashyflash {
+	position: absolute;
+	left: 0px;
+	top: 222px;
+	opacity: 0.0;
+	border: 3px solid #FF0000;
+	border-radius: 5px;
+	height: 33px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    line-height: 1em;
+    font-size: 0;
+    text-align: center;
+    padding: 1em;
+    animation-delay: 700ms;
+    animation-duration: 1500ms;
+    animation-name: fubar;
+    animation-iteration-count: infinite;
+    pointer-events: none;
+}
+	@keyframes fubar {
+		from {
+			opacity: 0;
+			padding: 1em;
+		}
+		50% {
+			opacity: 0.5;
+			padding: 3em;
+		}
+		to {
+			opacity: 0;
+			padding: 1em;
+		}
+	}
+
+.wt_contents {padding:40px 0 60px}
+
+.game_page {display:inline-block; zoom:1; *display:inline;  margin:20px 0; position:absolute; left:50%; margin-left:-44px; bottom:0} 
+.game_page li {display:inline-block; zoom:1; *display:inline; margin:0 2px}
+.game_page li a {display:block; overflow:hidden; width:18px; height:18px; background:url(http://img.softnyx.com/3/sn2016/game_page.png) 0 -18px no-repeat;}
+.game_page li a:hover {background-position:0 0}
+.game_page li a.page_on {background-position:0 0}
+
+
+.forum_area ul li {width:32%}
+.forum_area ul li.forum_area_center {padding:0 1.42%}
+	
+.more_btn a {width:88%;}
+
+}
+
+
+
+
+
+/* Desktop */
+@media all and (min-width:1024px) {
+	
+.main_mvArea>p a {width:100px;height:254px; background:url(http://img.softnyx.com/3/sn2016/mv_moveBtn.png) no-repeat;top:50%;margin-top:-127px}
+
+.main_mvArea>p.mv_move_left a {left:0;background-position:0 0}
+.main_mvArea>p.mv_move_left a:hover{background-position:0 -254px}
+.main_mvArea>p.mv_move_right a {right:0;background-position:-100px 0}
+.main_mvArea>p.mv_move_right a:hover{background-position:-100px -254px}
+	
+.game_mvArea {position:relative; height:922px; overflow:hidden; }
+.game_mvArea.game_bg_wt {background:url(http://img.softnyx.com/3/sn2016/bg_wt.jpg) center top no-repeat\9}
+*:first-child+html.game_mvArea.game_bg_wt {background:url(http://img.softnyx.com/3/sn2016/bg_wt.jpg) center top no-repeat;}
+.game_mvArea.game_bg_rk {background:url(http://img.softnyx.com/3/sn2016/bg_rk.jpg) center top no-repeat\9}
+*:first-child+html.game_mvArea.game_bg_rk {background:url(http://img.softnyx.com/3/sn2016/bg_rk.jpg) center top no-repeat;}
+.game_mvArea.game_bg_gb {background:url(http://img.softnyx.com/3/sn2016/bg_gb.jpg) center top no-repeat\9}
+*:first-child+html.game_mvArea.game_bg_gb {background:url(http://img.softnyx.com/3/sn2016/bg_gb.jpg) center top no-repeat;}
+.game_mvArea.game_bg_lb {background:url(http://img.softnyx.com/3/sn2016/bg_lb.jpg) center top no-repeat\9}
+*:first-child+html.game_mvArea.game_bg_lb {background:url(http://img.softnyx.com/3/sn2016/bg_lb.jpg) center top no-repeat;}
+
+.game_mvArea_novideo {display:none}
+
+video {display:none\9}
+video {display:block;}
+*:first-child+html video {display:none;}
+
+video {left:0;min-width:100%;min-height:100%;width:auto;height:auto;z-index:-1000;overflow:hidden}	
+object {display:none\9}
+object {width:100%;}
+
+
+.wt_contents {background:url(http://img.softnyx.com/3/sn2016/game_bg.png) center top no-repeat; padding:60px 0;}
+.wt_contents h1 { font-size:58px; font-size:5.8rem}
+.wt_contents h1 img {display:inline-block; zoom:1; *display:inline; vertical-align:-6px}
+.wt_contents p {font-size:24px; font-size:2.4rem}
+
+.Gamebtn_Area {margin:36px 0;}
+.Gamebtn_Area li a {padding:4px 18px; width:196px; height:49px; line-height:46px; font-size:18px; font-size:1.8rem;  text-align:left; font-weight:bold; background:url(http://img.softnyx.com/3/sn2016/icon_arrow01.png) 92% 0 no-repeat;}
+.Gamebtn_Area li a:hover {background:#fdbf15 url(http://img.softnyx.com/3/sn2016/icon_arrow01.png) 92% -159px no-repeat; color:#fff}
+
+.game_page {display:inline-block; zoom:1; *display:inline;  position:absolute; left:50%; margin-left:-60px; bottom:30px} 
+.game_page li {display:inline-block; zoom:1; *display:inline; margin:0 6px}
+.game_page li a {display:block; overflow:hidden; width:18px; height:18px; background:url(http://img.softnyx.com/3/sn2016/game_page.png) 0 -18px no-repeat;}
+.game_page li a:hover {background-position:0 0}
+.game_page li a.page_on {background-position:0 0}
+
+.quicktBtn_area ul {width:994px; margin:0 auto; padding:60px 0}
+.quicktBtn_area ul li {padding:20px 2px}
+
+.forum_area {padding:80px 0}
+.forum_area h1 {width:954px; margin:0 auto;}
+.forum_area ul {width:994px; margin:0 auto; padding:0; padding-top:30px}
+.forum_area ul li {font-size:20px; font-size:2.0rem; line-height:24px; width:29%; padding:0 2%}
+.forum_area ul li.forum_area_center {padding:0 1.42%}
+.forum_date {font-size:15px; font-size:1.5rem; padding:26px 0 50px}
+.more_btn a {width:200px;}
+
+
+
+#ieUser {background:#0CF;  opacity:0.9; padding:20px 0; line-height:32px; -ms-filter: "progid:DXImageTransform.Microsoft. Alpha(Opacity=90)"; filter: alpha(opacity = 90)}
+#ieUser ul li {display:inline-block; zoom:1; *display:inline; margin-right:20px; cursor:pointer}
+#ieUser ul li.chrome_icon {background:url(http://img.softnyx.com/3/sn/portal_main/browser_icon_all.png) 0 0 no-repeat; width:60px; height:60px}
+#ieUser ul li.ff_icon {background:url(http://img.softnyx.com/3/sn/portal_main/browser_icon_all.png) -60px 0 no-repeat; width:60px; height:60px}
+#ieUser ul li.safari_icon {background:url(http://img.softnyx.com/3/sn/portal_main/browser_icon_all.png) -120px 0 no-repeat; width:60px; height:60px}
+#ieUser ul li.opera_icon {background:url(http://img.softnyx.com/3/sn/portal_main/browser_icon_all.png) -180px 0 no-repeat; width:60px; height:60px}
+#ieUser ul li.ie_icon {background:url(http://img.softnyx.com/3/sn/portal_main/browser_icon_all.png) -240px 0 no-repeat; width:60px; height:60px}
+#ieUser .close_ieUser {float:right; padding-right:20px; font-size:30px; color:#FFF; cursor:pointer} 
+#ieUser h2 {font-size:24px}
+#ieUser .ieUser_notice {font-size:16px}
+}
+-->
+
+

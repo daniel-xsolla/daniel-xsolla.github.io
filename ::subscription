@@ -1,0 +1,33 @@
+//subscription
+
+{
+        "user": {
+            "id": {
+                "value": "3",
+                "hidden": true
+            },
+            "email": {
+                "value": "email@example.com",
+                "allow_modify": true,
+                "hidden": false
+            },
+            "country": {
+                "value": "US"
+            }
+        },
+        "settings": {
+            "project_id": 21134,
+            "mode":"sandbox",
+            "language":"en",
+            "currency":"USD",
+            "ui": {
+                "size":"medium"
+            }
+        },
+        "purchase": {
+            "subscription": {
+                "plan_id":"IXLOd1ve"
+            }
+        }
+    }
+

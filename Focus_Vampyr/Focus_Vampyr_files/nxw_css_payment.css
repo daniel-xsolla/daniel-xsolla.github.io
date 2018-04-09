@@ -1,0 +1,34 @@
+ul.cctype-details-cards { position: absolute; right: 4px; top: -63px;}
+.cctype-details-cards li { list-style: outside none none; background-image: url("https://us-focushop.nexway.com/img/payment/logos-cards2.png"); background-position: 1px 0; float: left; height: 32px; margin-right: 8px; text-indent: -9999px; transition: all 0.2s ease 0s; width: 53px;}
+.cctype-details-cards .visa_electron {background-position: 649px 0;}
+.cctype-details-cards .visa_electron.off { background-position: 649px 32px;}
+.cctype-details-cards .mastercard { background-position: 597px 0;}
+.cctype-details-cards .mastercard.off { background-position: 597px 32px;}
+.cctype-details-cards .maestro { background-position: 545px 0;}
+.cctype-details-cards .maestro.off { background-position: 545px 32px;}
+.cctype-details-cards .discover { background-position: 492px 0;}
+.cctype-details-cards .discover.off {background-position: 492px 32px;}
+.cctype-details-cards .amex { background-position: 440px 0;}
+.cctype-details-cards .amex.off {  background-position: 440px 32px;}
+.cctype-details-cards .jcb { background-position:388px 0;}
+.cctype-details-cards .jcb.off { background-position: 388px 32px;}
+.cctype-details-cards .visa.off { background-position: 0 32px;}
+.cctype-field-data-error { margin: 7px 0 0 5px;}
+.cctype-details-cards .diners { background-position: 180px 0;}
+.cctype-details-cards .diners.off { background-position: 180px 32px;}
+.cctype-details-cards .cb { background-position: 336px 0;}
+.cctype-details-cards .cb.off { background-position: 336px 32px;}
+.cctype-details-cards .hc { background-position: -572px 0;}
+.cctype-details-cards .hc.off { background-position: -572px 32px;}
+.cctype-details-cards .elo { background-position: 232px 0;}
+.cctype-details-cards .elo.off { background-position: 232px 32px;}
+.cctype-details-cards .hipercard { background-position: 128px 0;}
+.cctype-details-cards .hipercard.off { background-position: 128px 32px;}
+.cctype-fields .cctype-field-data select.cctype-fields-error,
+.cctype-fields .cctype-field-data div.cctype-fields-error { background-color: #FCF2F2;border: 1px solid #CC0000;}
+.cctype-fields .cctype-field-data div.cctype-fields-error input { background-color: #FCF2F2;  border: none;}
+ul.cctype-details-cards li.account-paypal {background: url("https://us-focushop.nexway.com/img/paypal-32px.png") no-repeat;width:103px;}
+}
+@media ( max-width: 499px) {
+    ul.cctype-details-cards { display: none;}
+}

@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>Simple Checkout</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <!--<div id="XS-pay2play-widget"></div>-->
+    <button id="XS-pay2play-widget">Buy Credits</button>
+
+    <script>
+    $.ajax({
+    url: 'http://araskachoi.com/__________/token.php', // Add your own parameters
+    method: 'get',
+    dataType: 'text',
+    beforeSend: function () {
+        console.log('Im going to send now!');
+    },
+    error: function() {
+        console.log('error');
+    },
+    success: function (data) {
+        console.log(data);
+        var token = data;//['token'];
+        var options = {
+            access_token: token,
+            sandbox: true,
+            target_element: "#XS-pay2play-widget",
+            lightbox: {
+                height: '660px',
+                spinner: 'round',
+                spinnerColor: '#cccccc'
+            }
+        };
+            var s = document.createElement('script');
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "//static.xsolla.com/embed/paystation/1.0.7/widget.min.js";
+            s.addEventListener('load', function (e) {
+                XPayStationWidget.init(options);
+                document.getElementById('XS-pay2play-widget').addEventListener('click',function(e){
+                    XPayStationWidget.open();
+                });
+            }, false); 
+            var head = document.getElementsByTagName('head')[0];
+            head.appendChild(s);
+    }
+}); 
+    </script>
+
+
+  </body>
+</html>

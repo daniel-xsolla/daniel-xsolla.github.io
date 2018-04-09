@@ -1,0 +1,21 @@
+<?php
+require './xsolla/xsolla-autoloader.php';
+use Xsolla\SDK\API\XsollaClient;
+use Xsolla\SDK\API\PaymentUI\TokenRequest;
+
+$userid= '10';
+$projectid=21134;
+
+$tokenRequest = new TokenRequest($projectid,$userid);
+$tokenRequest->setUserEmail('email@example.com')
+    ->setSandboxMode(true)
+    ->setUserName('test123')
+    ->setPurchase(1.99, 'USD');
+
+$xsollaClient = XsollaClient::factory(array(
+    'merchant_id' =>35714,
+    'api_key' => EKZ6yqR0s9vaA1OJ
+));
+$token = $xsollaClient->createPaymentUITokenFromRequest($tokenRequest);
+
+echo $token;
