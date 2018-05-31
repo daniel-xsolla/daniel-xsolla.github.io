@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Focus Demo - Call of Cuthulu</title>
+	<style>
+		body {
+			background-color: #000;
+			background-image: url(index.png);
+			background-position: 60% 0px;
+			background-size: 1100px;
+			background-repeat: no-repeat;
+            /* object-fit: cover; */
+            /* object-fit: fill; */
+            object-fit: contain;
+		}
+		.container {
+			position: absolute;
+			/* background-color: black; */
+			left:0px;
+			top: 550px;
+			right: 0px;
+			bottom: 0px;
+			z-index: 1;
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			width: 100%;
+			height: 100%;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: start;
+			-webkit-align-items: flex-start;
+			-ms-flex-align: start;
+			align-items: flex-start;
+		}
+		#xsolla_btn1 {
+			position: absolute;
+			top: 35px;
+			width: 100px;
+			height: 31px;
+			margin-left: 210px;
+			padding-left: 0px;
+			opacity: 0;
+			cursor: pointer;
+			background-color: white;
+		}
+        #xsolla_btn2 {
+			position: absolute;
+			top: 443px;
+			width: 100px;
+			height: 31px;
+			margin-left: 210px;
+			padding-left: 0px;
+			opacity: 0;
+			cursor: pointer;
+			background-color: white;
+		}
+        #xsolla_btn3 {
+			position: absolute;
+			top: 785px;
+			width: 100px;
+			height: 31px;
+			margin-left: 210px;
+			padding-left: 0px;
+			opacity: 0;
+			cursor: pointer;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+        <div id="xsolla_btn1"></div>
+        <div id="xsolla_btn2"></div>
+        <div id="xsolla_btn3"></div>
+	</div>
+
+	<script>
+	   var options1 = {
+	   		access_token: 'd2og9DBiQLsRnTcPIoobsu1P5exoWK0F',
+	        host: 'sandbox-secure.xsolla.com',
+	        target_element: "#xsolla_btn1",
+	        sandbox:true,
+	        lightbox:{
+	            height: '660px'
+	        }
+	    };
+        var options2 = {
+	   		access_token: 'd2og9DBiQLsRnTcPIoobsu1P5exoWK0F',
+	        host: 'sandbox-secure.xsolla.com',
+	        target_element: "#xsolla_btn2",
+	        sandbox:true,
+	        lightbox:{
+	            height: '660px'
+	        }
+	    };
+        var options3 = {
+	   		access_token: 'd2og9DBiQLsRnTcPIoobsu1P5exoWK0F',
+	        host: 'sandbox-secure.xsolla.com',
+	        target_element: "#xsolla_btn3",
+	        sandbox:true,
+	        lightbox:{
+	            height: '660px'
+	        }
+	    };
+
+
+	    var s = document.createElement('script');
+	    s.type = "text/javascript";
+	    s.async = true;
+	    s.src = "//static.xsolla.com/embed/paystation/1.0.7/widget.min.js";
+	    s.addEventListener('load', function (e) {
+	        document.getElementById('xsolla_btn1').addEventListener('click',function(e){
+	            XPayStationWidget.init(options1);
+	            XPayStationWidget.open();
+	        });
+	    }, false); 
+        s.addEventListener('load', function (e) {
+	        document.getElementById('xsolla_btn2').addEventListener('click',function(e){
+	            XPayStationWidget.init(options2);
+	            XPayStationWidget.open();
+	        });
+	    }, false);
+        s.addEventListener('load', function (e) {
+	        document.getElementById('xsolla_btn3').addEventListener('click',function(e){
+	            XPayStationWidget.init(options3);
+	            XPayStationWidget.open();
+	        });
+	    }, false);
+	    var head = document.getElementsByTagName('head')[0];
+	    head.appendChild(s);
+    </script> 
+</body>
+</html>
